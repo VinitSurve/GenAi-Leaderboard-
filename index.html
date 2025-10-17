@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="https://developers.google.com/profile/badges/community/gdg/favicon.svg">
+    <link rel="icon" type="image/png" href="logo.png">
 </head>
 <body>
     <!-- Particle Background Canvas -->
@@ -37,19 +37,24 @@
             
             <div class="hero-section">
                 <h1 class="main-heading">Gen AI Study Jams Leaderboard</h1>
-                <p class="subtitle">Bharati Vidyapeeth's, Department of Management Off Campus | <span id="participantCount">Loading...</span> Participants</p>
-            </div>
-            
-            <div class="header-actions">
-                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-                    <span class="theme-icon">🌙</span>
-                </button>
-                <button class="refresh-btn" id="manualRefresh" aria-label="Refresh data">
-                    <span class="refresh-icon">🔄</span>
-                </button>
+                <p class="subtitle">GDG on Campus Bharati Vidyapeeth's Department of Management Studies - Navi Mumbai | <span id="participantCount">Loading...</span> Participants</p>
             </div>
         </div>
     </header>
+
+    <!-- Navigation Menu -->
+    <nav class="nav-menu" id="navMenu">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#statsSection" class="nav-link">📊 Stats</a></li>
+                <li><a href="#rewardsSection" class="nav-link">🎁 Rewards</a></li>
+                <li><a href="swags.html" class="nav-link">🏆 Swags Winners</a></li>
+                <li><a href="syllabus.html" class="nav-link">📚 Syllabus</a></li>
+                <li><a href="leaderboard.html" class="nav-link">📈 Leaderboard</a></li>
+                <li><a href="https://chat.whatsapp.com/JhtrD6e673hKMqlxaWs1CR" target="_blank" class="nav-link whatsapp-link">💬 WhatsApp Group</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <!-- Stats Dashboard -->
     <section class="stats-section" id="statsSection">
@@ -162,86 +167,136 @@
                         <p class="stat-sublabel">Estimated Duration</p>
                     </div>
                 </div>
+
+                <!-- New Enhanced Statistics -->
+                <div class="stat-card" data-animate="fade-up" style="animation-delay: 0.8s;">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M16 17.01V10h-2v7.01h-3L15 21l4-3.99h-3zM9 3L5 6.99h3V14h2V6.99h3L9 3z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value" id="mostImprovedStudent">-</h3>
+                        <p class="stat-label">Most Improved</p>
+                        <p class="stat-sublabel">This Week</p>
+                    </div>
+                </div>
+
+                <div class="stat-card" data-animate="fade-up" style="animation-delay: 0.9s;">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value" id="studentsAbove50">0</h3>
+                        <p class="stat-label">Above 50% Progress</p>
+                        <p class="stat-sublabel">On Track Students</p>
+                    </div>
+                </div>
+
+                <div class="stat-card" data-animate="fade-up" style="animation-delay: 1s;">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value" id="todayCompletions">0</h3>
+                        <p class="stat-label">Today's Completions</p>
+                        <p class="stat-sublabel">Badges Earned Today</p>
+                    </div>
+                </div>
+
+                <div class="stat-card" data-animate="fade-up" style="animation-delay: 1.1s;">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value" id="studentsNeedHelp">0</h3>
+                        <p class="stat-label">Need Motivation</p>
+                        <p class="stat-sublabel">Below 25% Progress</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Filter & Search Section -->
-    <section class="filter-section" id="filterSection">
+    <!-- Rewards & Tiers Section -->
+    <section class="rewards-section" id="rewardsSection">
         <div class="container">
-            <div class="filter-controls">
-                <div class="search-box">
-                    <input type="text" id="searchInput" placeholder="Search by name or email..." aria-label="Search participants">
-                    <span class="search-icon">🔍</span>
+            <div class="section-header">
+                <div class="section-badge">🎁 REWARDS INFO</div>
+                <h2 class="section-main-title">What You Can Win! 🏆</h2>
+                <p class="section-description">Complete the Gen AI Study Jams and earn exclusive Google Cloud swags based on your tier!</p>
+            </div>
+
+            <div class="tiers-grid">
+                <!-- Tier 1 -->
+                <div class="tier-card tier-1" data-animate="fade-up">
+                    <div class="tier-badge">🥇 TIER 1</div>
+                    <div class="tier-image-wrapper">
+                        <img src="tier1.png" alt="Tier 1 Rewards" class="tier-image">
+                    </div>
+                    <h3 class="tier-title">Ultimate Prize Pack</h3>
+                    <p class="tier-description"><strong>🎯 Target: First 100 Students</strong><br>Complete all 20 courses + Send proof in WhatsApp group</p>
+                    <ul class="tier-benefits">
+                        <li>✨ Exclusive Google Cloud Swags</li>
+                        <li>🎒 Premium Merchandise</li>
+                        <li>🏅 Certificate of Completion</li>
+                        <li>⭐ Special Recognition</li>
+                    </ul>
+                    <div class="tier-badge-bottom">Be in Top 100!</div>
                 </div>
 
-                <div class="filter-buttons">
-                    <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="beginner">Beginner</button>
-                    <button class="filter-btn" data-filter="advanced">Advanced</button>
-                    <button class="filter-btn" data-filter="complete">Complete (20/20)</button>
+                <!-- Tier 2 -->
+                <div class="tier-card tier-2" data-animate="fade-up" style="animation-delay: 0.1s;">
+                    <div class="tier-badge">🥈 TIER 2</div>
+                    <div class="tier-image-wrapper">
+                        <img src="tier2.png" alt="Tier 2 Rewards" class="tier-image">
+                    </div>
+                    <h3 class="tier-title">Advanced Rewards</h3>
+                    <p class="tier-description"><strong>🎯 Target: First 70 Students</strong><br>Complete all 20 courses + Send proof in WhatsApp group</p>
+                    <ul class="tier-benefits">
+                        <li>🎁 Google Cloud Swags</li>
+                        <li>👕 Branded Merchandise</li>
+                        <li>📜 Certificate of Achievement</li>
+                        <li>🌟 Community Recognition</li>
+                    </ul>
+                    <div class="tier-badge-bottom">Be in Top 70!</div>
                 </div>
 
-                <div class="sort-dropdown">
-                    <select id="sortSelect" aria-label="Sort leaderboard">
-                        <option value="rank">Sort by Rank</option>
-                        <option value="name">Sort by Name</option>
-                        <option value="completion">Sort by Completion</option>
-                        <option value="badges">Sort by Badges</option>
-                    </select>
-                </div>
-
-                <div class="export-buttons">
-                    <button class="export-btn" id="exportCSV" aria-label="Export as CSV">
-                        <span>📊 CSV</span>
-                    </button>
-                    <button class="export-btn" id="exportPDF" aria-label="Export as PDF">
-                        <span>📄 PDF</span>
-                    </button>
+                <!-- Tier 3 -->
+                <div class="tier-card tier-3" data-animate="fade-up" style="animation-delay: 0.2s;">
+                    <div class="tier-badge">🥉 TIER 3</div>
+                    <div class="tier-image-wrapper">
+                        <img src="tier3.png" alt="Tier 3 Rewards" class="tier-image">
+                    </div>
+                    <h3 class="tier-title">Starter Rewards</h3>
+                    <p class="tier-description"><strong>🎯 Target: First 50 Students</strong><br>Complete all 20 courses + Send proof in WhatsApp group</p>
+                    <ul class="tier-benefits">
+                        <li>🎖️ Google Cloud Goodies</li>
+                        <li>🎯 Digital Badges</li>
+                        <li>📄 Participation Certificate</li>
+                        <li>💪 Motivation Boost</li>
+                    </ul>
+                    <div class="tier-badge-bottom">Be in Top 50!</div>
                 </div>
             </div>
 
-            <div class="results-info">
-                <span id="resultsCount">Showing 0 participants</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Leaderboard Table Section -->
-    <section class="leaderboard-section" id="leaderboardSection">
-        <div class="container">
-            <!-- Loading Skeleton -->
-            <div class="loading-skeleton" id="loadingSkeleton">
-                <div class="skeleton-row"></div>
-                <div class="skeleton-row"></div>
-                <div class="skeleton-row"></div>
-                <div class="skeleton-row"></div>
-                <div class="skeleton-row"></div>
-            </div>
-
-            <!-- Desktop Table View -->
-            <div class="leaderboard-table-wrapper" id="leaderboardTable" style="display: none;">
-                <table class="leaderboard-table">
-                    <thead>
-                        <tr>
-                            <th>Rank</th>
-                            <th>Participant</th>
-                            <th>Progress</th>
-                            <th>Skill Badges (19)</th>
-                            <th>Arcade (1)</th>
-                            <th>Total Courses (20)</th>
-                            <th>Last Updated</th>
-                        </tr>
-                    </thead>
-                    <tbody id="leaderboardBody">
-                        <!-- Dynamic content will be inserted here -->
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- Mobile Card View -->
-            <div class="leaderboard-cards" id="leaderboardCards" style="display: none;">
-                <!-- Dynamic cards will be inserted here -->
+            <div class="rewards-note">
+                <div class="note-icon">⚠️</div>
+                <div class="note-content">
+                    <strong>How Tier System Works:</strong>
+                    <ul>
+                        <li>🥇 <strong>Tier 1 (Target):</strong> If we achieve this tier, the <strong>first 100 students</strong> who complete all 20 courses and send proof will get rewards!</li>
+                        <li>🥈 <strong>Tier 2:</strong> If we achieve this tier, the <strong>first 70 students</strong> will get rewards.</li>
+                        <li>🥉 <strong>Tier 3:</strong> If we achieve this tier, the <strong>first 50 students</strong> will get rewards.</li>
+                    </ul>
+                    <p style="margin-top: 15px;"><strong>⚡ Complete fast & send proof in our <a href="https://chat.whatsapp.com/JhtrD6e673hKMqlxaWs1CR" target="_blank" class="whatsapp-inline-link">WhatsApp Group 💬</a> to secure your spot!</strong></p>
+                </div>
             </div>
         </div>
     </section>
@@ -250,39 +305,42 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-section">
-                    <p class="footer-text">
-                        <span>Last Updated: <span id="lastUpdated">-</span></span>
-                        <span class="auto-refresh-indicator" id="autoRefreshStatus">
-                            <span class="refresh-pulse"></span> Auto-refreshing every 60s
-                        </span>
-                    </p>
+                <div class="footer-logo">
+                    <img src="logo.png" alt="GDG Logo" class="footer-logo-img">
+                    <h3>GDG Gen AI Study Jams</h3>
+                    <p>Empowering students with Google Cloud & AI skills</p>
                 </div>
-
-                <div class="footer-section">
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#rewardsSection">Rewards</a></li>
+                        <li><a href="syllabus.html">Syllabus</a></li>
+                        <li><a href="swags.html">Swags Winners</a></li>
+                        <li><a href="leaderboard.html">Leaderboard</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
                     <div class="social-links">
-                        <a href="https://gdg.community.dev/" target="_blank" rel="noopener" aria-label="GDG Community">
-                            <span>🌐</span>
+                        <a href="https://chat.whatsapp.com/JhtrD6e673hKMqlxaWs1CR" target="_blank" class="social-link whatsapp">
+                            <span>�</span>
+                            <span>WhatsApp</span>
                         </a>
-                        <a href="https://twitter.com/googledevs" target="_blank" rel="noopener" aria-label="Twitter">
-                            <span>🐦</span>
-                        </a>
-                        <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+                        <a href="https://github.com/VinitSurve/GenAI-Study-Jams-Solutions" target="_blank" class="social-link github">
                             <span>💻</span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.cloudskillsboost.google/" target="_blank" class="social-link google">
+                            <span>🌐</span>
+                            <span>Cloud Skills</span>
                         </a>
                     </div>
                 </div>
-
-                <div class="footer-section">
-                    <p class="powered-by">
-                        <img src="https://www.gstatic.com/images/branding/product/1x/google_cloud_48dp.png" alt="Google Cloud" width="20" height="20">
-                        Powered by Google Cloud
-                    </p>
-                </div>
             </div>
-
             <div class="footer-bottom">
-                <p>&copy; 2024 GDG On Campus. All rights reserved.</p>
+                <p>&copy; 2024 GDG Gen AI Study Jams. All rights reserved.</p>
+                <p>Made with ❤️ by GDG Community</p>
             </div>
         </div>
     </footer>

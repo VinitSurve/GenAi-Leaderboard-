@@ -105,6 +105,60 @@
         font-size: 1.5rem;
     }
 
+    /* Swags Section - Mobile Adjustments */
+    .swags-title {
+        font-size: 1.8rem;
+    }
+
+    .swags-subtitle {
+        font-size: 0.95rem;
+        padding: 0 15px;
+    }
+
+    .swags-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .swag-card {
+        padding: 25px 15px;
+    }
+
+    .swag-trophy {
+        font-size: 2.5rem;
+    }
+
+    .swag-avatar {
+        width: 80px;
+        height: 80px;
+        font-size: 2rem;
+    }
+
+    .swag-name {
+        font-size: 1.2rem;
+    }
+
+    .swag-email {
+        font-size: 0.85rem;
+    }
+
+    .swags-note {
+        padding: 20px 15px;
+    }
+
+    .swags-note p {
+        font-size: 1rem;
+    }
+
+    .swags-note ul li {
+        font-size: 0.9rem;
+    }
+
+    .section-title {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+
     /* Filter Section - Mobile Friendly */
     .filter-controls {
         flex-direction: column;
@@ -582,5 +636,285 @@
 
     .skeleton-row {
         height: 120px;
+    }
+}
+
+/* === Swags Section Responsive === */
+@media screen and (max-width: 768px) {
+    /* Swags Header */
+    .swags-badge {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
+    .swags-title {
+        font-size: 2rem;
+    }
+
+    .swags-subtitle {
+        font-size: 1rem;
+    }
+
+    .swags-arrow {
+        font-size: 1rem;
+    }
+
+    /* Winner Cards */
+    .swags-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .swag-card {
+        padding: 30px 20px 25px;
+    }
+
+    .rank-circle {
+        width: 40px;
+        height: 40px;
+        font-size: 1.4rem;
+    }
+
+    .trophy-large {
+        font-size: 3rem;
+    }
+
+    .swag-avatar {
+        width: 100px;
+        height: 100px;
+        font-size: 2.5rem;
+    }
+
+    .swag-name {
+        font-size: 1.3rem;
+    }
+
+    .status-badge {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+
+    .winner-label {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    /* How to Get Swags */
+    .swags-how-to {
+        padding: 40px 20px;
+    }
+
+    .how-to-title {
+        font-size: 1.8rem;
+    }
+
+    .steps-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .step-card {
+        padding: 25px 15px;
+    }
+
+    .step-number {
+        width: 35px;
+        height: 35px;
+        font-size: 1.2rem;
+        top: -12px;
+        left: 15px;
+    }
+
+    .step-icon {
+        font-size: 3rem;
+    }
+
+    .step-card h4 {
+        font-size: 1.2rem;
+    }
+
+    .step-card p {
+        font-size: 0.95rem;
+    }
+
+    .important-note {
+        font-size: 1rem;
+        padding: 20px;
+    }
+
+    /* Leaderboard Header */
+    .leaderboard-header {
+        padding: 25px 15px;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .section-subtitle {
+        font-size: 1rem;
+    }
+}
+
+/* === Extra Small Mobile (max-width: 480px) === */
+@media screen and (max-width: 480px) {
+    .swags-title {
+        font-size: 1.6rem;
+    }
+
+    .swags-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .trophy-large {
+        font-size: 2.5rem;
+    }
+
+    .swag-avatar {
+        width: 80px;
+        height: 80px;
+        font-size: 2rem;
+    }
+
+    .swag-name {
+        font-size: 1.1rem;
+    }
+
+    .status-badge {
+        font-size: 0.85rem;
+        padding: 8px 12px;
+    }
+
+    .step-icon {
+        font-size: 2.5rem;
+    }
+
+    .how-to-title {
+        font-size: 1.5rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+}
+
+/* === Navigation Menu Responsive === */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        gap: 8px;
+        padding: 12px 10px;
+    }
+
+    .nav-link {
+        padding: 10px 16px;
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-link {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* === Rewards Section Responsive === */
+@media screen and (max-width: 768px) {
+    .section-main-title {
+        font-size: 2rem;
+    }
+
+    .section-description {
+        font-size: 1rem;
+    }
+
+    .tiers-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .tier-card {
+        padding: 30px 20px;
+    }
+
+    .tier-image {
+        max-height: 200px;
+    }
+
+    .rewards-note {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 15px;
+    }
+
+    .note-icon {
+        font-size: 2.5rem;
+    }
+
+    .note-content {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .section-main-title {
+        font-size: 1.6rem;
+    }
+
+    .tier-title {
+        font-size: 1.5rem;
+    }
+}
+
+/* === Syllabus Section Responsive === */
+@media screen and (max-width: 768px) {
+    .category-title {
+        font-size: 1.6rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .courses-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .course-card {
+        padding: 25px 20px;
+    }
+
+    .course-actions {
+        flex-direction: column;
+    }
+
+    .course-btn {
+        width: 100%;
+    }
+
+    .resources-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .resources-box {
+        padding: 30px 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .category-title {
+        font-size: 1.4rem;
+    }
+
+    .course-name {
+        font-size: 1.1rem;
+    }
+
+    .resources-title {
+        font-size: 1.5rem;
     }
 }

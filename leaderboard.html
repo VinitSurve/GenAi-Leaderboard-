@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Live Leaderboard - GDG Gen AI Study Jams - Track progress and compete with peers">
+    <meta name="theme-color" content="#4285f4">
+    
+    <title>Leaderboard - GDG Gen AI Study Jams</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Papa Parse CDN for CSV Parsing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <!-- Particle Background Canvas -->
+    <canvas id="particleCanvas" aria-hidden="true"></canvas>
+    
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="logo.png" alt="Chapter Logo" class="chapter-logo" onerror="this.style.display='none'">
+                <div class="logo-divider" id="logoDivider"></div>
+            </div>
+            
+            <div class="hero-section">
+                <h1 class="main-heading">📊 Live Leaderboard</h1>
+                <p class="subtitle">Track your progress and compete with <span id="participantCount">Loading...</span> participants!</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav class="nav-menu" id="navMenu">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">🏠 Home</a></li>
+                <li><a href="index.html#rewardsSection" class="nav-link">🎁 Rewards</a></li>
+                <li><a href="swags.html" class="nav-link">🏆 Swags Winners</a></li>
+                <li><a href="syllabus.html" class="nav-link">📚 Syllabus</a></li>
+                <li><a href="leaderboard.html" class="nav-link active">📈 Leaderboard</a></li>
+                <li><a href="https://chat.whatsapp.com/JhtrD6e673hKMqlxaWs1CR" target="_blank" class="nav-link whatsapp-link">💬 WhatsApp Group</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Quick Stats Section -->
+    <section class="quick-stats-section">
+        <div class="container">
+            <div class="quick-stats-grid">
+                <div class="quick-stat-card" data-animate="fade-up">
+                    <div class="stat-icon-small">🏆</div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" id="topPerformerName">-</h3>
+                        <p class="stat-text">Top Performer</p>
+                    </div>
+                </div>
+                <div class="quick-stat-card" data-animate="fade-up" style="animation-delay: 0.1s;">
+                    <div class="stat-icon-small">⭐</div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" id="totalBadgesCount">0</h3>
+                        <p class="stat-text">Total Badges Earned</p>
+                    </div>
+                </div>
+                <div class="quick-stat-card" data-animate="fade-up" style="animation-delay: 0.2s;">
+                    <div class="stat-icon-small">✅</div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" id="completedCount">0</h3>
+                        <p class="stat-text">Completed (20/20)</p>
+                    </div>
+                </div>
+                <div class="quick-stat-card" data-animate="fade-up" style="animation-delay: 0.3s;">
+                    <div class="stat-icon-small">📈</div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" id="avgProgress">0%</h3>
+                        <p class="stat-text">Average Progress</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter & Search Section -->
+    <section class="filter-section" id="filterSection">
+        <div class="container">
+            <div class="leaderboard-header">
+                <h2 class="section-title">📊 All Students Progress</h2>
+                <p class="section-subtitle">See where you stand! Find your name and track your progress 👇</p>
+            </div>
+            <div class="filter-controls">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Search by name or email..." aria-label="Search participants">
+                    <span class="search-icon">🔍</span>
+                </div>
+
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="beginner">Beginner</button>
+                    <button class="filter-btn" data-filter="advanced">Advanced</button>
+                    <button class="filter-btn" data-filter="complete">Complete (20/20)</button>
+                </div>
+
+                <div class="sort-dropdown">
+                    <select id="sortSelect" aria-label="Sort leaderboard">
+                        <option value="rank">Sort by Rank</option>
+                        <option value="name">Sort by Name</option>
+                        <option value="completion">Sort by Completion</option>
+                        <option value="badges">Sort by Badges</option>
+                    </select>
+                </div>
+
+                <div class="export-buttons">
+                    <button class="export-btn" id="exportCSV" aria-label="Export as CSV">
+                        <span>📊 CSV</span>
+                    </button>
+                    <button class="export-btn" id="exportPDF" aria-label="Export as PDF">
+                        <span>📄 PDF</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="results-info">
+                <span id="resultsCount">Showing 0 participants</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leaderboard Table Section -->
+    <section class="leaderboard-section" id="leaderboardSection">
+        <div class="container">
+            <!-- Loading Skeleton -->
+            <div class="loading-skeleton" id="loadingSkeleton">
+                <div class="skeleton-row"></div>
+                <div class="skeleton-row"></div>
+                <div class="skeleton-row"></div>
+                <div class="skeleton-row"></div>
+                <div class="skeleton-row"></div>
+            </div>
+
+            <!-- Desktop Table View -->
+            <div class="leaderboard-table-wrapper" id="leaderboardTable" style="display: none;">
+                <table class="leaderboard-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Participant</th>
+                            <th>Progress</th>
+                            <th>Skill Badges (19)</th>
+                            <th>Arcade (1)</th>
+                            <th>Total Courses (20)</th>
+                            <th>Last Updated</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leaderboardBody">
+                        <!-- Dynamic content will be inserted here -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Mobile Card View -->
+            <div class="leaderboard-cards" id="leaderboardCards" style="display: none;">
+                <!-- Dynamic cards will be inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Auto Refresh Info Section -->
+    <section class="info-section">
+        <div class="container">
+            <div class="info-box">
+                <div class="info-icon">🔄</div>
+                <div class="info-content">
+                    <h3>Auto-Refreshing Data</h3>
+                    <p>This leaderboard automatically updates every 60 seconds to show the latest progress. Last updated: <span id="lastUpdated">-</span></p>
+                    <div class="auto-refresh-indicator" id="autoRefreshStatus">
+                        <span class="refresh-pulse"></span> Auto-refreshing every 60s
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="GDG Logo" class="footer-logo-img">
+                    <h3>GDG Gen AI Study Jams</h3>
+                    <p>Empowering students with Google Cloud & AI skills</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#rewardsSection">Rewards</a></li>
+                        <li><a href="syllabus.html">Syllabus</a></li>
+                        <li><a href="swags.html">Swags Winners</a></li>
+                        <li><a href="leaderboard.html">Leaderboard</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="https://chat.whatsapp.com/JhtrD6e673hKMqlxaWs1CR" target="_blank" class="social-link whatsapp">
+                            <span>💬</span>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="https://github.com/VinitSurve/GenAI-Study-Jams-Solutions" target="_blank" class="social-link github">
+                            <span>💻</span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.cloudskillsboost.google/" target="_blank" class="social-link google">
+                            <span>🌐</span>
+                            <span>Cloud Skills</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GDG Gen AI Study Jams. All rights reserved.</p>
+                <p>Made with ❤️ by GDG Community</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast" role="alert" aria-live="polite">
+        <span id="toastMessage"></span>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/animations.js"></script>
+    <script src="js/csvReader.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Initialize animations and particle canvas
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize particle canvas
+            if (typeof ParticleCanvas !== 'undefined') {
+                new ParticleCanvas();
+            }
+            
+            // Update quick stats when data is loaded
+            const originalUpdateStats = StatsAnimations.updateStats;
+            StatsAnimations.updateStats = function(stats) {
+                originalUpdateStats.call(this, stats);
+                
+                // Update quick stats on leaderboard page
+                const topPerformerEl = document.getElementById('topPerformerName');
+                const totalBadgesEl = document.getElementById('totalBadgesCount');
+                const completedEl = document.getElementById('completedCount');
+                const avgProgressEl = document.getElementById('avgProgress');
+                
+                if (topPerformerEl && stats.topPerformer) {
+                    topPerformerEl.textContent = stats.topPerformer;
+                }
+                if (totalBadgesEl && stats.totalBadges !== undefined) {
+                    totalBadgesEl.textContent = stats.totalBadges;
+                }
+                if (completedEl && stats.tier1Count !== undefined) {
+                    completedEl.textContent = stats.tier1Count;
+                }
+                if (avgProgressEl && stats.averageCompletion !== undefined) {
+                    avgProgressEl.textContent = stats.averageCompletion + '%';
+                }
+            };
+        });
+    </script>
+</body>
+</html>

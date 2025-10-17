@@ -201,6 +201,35 @@ class CounterAnimation {
             avgTimeEl.textContent = stats.avgTimePerBadge;
         }
 
+        // NEW STATISTICS
+        
+        // Most Improved Student (8th card)
+        const mostImprovedEl = document.getElementById('mostImprovedStudent');
+        if (mostImprovedEl && stats.mostImprovedStudent) {
+            mostImprovedEl.textContent = stats.mostImprovedStudent;
+        }
+        
+        // Students Above 50% (9th card)
+        const studentsAbove50El = document.getElementById('studentsAbove50');
+        if (studentsAbove50El && stats.studentsAbove50 !== undefined) {
+            studentsAbove50El.setAttribute('data-target', stats.studentsAbove50);
+            this.animate(studentsAbove50El, stats.studentsAbove50);
+        }
+        
+        // Today's Completions (10th card)
+        const todayCompletionsEl = document.getElementById('todayCompletions');
+        if (todayCompletionsEl && stats.todayCompletions !== undefined) {
+            todayCompletionsEl.setAttribute('data-target', stats.todayCompletions);
+            this.animate(todayCompletionsEl, stats.todayCompletions);
+        }
+        
+        // Students Need Help (11th card)
+        const studentsNeedHelpEl = document.getElementById('studentsNeedHelp');
+        if (studentsNeedHelpEl && stats.studentsNeedHelp !== undefined) {
+            studentsNeedHelpEl.setAttribute('data-target', stats.studentsNeedHelp);
+            this.animate(studentsNeedHelpEl, stats.studentsNeedHelp);
+        }
+
         // Update participant count in header
         const participantCount = document.getElementById('participantCount');
         if (participantCount) {

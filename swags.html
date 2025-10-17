@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Swag Winners - GDG Gen AI Study Jams - Celebrate our champions who completed all 20 courses!">
+    <meta name="theme-color" content="#4285f4">
+    
+    <title>Swag Winners - GDG Gen AI Study Jams</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <!-- Particle Background Canvas -->
+    <canvas id="particleCanvas" aria-hidden="true"></canvas>
+    
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="logo.png" alt="Chapter Logo" class="chapter-logo" onerror="this.style.display='none'">
+                <div class="logo-divider" id="logoDivider"></div>
+            </div>
+            
+            <div class="hero-section">
+                <h1 class="main-heading">🎁 Swag Winners Hall of Fame</h1>
+                <p class="subtitle">Celebrating our champions who completed all 20 courses! 🎉</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav class="nav-menu" id="navMenu">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">🏠 Home</a></li>
+                <li><a href="index.html#rewardsSection" class="nav-link">🎁 Rewards</a></li>
+                <li><a href="swags.html" class="nav-link active">🏆 Swags Winners</a></li>
+                <li><a href="syllabus.html" class="nav-link">📚 Syllabus</a></li>
+                <li><a href="index.html#leaderboardSection" class="nav-link">📈 Leaderboard</a></li>
+                <li><a href="https://chat.whatsapp.com/JhtrD6e673hKMqlxaWs1CR" target="_blank" class="nav-link whatsapp-link">💬 WhatsApp Group</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Eligible for Swags Section -->
+    <section class="swags-section" id="swagsSection">
+        <div class="container">
+            <div class="swags-header">
+                <div class="swags-badge">🏆 SWAGS WINNERS</div>
+                <h2 class="swags-title">These Students Are Getting Swags! 🎉</h2>
+                <p class="swags-subtitle">Want to be here? Complete all 20 courses + Send screenshot in WhatsApp group!</p>
+                <div class="swags-arrow">👇 Check who made it 👇</div>
+            </div>
+
+            <div class="swags-grid" id="swagsGrid">
+                <!-- Swag Winner Card 1 -->
+                <div class="swag-card winner-1" data-animate="fade-up">
+                    <div class="winner-header">
+                        <div class="rank-circle">1</div>
+                        <div class="trophy-large">🥇</div>
+                    </div>
+                    <div class="swag-avatar" style="background: linear-gradient(135deg, #ffd700, #ffed4e);">
+                        <span>KG</span>
+                    </div>
+                    <h3 class="swag-name">Krish Gupta</h3>
+                    <div class="status-badges">
+                        <span class="status-badge complete">✓ 20/20 Done</span>
+                        <span class="status-badge proof">✓ Proof Sent</span>
+                    </div>
+                    <div class="winner-label">SWAG CONFIRMED ✓</div>
+                </div>
+
+                <!-- Swag Winner Card 2 -->
+                <div class="swag-card winner-2" data-animate="fade-up">
+                    <div class="winner-header">
+                        <div class="rank-circle">2</div>
+                        <div class="trophy-large">🥈</div>
+                    </div>
+                    <div class="swag-avatar" style="background: linear-gradient(135deg, #c0c0c0, #e8e8e8);">
+                        <span>AR</span>
+                    </div>
+                    <h3 class="swag-name">Ansari Rahil</h3>
+                    <div class="status-badges">
+                        <span class="status-badge complete">✓ 20/20 Done</span>
+                        <span class="status-badge proof">✓ Proof Sent</span>
+                    </div>
+                    <div class="winner-label">SWAG CONFIRMED ✓</div>
+                </div>
+
+                <!-- Swag Winner Card 3 -->
+                <div class="swag-card winner-3" data-animate="fade-up">
+                    <div class="winner-header">
+                        <div class="rank-circle">3</div>
+                        <div class="trophy-large">🥉</div>
+                    </div>
+                    <div class="swag-avatar" style="background: linear-gradient(135deg, #cd7f32, #e89b5a);">
+                        <span>SK</span>
+                    </div>
+                    <h3 class="swag-name">Siddhesh Katale</h3>
+                    <div class="status-badges">
+                        <span class="status-badge complete">✓ 20/20 Done</span>
+                        <span class="status-badge proof">✓ Proof Sent</span>
+                    </div>
+                    <div class="winner-label">SWAG CONFIRMED ✓</div>
+                </div>
+
+                <!-- Swag Winner Card 4 -->
+                <div class="swag-card winner-4" data-animate="fade-up">
+                    <div class="winner-header">
+                        <div class="rank-circle">4</div>
+                        <div class="trophy-large">🏅</div>
+                    </div>
+                    <div class="swag-avatar" style="background: linear-gradient(135deg, #34a853, #4285f4);">
+                        <span>VS</span>
+                    </div>
+                    <h3 class="swag-name">Vinit Surve</h3>
+                    <div class="status-badges">
+                        <span class="status-badge complete">✓ 20/20 Done</span>
+                        <span class="status-badge proof">✓ Proof Sent</span>
+                    </div>
+                    <div class="winner-label">SWAG CONFIRMED ✓</div>
+                </div>
+            </div>
+
+            <div class="swags-how-to">
+                <h3 class="how-to-title">🤔 How to Get Swags?</h3>
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <div class="step-icon">📚</div>
+                        <h4>Complete Courses</h4>
+                        <p>Finish all <strong>20 courses</strong><br>(19 badges + 1 game)</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <div class="step-icon">📸</div>
+                        <h4>Take Screenshot</h4>
+                        <p>Capture your <strong>completion page</strong><br>showing 20/20</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <div class="step-icon">📱</div>
+                        <h4>Send in Group</h4>
+                        <p>Post screenshot in our<br><strong><a href="https://chat.whatsapp.com/JhtrD6e673hKMqlxaWs1CR" target="_blank" class="step-link">WhatsApp Group</a></strong></p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">4</div>
+                        <div class="step-icon">🎁</div>
+                        <h4>Get Swags!</h4>
+                        <p>Your name appears here<br><strong>Swags confirmed!</strong></p>
+                    </div>
+                </div>
+                <div class="important-note">
+                    ⚠️ <strong>Important:</strong> Completing courses is NOT ENOUGH! You MUST send proof in <a href="https://chat.whatsapp.com/JhtrD6e673hKMqlxaWs1CR" target="_blank" class="note-link">WhatsApp group</a> to get swags!
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Join the Winners? 🚀</h2>
+                <p class="cta-subtitle">Start your journey now and earn your swags!</p>
+                <div class="cta-buttons">
+                    <a href="syllabus.html" class="cta-btn primary">
+                        <span>📚</span>
+                        <span>View Syllabus</span>
+                    </a>
+                    <a href="https://chat.whatsapp.com/JhtrD6e673hKMqlxaWs1CR" target="_blank" class="cta-btn secondary">
+                        <span>💬</span>
+                        <span>Join WhatsApp Group</span>
+                    </a>
+                    <a href="leaderboard.html" class="cta-btn tertiary">
+                        <span>📊</span>
+                        <span>Check Leaderboard</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="GDG Logo" class="footer-logo-img">
+                    <h3>GDG Gen AI Study Jams</h3>
+                    <p>Empowering students with Google Cloud & AI skills</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#rewardsSection">Rewards</a></li>
+                        <li><a href="syllabus.html">Syllabus</a></li>
+                        <li><a href="swags.html">Swags Winners</a></li>
+                        <li><a href="leaderboard.html">Leaderboard</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="https://chat.whatsapp.com/JhtrD6e673hKMqlxaWs1CR" target="_blank" class="social-link whatsapp">
+                            <span>💬</span>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="https://github.com/VinitSurve/GenAI-Study-Jams-Solutions" target="_blank" class="social-link github">
+                            <span>💻</span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.cloudskillsboost.google/" target="_blank" class="social-link google">
+                            <span>🌐</span>
+                            <span>Cloud Skills</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GDG Gen AI Study Jams. All rights reserved.</p>
+                <p>Made with ❤️ by GDG Community</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Initialize animations and particle canvas
+        document.addEventListener('DOMContentLoaded', function() {
+            StatsAnimations.init();
+            
+            // Initialize particle canvas
+            if (typeof ParticleCanvas !== 'undefined') {
+                new ParticleCanvas();
+            }
+        });
+    </script>
+</body>
+</html>

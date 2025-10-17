@@ -606,6 +606,12 @@ class LeaderboardApp {
 // Initialize app when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
     window.leaderboardApp = new LeaderboardApp();
+    
+    // Initialize smooth scroll for navigation
+    initSmoothScroll();
+    
+    // Initialize active nav link highlighting
+    initActiveNavHighlight();
 });
 
 // Handle visibility change to pause/resume auto-refresh
@@ -618,3 +624,66 @@ document.addEventListener('visibilitychange', () => {
         console.log('Page visible');
     }
 });
+
+/**
+ * Initialize smooth scroll for navigation links
+ */
+function initSmoothScroll() {
+    const navLinks = document.querySelectorAll('.nav-link[href^="#"]');
+    
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            
+            // Skip external links
+            if (!href.startsWith('#')) return;
+            
+            e.preventDefault();
+            
+            const targetId = href.substring(1);
+            const targetSection = document.getElementById(targetId);
+            
+            if (targetSection) {
+                const navMenuHeight = document.getElementById('navMenu').offsetHeight;
+                const targetPosition = targetSection.offsetTop - navMenuHeight - 20;
+                
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+}
+
+/**
+ * Highlight active navigation link based on scroll position
+ */
+function initActiveNavHighlight() {
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-link[href^="#"]');
+    
+    window.addEventListener('scroll', () => {
+        let current = '';
+        const scrollPosition = window.scrollY + 200;
+        
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.offsetHeight;
+            
+            if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                current = section.getAttribute('id');
+            }
+        });
+        
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            const href = link.getAttribute('href');
+            
+            if (href === `#${current}`) {
+                link.classList.add('active');
+            }
+        });
+    });
+}
+
