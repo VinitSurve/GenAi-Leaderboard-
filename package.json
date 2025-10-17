@@ -1,0 +1,32 @@
+{
+  "name": "gdg-genai-leaderboard",
+  "version": "1.0.0",
+  "description": "A professional leaderboard website for GDG Gen AI Study Jams participants with real-time updates, animations, and responsive design",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "serve": "npx http-server -p 8000",
+    "dev": "npx http-server -p 8000 -c-1"
+  },
+  "keywords": [
+    "gdg",
+    "leaderboard",
+    "genai",
+    "study-jams",
+    "google",
+    "csv",
+    "responsive",
+    "vanilla-javascript"
+  ],
+  "author": "GDG On Campus Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/gdg-genai-leaderboard.git"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

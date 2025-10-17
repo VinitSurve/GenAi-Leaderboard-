@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GDG Gen AI Study Jams Leaderboard - Track your progress and compete with peers">
+    <meta name="theme-color" content="#4285f4">
+    
+    <title>GDG Gen AI Study Jams - Leaderboard</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Papa Parse CDN for CSV Parsing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://developers.google.com/profile/badges/community/gdg/favicon.svg">
+</head>
+<body>
+    <!-- Particle Background Canvas -->
+    <canvas id="particleCanvas" aria-hidden="true"></canvas>
+    
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="logo.png" alt="Chapter Logo" class="chapter-logo" onerror="this.style.display='none'">
+                <div class="logo-divider" id="logoDivider"></div>
+            </div>
+            
+            <div class="hero-section">
+                <h1 class="main-heading">Gen AI Study Jams Leaderboard</h1>
+                <p class="subtitle">Bharati Vidyapeeth's, Department of Management Off Campus | <span id="participantCount">Loading...</span> Participants</p>
+            </div>
+            
+            <div class="header-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="refresh-btn" id="manualRefresh" aria-label="Refresh data">
+                    <span class="refresh-icon">🔄</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Stats Dashboard -->
+    <section class="stats-section" id="statsSection">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card" data-animate="fade-up">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value" data-target="0">0</h3>
+                        <p class="stat-label">Total Participants</p>
+                    </div>
+                </div>
+
+                <div class="stat-card" data-animate="fade-up" style="animation-delay: 0.1s;">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value" data-target="0">0</h3>
+                        <p class="stat-label">Total Badges Earned</p>
+                    </div>
+                </div>
+
+                <div class="stat-card" data-animate="fade-up" style="animation-delay: 0.2s;">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value" data-target="0">0<span class="percent-sign">%</span></h3>
+                        <p class="stat-label">Average Completion</p>
+                    </div>
+                </div>
+
+                <div class="stat-card" data-animate="fade-up" style="animation-delay: 0.3s;">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value top-performer-name">-</h3>
+                        <p class="stat-label">Top Performer</p>
+                    </div>
+                </div>
+
+                <div class="stat-card tier1-card" data-animate="fade-up" style="animation-delay: 0.4s;">
+                    <div class="circular-progress-container">
+                        <svg class="circular-progress" viewBox="0 0 120 120" width="100" height="100">
+                            <defs>
+                                <linearGradient id="tier1Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#ffed4e;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle class="circular-progress-bg" cx="60" cy="60" r="52" />
+                            <circle class="circular-progress-fill" cx="60" cy="60" r="52" id="tier1Circle" />
+                            <text x="60" y="60" class="circular-progress-text" text-anchor="middle" dy=".3em" id="tier1Count">0</text>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-label tier1-label">🏆 Tier 1 Achievers</h3>
+                        <p class="stat-sublabel">Completed All 20 Courses</p>
+                    </div>
+                </div>
+
+                <!-- New Stats Cards -->
+                <div class="stat-card" data-animate="fade-up" style="animation-delay: 0.5s;">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value" id="activeParticipants" data-target="0">0</h3>
+                        <p class="stat-label">Active Participants</p>
+                        <p class="stat-sublabel">Started Their Journey</p>
+                    </div>
+                </div>
+
+                <div class="stat-card" data-animate="fade-up" style="animation-delay: 0.6s;">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value" id="completionRate" data-target="0">0<span class="percent-sign">%</span></h3>
+                        <p class="stat-label">Completion Rate</p>
+                        <p class="stat-sublabel">Overall Progress</p>
+                    </div>
+                </div>
+
+                <div class="stat-card" data-animate="fade-up" style="animation-delay: 0.7s;">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value" id="avgTimePerBadge">-</h3>
+                        <p class="stat-label">Avg Time/Badge</p>
+                        <p class="stat-sublabel">Estimated Duration</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter & Search Section -->
+    <section class="filter-section" id="filterSection">
+        <div class="container">
+            <div class="filter-controls">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Search by name or email..." aria-label="Search participants">
+                    <span class="search-icon">🔍</span>
+                </div>
+
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="beginner">Beginner</button>
+                    <button class="filter-btn" data-filter="advanced">Advanced</button>
+                    <button class="filter-btn" data-filter="complete">Complete (20/20)</button>
+                </div>
+
+                <div class="sort-dropdown">
+                    <select id="sortSelect" aria-label="Sort leaderboard">
+                        <option value="rank">Sort by Rank</option>
+                        <option value="name">Sort by Name</option>
+                        <option value="completion">Sort by Completion</option>
+                        <option value="badges">Sort by Badges</option>
+                    </select>
+                </div>
+
+                <div class="export-buttons">
+                    <button class="export-btn" id="exportCSV" aria-label="Export as CSV">
+                        <span>📊 CSV</span>
+                    </button>
+                    <button class="export-btn" id="exportPDF" aria-label="Export as PDF">
+                        <span>📄 PDF</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="results-info">
+                <span id="resultsCount">Showing 0 participants</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leaderboard Table Section -->
+    <section class="leaderboard-section" id="leaderboardSection">
+        <div class="container">
+            <!-- Loading Skeleton -->
+            <div class="loading-skeleton" id="loadingSkeleton">
+                <div class="skeleton-row"></div>
+                <div class="skeleton-row"></div>
+                <div class="skeleton-row"></div>
+                <div class="skeleton-row"></div>
+                <div class="skeleton-row"></div>
+            </div>
+
+            <!-- Desktop Table View -->
+            <div class="leaderboard-table-wrapper" id="leaderboardTable" style="display: none;">
+                <table class="leaderboard-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Participant</th>
+                            <th>Progress</th>
+                            <th>Skill Badges (19)</th>
+                            <th>Arcade (1)</th>
+                            <th>Total Courses (20)</th>
+                            <th>Last Updated</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leaderboardBody">
+                        <!-- Dynamic content will be inserted here -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Mobile Card View -->
+            <div class="leaderboard-cards" id="leaderboardCards" style="display: none;">
+                <!-- Dynamic cards will be inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <p class="footer-text">
+                        <span>Last Updated: <span id="lastUpdated">-</span></span>
+                        <span class="auto-refresh-indicator" id="autoRefreshStatus">
+                            <span class="refresh-pulse"></span> Auto-refreshing every 60s
+                        </span>
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <div class="social-links">
+                        <a href="https://gdg.community.dev/" target="_blank" rel="noopener" aria-label="GDG Community">
+                            <span>🌐</span>
+                        </a>
+                        <a href="https://twitter.com/googledevs" target="_blank" rel="noopener" aria-label="Twitter">
+                            <span>🐦</span>
+                        </a>
+                        <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+                            <span>💻</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <p class="powered-by">
+                        <img src="https://www.gstatic.com/images/branding/product/1x/google_cloud_48dp.png" alt="Google Cloud" width="20" height="20">
+                        Powered by Google Cloud
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 GDG On Campus. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast" role="alert" aria-live="polite">
+        <span id="toastMessage"></span>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/animations.js"></script>
+    <script src="js/csvReader.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

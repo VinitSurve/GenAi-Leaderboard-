@@ -1,0 +1,586 @@
+/* ===================================
+   GDG Gen AI Study Jams Leaderboard
+   Responsive Styles
+   =================================== */
+
+/* === Tablet Styles (768px - 1024px) === */
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .main-heading {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .stat-value {
+        font-size: 1.6rem;
+    }
+
+    .filter-controls {
+        gap: 10px;
+    }
+
+    .search-box {
+        min-width: 200px;
+    }
+
+    .leaderboard-table th,
+    .leaderboard-table td {
+        padding: 15px 10px;
+        font-size: 0.9rem;
+    }
+
+    .participant-avatar {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    .progress-cell {
+        min-width: 150px;
+    }
+}
+
+/* === Mobile Styles (max-width: 768px) === */
+@media screen and (max-width: 768px) {
+    /* Header Adjustments */
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-section {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero-section {
+        width: 100%;
+    }
+
+    .main-heading {
+        font-size: 1.8rem;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    .header-actions {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Stats Section - Single Column */
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .stat-card {
+        padding: 20px;
+    }
+
+    .stat-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .stat-icon svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .stat-value {
+        font-size: 1.5rem;
+    }
+
+    /* Filter Section - Mobile Friendly */
+    .filter-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-box {
+        width: 100%;
+        min-width: auto;
+    }
+
+    .filter-buttons {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .filter-btn {
+        flex: 1;
+        padding: 8px 12px;
+        font-size: 0.85rem;
+    }
+
+    .sort-dropdown {
+        width: 100%;
+    }
+
+    .sort-dropdown select {
+        width: 100%;
+    }
+
+    .export-buttons {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .export-btn {
+        flex: 1;
+    }
+
+    /* Hide Desktop Table on Mobile */
+    .leaderboard-table-wrapper {
+        display: none !important;
+    }
+
+    /* Show Mobile Cards */
+    .leaderboard-cards {
+        display: flex !important;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .leaderboard-card {
+        background: var(--bg-card);
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: var(--card-shadow);
+        transition: all var(--transition-medium);
+        animation: fadeInUp 0.5s ease-out;
+    }
+
+    .leaderboard-card:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--card-shadow-hover);
+    }
+
+    .card-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid var(--glass-border);
+    }
+
+    .card-rank {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .card-rank-number {
+        font-family: 'Google Sans', sans-serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: var(--text-primary);
+    }
+
+    .card-rank-medal {
+        font-size: 1.5rem;
+    }
+
+    .card-badges {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .card-participant {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+
+    .card-avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Google Sans', sans-serif;
+        font-weight: 700;
+        font-size: 1.2rem;
+        color: white;
+        flex-shrink: 0;
+    }
+
+    .card-participant-info {
+        flex: 1;
+    }
+
+    .card-participant-name {
+        font-family: 'Google Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-bottom: 3px;
+        color: var(--text-primary);
+    }
+
+    .card-participant-email {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+        word-break: break-all;
+    }
+
+    .card-progress {
+        margin-bottom: 15px;
+    }
+
+    .card-progress-label {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+    }
+
+    .card-progress-bar {
+        width: 100%;
+        height: 28px;
+        background: var(--bg-light);
+        border-radius: 14px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .card-progress-fill {
+        height: 100%;
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: 'Google Sans', sans-serif;
+        font-weight: 700;
+        font-size: 0.85rem;
+        transition: width 1s ease-out;
+    }
+
+    .card-stats {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .card-stat {
+        text-align: center;
+        padding: 10px;
+        background: var(--bg-light);
+        border-radius: 8px;
+    }
+
+    .card-stat-value {
+        font-family: 'Google Sans', sans-serif;
+        font-weight: 700;
+        font-size: 1.2rem;
+        color: var(--text-primary);
+        margin-bottom: 3px;
+    }
+
+    .card-stat-label {
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+    }
+
+    .card-footer {
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px solid var(--glass-border);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card-updated {
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+    }
+
+    .card-share-btn {
+        padding: 6px 12px;
+        border: 1px solid var(--glass-border);
+        border-radius: 16px;
+        background: var(--bg-light);
+        color: var(--text-primary);
+        font-size: 0.8rem;
+        cursor: pointer;
+        transition: all var(--transition-fast);
+    }
+
+    .card-share-btn:hover {
+        background: var(--primary-blue);
+        color: white;
+        border-color: var(--primary-blue);
+    }
+
+    /* Footer Adjustments */
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer-text {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    /* Toast Notification */
+    .toast {
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        text-align: center;
+    }
+}
+
+/* === Small Mobile Styles (max-width: 480px) === */
+@media screen and (max-width: 480px) {
+    .main-heading {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 0.85rem;
+    }
+
+    .gdg-logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo-text {
+        font-size: 1rem;
+    }
+
+    .theme-toggle,
+    .refresh-btn {
+        width: 42px;
+        height: 42px;
+        font-size: 1.3rem;
+    }
+
+    .stat-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .stat-icon {
+        margin: 0 auto;
+    }
+
+    .filter-buttons {
+        gap: 8px;
+    }
+
+    .filter-btn {
+        font-size: 0.8rem;
+        padding: 8px 10px;
+    }
+
+    .export-btn span {
+        font-size: 0.8rem;
+    }
+
+    .leaderboard-card {
+        padding: 15px;
+    }
+
+    .card-participant {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card-stats {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* === Landscape Mode Adjustments === */
+@media screen and (max-height: 600px) and (orientation: landscape) {
+    .header {
+        padding: 15px 0;
+    }
+
+    .main-heading {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 0.85rem;
+    }
+
+    .stats-section {
+        padding: 30px 0;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+    }
+
+    .stat-card {
+        padding: 15px;
+        flex-direction: row;
+    }
+
+    .stat-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .stat-icon svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .stat-value {
+        font-size: 1.2rem;
+    }
+
+    .stat-label {
+        font-size: 0.8rem;
+    }
+}
+
+/* === Touch Device Optimizations === */
+@media (hover: none) and (pointer: coarse) {
+    /* Increase touch targets */
+    .filter-btn,
+    .export-btn,
+    .theme-toggle,
+    .refresh-btn {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    /* Disable hover effects on touch devices */
+    .stat-card:hover,
+    .leaderboard-card:hover,
+    .filter-btn:hover,
+    .export-btn:hover {
+        transform: none;
+    }
+
+    /* Add active states instead */
+    .stat-card:active {
+        transform: scale(0.98);
+    }
+
+    .filter-btn:active,
+    .export-btn:active {
+        transform: scale(0.95);
+    }
+
+    /* Remove tooltips on touch */
+    .badge-icon::after {
+        display: none;
+    }
+}
+
+/* === High DPI Displays === */
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+       screen and (min-resolution: 192dpi) {
+    /* Optimize for retina displays */
+    .gdg-logo,
+    .stat-icon svg {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+    }
+}
+
+/* === Reduced Motion Preference === */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .gdg-logo {
+        animation: none;
+    }
+
+    .refresh-pulse {
+        animation: none;
+    }
+
+    .skeleton-row {
+        animation: none;
+    }
+
+    .progress-bar-fill::before {
+        animation: none;
+    }
+}
+
+/* === Dark Theme Mobile Adjustments === */
+@media screen and (max-width: 768px) {
+    body.dark-theme .leaderboard-card {
+        background: var(--bg-card);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+    }
+
+    body.dark-theme .card-stat {
+        background: var(--bg-dark);
+    }
+
+    body.dark-theme .card-share-btn {
+        background: var(--bg-dark);
+        border-color: var(--glass-border);
+    }
+}
+
+/* === Accessibility - Focus Visible === */
+@media (prefers-contrast: high) {
+    .filter-btn:focus-visible,
+    .export-btn:focus-visible,
+    .theme-toggle:focus-visible,
+    .refresh-btn:focus-visible {
+        outline: 3px solid var(--primary-blue);
+        outline-offset: 2px;
+    }
+}
+
+/* === Loading State Responsive === */
+@media screen and (max-width: 768px) {
+    .loading-skeleton {
+        gap: 10px;
+    }
+
+    .skeleton-row {
+        height: 120px;
+    }
+}
