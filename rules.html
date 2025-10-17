@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rules & Guidelines - GDG Gen AI Study Jams - Learn how to complete labs successfully">
+    <meta name="theme-color" content="#4285f4">
+    
+    <title>Rules & Guidelines - GDG Gen AI Study Jams</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <!-- Particle Background Canvas -->
+    <canvas id="particleCanvas" aria-hidden="true"></canvas>
+    
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="logo.png" alt="Chapter Logo" class="chapter-logo" onerror="this.style.display='none'">
+                <div class="logo-divider" id="logoDivider"></div>
+            </div>
+            
+            <div class="hero-section">
+                <h1 class="main-heading">📋 Rules & Guidelines</h1>
+                <p class="subtitle">Master the labs with these proven tips and essential rules! 🚀</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Easy Steps Section -->
+    <section class="rules-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">✨ EASY METHOD</div>
+                <h2 class="section-main-title">Easy Steps for Completing Labs</h2>
+                <p class="section-description">Follow these proven steps to complete any lab successfully! 🎯</p>
+            </div>
+
+            <div class="steps-container">
+                <div class="step-card-large" data-animate="fade-up">
+                    <div class="step-number-large">1</div>
+                    <div class="step-content-large">
+                        <h3 class="step-title">📝 Copy the Lab Code</h3>
+                        <p class="step-description">Copy the code of that lab (e.g., <code class="inline-code">gsp421</code>)</p>
+                        <div class="step-example">
+                            <strong>Example:</strong> Look for codes like GSP421, GSP313, etc.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-card-large" data-animate="fade-up" style="animation-delay: 0.1s;">
+                    <div class="step-number-large">2</div>
+                    <div class="step-content-large">
+                        <h3 class="step-title">🔍 Search on YouTube</h3>
+                        <p class="step-description">Search the lab code on YouTube to find solution videos</p>
+                        <div class="step-example">
+                            <strong>Search:</strong> "gsp421 solution" or "gsp421 quicklab"
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-card-large" data-animate="fade-up" style="animation-delay: 0.2s;">
+                    <div class="step-number-large">3</div>
+                    <div class="step-content-large">
+                        <h3 class="step-title">📅 Look for Latest Video</h3>
+                        <p class="step-description">Look for the most recent video only (e.g., 1 month or 1 week ago)</p>
+                        <div class="step-tip">
+                            <strong>💡 Tip:</strong> Use YouTube filters → Sort by "Upload date" → Select "This month" or "This week"
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-card-large" data-animate="fade-up" style="animation-delay: 0.3s;">
+                    <div class="step-number-large">4</div>
+                    <div class="step-content-large">
+                        <h3 class="step-title">💬 Check Comments</h3>
+                        <p class="step-description">Read the comments section to verify whether the solution is working or not</p>
+                        <div class="step-warning">
+                            <strong>⚠️ Important:</strong> If most comments say "not working," skip that video and find another one!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-card-large" data-animate="fade-up" style="animation-delay: 0.4s;">
+                    <div class="step-number-large">5</div>
+                    <div class="step-content-large">
+                        <h3 class="step-title">🎯 Follow Step by Step</h3>
+                        <p class="step-description">Watch one step at a time and perform it on the actual lab carefully</p>
+                        <div class="step-tip">
+                            <strong>💡 Pro Tip:</strong> Pause the video after each step, complete it in your lab, then continue!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Rules Section -->
+    <section class="rules-important-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">⚠️ MUST READ</div>
+                <h2 class="section-main-title">Important Rules to Follow</h2>
+                <p class="section-description">Keep these in mind to avoid any issues and ensure success! 🎓</p>
+            </div>
+
+            <div class="rules-grid">
+                <div class="rule-card" data-animate="fade-up">
+                    <div class="rule-icon">⏱️</div>
+                    <div class="rule-content">
+                        <h3 class="rule-title">Minimum 6 Minutes</h3>
+                        <p class="rule-description">Spend at least <strong>6 minutes</strong> on each lab before ending it</p>
+                        <div class="rule-reason">
+                            <strong>Why?</strong> Labs completed too quickly may be flagged as suspicious
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rule-card" data-animate="fade-up" style="animation-delay: 0.1s;">
+                    <div class="rule-icon">🚫</div>
+                    <div class="rule-content">
+                        <h3 class="rule-title">One Lab at a Time</h3>
+                        <p class="rule-description">Don't start <strong>two labs at once</strong> or simultaneously</p>
+                        <div class="rule-reason">
+                            <strong>Why?</strong> Multiple concurrent labs can cause errors and confuse the system
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rule-card" data-animate="fade-up" style="animation-delay: 0.2s;">
+                    <div class="rule-icon">💯</div>
+                    <div class="rule-content">
+                        <h3 class="rule-title">Complete 100% Score</h3>
+                        <p class="rule-description">Don't end the lab before getting <strong>all 100 points</strong></p>
+                        <div class="rule-reason">
+                            <strong>Why?</strong> Incomplete labs won't count toward your final completion score
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rule-card" data-animate="fade-up" style="animation-delay: 0.3s;">
+                    <div class="rule-icon">🕶️</div>
+                    <div class="rule-content">
+                        <h3 class="rule-title">Incognito Mode</h3>
+                        <p class="rule-description">Open all labs in <strong>incognito window only</strong> (Google Cloud Console Student Emails)</p>
+                        <div class="rule-tip-box">
+                            <strong>Setup:</strong> Lab page → Normal tab | Google Cloud Console → Incognito window
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rule-card" data-animate="fade-up" style="animation-delay: 0.4s;">
+                    <div class="rule-icon">🌐</div>
+                    <div class="rule-content">
+                        <h3 class="rule-title">Use Chrome Browser</h3>
+                        <p class="rule-description">Preferably use <strong>Chrome browser only</strong>, not other browsers</p>
+                        <div class="rule-reason">
+                            <strong>Why?</strong> Google Cloud Console works best with Chrome for optimal compatibility
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pro Tips Section -->
+    <section class="tips-section">
+        <div class="container">
+            <div class="tips-box">
+                <div class="tips-header">
+                    <div class="tips-icon">💡</div>
+                    <h2 class="tips-title">Pro Tips for Success</h2>
+                </div>
+                <div class="tips-grid">
+                    <div class="tip-item">
+                        <span class="tip-emoji">✅</span>
+                        <span class="tip-text">Always verify lab code before starting</span>
+                    </div>
+                    <div class="tip-item">
+                        <span class="tip-emoji">✅</span>
+                        <span class="tip-text">Bookmark working video solutions</span>
+                    </div>
+                    <div class="tip-item">
+                        <span class="tip-emoji">✅</span>
+                        <span class="tip-text">Keep your Cloud Skills Boost account logged in</span>
+                    </div>
+                    <div class="tip-item">
+                        <span class="tip-emoji">✅</span>
+                        <span class="tip-text">Take breaks between labs to avoid fatigue</span>
+                    </div>
+                    <div class="tip-item">
+                        <span class="tip-emoji">✅</span>
+                        <span class="tip-text">Join WhatsApp group for help and updates</span>
+                    </div>
+                    <div class="tip-item">
+                        <span class="tip-emoji">✅</span>
+                        <span class="tip-text">Screenshot your completion for proof</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Start Your Journey? 🚀</h2>
+                <p class="cta-subtitle">Follow these rules and you'll complete all 20 courses in no time!</p>
+                <div class="cta-buttons">
+                    <a href="syllabus.html" class="cta-btn primary">
+                        <span>📚</span>
+                        <span>View All Courses</span>
+                    </a>
+                    <a href="https://chat.whatsapp.com/JhtrD6e673hKMqlxaWs1CR" target="_blank" class="cta-btn secondary">
+                        <span>💬</span>
+                        <span>Join WhatsApp Group</span>
+                    </a>
+                    <a href="leaderboard.html" class="cta-btn tertiary">
+                        <span>📊</span>
+                        <span>Check Leaderboard</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="GDG Logo" class="footer-logo-img">
+                    <h3>GDG Gen AI Study Jams</h3>
+                    <p>Empowering students with Google Cloud & AI skills</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#rewardsSection">Rewards</a></li>
+                        <li><a href="syllabus.html">Syllabus</a></li>
+                        <li><a href="swags.html">Swags Winners</a></li>
+                        <li><a href="leaderboard.html">Leaderboard</a></li>
+                        <li><a href="rules.html">Rules & Guidelines</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="https://chat.whatsapp.com/JhtrD6e673hKMqlxaWs1CR" target="_blank" class="social-link whatsapp">
+                            <span>💬</span>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="https://github.com/VinitSurve/GenAI-Study-Jams-Solutions" target="_blank" class="social-link github">
+                            <span>💻</span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.cloudskillsboost.google/" target="_blank" class="social-link google">
+                            <span>🌐</span>
+                            <span>Cloud Skills</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GDG Gen AI Study Jams. All rights reserved.</p>
+                <p>Made with ❤️ by GDG Community</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Initialize animations and particle canvas
+        document.addEventListener('DOMContentLoaded', function() {
+            StatsAnimations.init();
+            
+            // Initialize particle canvas
+            if (typeof ParticleCanvas !== 'undefined') {
+                new ParticleCanvas();
+            }
+        });
+    </script>
+
+    <!-- Floating Bottom Navbar -->
+    <nav class="floating-navbar" aria-label="Quick Navigation">
+        <div class="floating-nav-content">
+            <a href="index.html" class="floating-nav-item" title="Home">
+                <span class="floating-nav-icon">🏠</span>
+                <span class="floating-nav-label">Home</span>
+            </a>
+            <a href="syllabus.html" class="floating-nav-item" title="Syllabus">
+                <span class="floating-nav-icon">📚</span>
+                <span class="floating-nav-label">Syllabus</span>
+            </a>
+            <a href="leaderboard.html" class="floating-nav-item" title="Leaderboard">
+                <span class="floating-nav-icon">📈</span>
+                <span class="floating-nav-label">Leaderboard</span>
+            </a>
+            <a href="swags.html" class="floating-nav-item" title="Swags">
+                <span class="floating-nav-icon">🏆</span>
+                <span class="floating-nav-label">Swags</span>
+            </a>
+            <a href="rules.html" class="floating-nav-item active" title="Rules">
+                <span class="floating-nav-icon">📋</span>
+                <span class="floating-nav-label">Rules</span>
+            </a>
+        </div>
+    </nav>
+</body>
+</html>

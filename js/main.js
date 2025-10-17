@@ -507,12 +507,11 @@ class LeaderboardApp {
     }
 
     /**
-     * Start auto-refresh interval
+     * Start auto-refresh interval (DISABLED)
      */
     startAutoRefresh() {
-        this.autoRefreshInterval = setInterval(() => {
-            this.loadData(true);
-        }, this.refreshIntervalMs);
+        // Auto-refresh disabled
+        console.log('Auto-refresh is disabled');
     }
 
     /**
@@ -605,7 +604,20 @@ class LeaderboardApp {
 
 // Initialize app when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
-    window.leaderboardApp = new LeaderboardApp();
+    // Only initialize LeaderboardApp if we're on a page with leaderboard table
+    const hasLeaderboard = document.getElementById('leaderboardTable') || 
+                          document.getElementById('filterSection') ||
+                          document.querySelector('.leaderboard-table');
+    
+    if (hasLeaderboard) {
+        window.leaderboardApp = new LeaderboardApp();
+    } else {
+        console.log('LeaderboardApp not initialized - not on leaderboard page');
+        // Initialize particle canvas for non-leaderboard pages
+        if (typeof ParticleCanvas !== 'undefined') {
+            new ParticleCanvas();
+        }
+    }
     
     // Initialize smooth scroll for navigation
     initSmoothScroll();
@@ -644,7 +656,8 @@ function initSmoothScroll() {
             const targetSection = document.getElementById(targetId);
             
             if (targetSection) {
-                const navMenuHeight = document.getElementById('navMenu').offsetHeight;
+                const navMenu = document.getElementById('navMenu');
+                const navMenuHeight = navMenu ? navMenu.offsetHeight : 0;
                 const targetPosition = targetSection.offsetTop - navMenuHeight - 20;
                 
                 window.scrollTo({
