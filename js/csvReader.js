@@ -377,7 +377,8 @@ class CSVReader {
             'Sanskruti Pradeep Sawant',
             'Ayush',
             'Ayush Santosh Nair',
-            'Shweta Rambachan Rajbhar'
+            'Shweta Rambachan Rajbhar',
+            'Megha prajapati'
         ];
         
         // Count actual swag winners (those who sent proof)

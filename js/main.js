@@ -138,7 +138,8 @@ class LeaderboardApp {
                     'Sanskruti Pradeep Sawant',
                     'Ayush',
                     'Ayush Santosh Nair',
-                    'Shweta Rambachan Rajbhar'
+                    'Shweta Rambachan Rajbhar',
+                    'Megha prajapati'
                 ];
                 filtered = filtered.filter(p => swagsWinners.includes(p.name));
             }
@@ -223,13 +224,17 @@ class LeaderboardApp {
             'Sanskruti Pradeep Sawant',
             'Ayush',
             'Ayush Santosh Nair',
-            'Shweta Rambachan Rajbhar'
+            'Shweta Rambachan Rajbhar',
+            'Megha prajapati'
         ];
         
         this.filteredData.forEach(participant => {
             const row = document.createElement('tr');
             const proofSent = swagsWinners.includes(participant.name) ? 'Yes' : 'No';
             const proofClass = proofSent === 'Yes' ? 'proof-yes' : 'proof-no';
+            
+            // Show 100% progress for swag winners regardless of actual completion
+            const displayPercentage = swagsWinners.includes(participant.name) ? 100 : participant.completionPercentage;
             
             row.innerHTML = `
                 <td>
@@ -252,8 +257,8 @@ class LeaderboardApp {
                 <td>
                     <div class="progress-cell">
                         <div class="progress-bar-container">
-                            <div class="progress-bar-fill" data-percentage="${participant.completionPercentage}">
-                                ${participant.completionPercentage}%
+                            <div class="progress-bar-fill" data-percentage="${displayPercentage}">
+                                ${displayPercentage}%
                             </div>
                         </div>
                     </div>
@@ -303,7 +308,31 @@ class LeaderboardApp {
         
         container.innerHTML = '';
         
+        // List of swag winners (exact names from CSV)
+        const swagsWinners = [
+            'Krish Gupta',
+            'Ansari mohd Rahil Zakir Hussain',
+            'Siddhesh katale',
+            'Vinit Surve',
+            'Shravani Pravin Patil',
+            'Rishi Khandekar',
+            'anshu patil',
+            'Aaditya Dinesh Tavhare',
+            'Ayaan Dastgir patel',
+            'Tanay Santosh Dawoor',
+            'Rutvik Jitendra Pawar',
+            'Divyansh Thakur',
+            'Sanskruti Pradeep Sawant',
+            'Ayush',
+            'Ayush Santosh Nair',
+            'Shweta Rambachan Rajbhar',
+            'Megha prajapati'
+        ];
+        
         this.filteredData.forEach(participant => {
+            // Show 100% progress for swag winners regardless of actual completion
+            const displayPercentage = swagsWinners.includes(participant.name) ? 100 : participant.completionPercentage;
+            
             const card = document.createElement('div');
             card.className = 'leaderboard-card';
             card.innerHTML = `
@@ -331,10 +360,10 @@ class LeaderboardApp {
                 <div class="card-progress">
                     <div class="card-progress-label">
                         <span>Progress</span>
-                        <span>${participant.completionPercentage}%</span>
+                        <span>${displayPercentage}%</span>
                     </div>
                     <div class="card-progress-bar">
-                        <div class="card-progress-fill" data-percentage="${participant.completionPercentage}">
+                        <div class="card-progress-fill" data-percentage="${displayPercentage}">
                         </div>
                     </div>
                 </div>
