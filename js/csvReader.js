@@ -360,6 +360,26 @@ class CSVReader {
         );
         const topPerformer = data.find(p => p.rank === 1)?.name || '-';
         
+        // List of swag winners (exact names from CSV)
+        const swagsWinners = [
+            'Krish Gupta',
+            'Ansari mohd Rahil Zakir Hussain',
+            'Siddhesh katale',
+            'Vinit Surve',
+            'Shravani Pravin Patil',
+            'Rishi Khandekar',
+            'anshu patil',
+            'Aaditya Dinesh Tavhare',
+            'Ayaan Dastgir patel',
+            'Tanay Santosh Dawoor',
+            'Rutvik Jitendra Pawar',
+            'Divyansh thakur',
+            'Sanskruti Pradeep Sawant'
+        ];
+        
+        // Count actual swag winners (those who sent proof)
+        const swagWinnersCount = data.filter(p => swagsWinners.includes(p.name)).length;
+        
         // Count Tier 1 achievers (100% completion)
         const tier1Count = data.filter(p => p.completionPercentage === 100).length;
         
@@ -399,6 +419,7 @@ class CSVReader {
             averageCompletion,
             topPerformer,
             tier1Count,
+            swagWinnersCount,
             activeParticipants,
             completionRate,
             avgTimePerBadge,
