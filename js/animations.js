@@ -177,20 +177,26 @@ class CounterAnimation {
         }
         
         // Tier 1 Count - Circular Progress
-        if (stats.tier1Count !== undefined) {
-            this.updateTier1Progress(stats.tier1Count, stats.totalParticipants);
+        // Skip if already set by home page (swag winners count)
+        const tier1CountElement = document.getElementById('tier1Count');
+        if (stats.tier1Count !== undefined && tier1CountElement) {
+            // Only update if the element is still at initial value (0)
+            // This prevents overwriting the swag winners count from home page
+            if (tier1CountElement.textContent === '0' || tier1CountElement.textContent === '') {
+                this.updateTier1Progress(stats.tier1Count, stats.totalParticipants);
+            }
         }
         
         // Active Participants (5th card)
         const activeParticipantsEl = document.getElementById('activeParticipants');
-        if (activeParticipantsEl && stats.activeParticipants !== undefined) {
+        if (activeParticipantsEl && stats.activeParticipants !== undefined && !isNaN(stats.activeParticipants)) {
             activeParticipantsEl.setAttribute('data-target', stats.activeParticipants);
             this.animate(activeParticipantsEl, stats.activeParticipants);
         }
         
         // Completion Rate (6th card)
         const completionRateEl = document.getElementById('completionRate');
-        if (completionRateEl && stats.completionRate !== undefined) {
+        if (completionRateEl && stats.completionRate !== undefined && !isNaN(stats.completionRate)) {
             completionRateEl.setAttribute('data-target', stats.completionRate);
             this.animate(completionRateEl, stats.completionRate, 2000, true);
         }
@@ -234,6 +240,30 @@ class CounterAnimation {
         const participantCount = document.getElementById('participantCount');
         if (participantCount) {
             participantCount.textContent = stats.totalParticipants;
+        }
+
+        // Leaderboard page quick stats
+        const studentsAbove50LeaderboardEl = document.getElementById('studentsAbove50Leaderboard');
+        if (studentsAbove50LeaderboardEl && stats.studentsAbove50 !== undefined) {
+            studentsAbove50LeaderboardEl.setAttribute('data-target', stats.studentsAbove50);
+            this.animate(studentsAbove50LeaderboardEl, stats.studentsAbove50);
+        }
+
+        const totalBadgesCountEl = document.getElementById('totalBadgesCount');
+        if (totalBadgesCountEl && stats.totalBadges !== undefined) {
+            totalBadgesCountEl.setAttribute('data-target', stats.totalBadges);
+            this.animate(totalBadgesCountEl, stats.totalBadges);
+        }
+
+        const completedCountEl = document.getElementById('completedCount');
+        if (completedCountEl && stats.tier1Count !== undefined) {
+            completedCountEl.setAttribute('data-target', stats.tier1Count);
+            this.animate(completedCountEl, stats.tier1Count);
+        }
+
+        const avgProgressEl = document.getElementById('avgProgress');
+        if (avgProgressEl && stats.averageCompletion !== undefined) {
+            avgProgressEl.textContent = stats.averageCompletion + '%';
         }
     }
     

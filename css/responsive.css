@@ -8,6 +8,10 @@
     .container {
         padding: 0 15px;
     }
+    
+    .header-content {
+        padding: 0 20px;
+    }
 
     .main-heading {
         font-size: 2rem;
@@ -15,6 +19,13 @@
 
     .subtitle {
         font-size: 1rem;
+    }
+    
+    .floating-rewards-btn {
+        bottom: 100px;
+        right: 20px;
+        padding: 12px 22px;
+        font-size: 0.95rem;
     }
 
     .stats-grid {
@@ -54,9 +65,21 @@
 /* === Mobile Styles (max-width: 768px) === */
 @media screen and (max-width: 768px) {
     /* Header Adjustments */
+    .header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    
+    .header::after {
+        height: 4px;  /* Slightly thinner on mobile */
+    }
+    
     .header-content {
         flex-direction: column;
         text-align: center;
+        position: relative;
+        padding: 0 15px;
     }
 
     .logo-section {
@@ -66,6 +89,42 @@
 
     .hero-section {
         width: 100%;
+    }
+    
+    .whatsapp-btn {
+        position: fixed;
+        bottom: 80px;
+        right: 15px;
+        padding: 14px 20px;
+        font-size: 0.85rem;
+        box-shadow: 0 6px 25px rgba(37, 211, 102, 0.5);
+        z-index: 1001;
+        height: auto;
+    }
+    
+    .whatsapp-btn span {
+        display: none;
+    }
+    
+    .whatsapp-btn svg {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .floating-rewards-btn {
+        bottom: 150px;
+        right: 15px;
+        padding: 12px 18px;
+        font-size: 0.9rem;
+    }
+    
+    .floating-rewards-btn span {
+        display: none;
+    }
+    
+    .floating-rewards-btn svg {
+        width: 28px;
+        height: 28px;
     }
 
     .main-heading {

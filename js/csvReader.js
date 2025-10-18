@@ -364,12 +364,14 @@ class CSVReader {
         const tier1Count = data.filter(p => p.completionPercentage === 100).length;
         
         // Calculate active participants (started at least 1 course)
-        const activeParticipants = data.filter(p => p.totalCompleted > 0).length;
+        const activeParticipants = data.filter(p => p.completedCourses > 0).length;
         
         // Calculate overall completion rate
         const totalPossibleCourses = totalParticipants * 20;
-        const totalCompletedCourses = data.reduce((sum, p) => sum + p.totalCompleted, 0);
-        const completionRate = Math.round((totalCompletedCourses / totalPossibleCourses) * 100);
+        const totalCompletedCourses = data.reduce((sum, p) => sum + p.completedCourses, 0);
+        const completionRate = totalPossibleCourses > 0 
+            ? Math.round((totalCompletedCourses / totalPossibleCourses) * 100) 
+            : 0;
         
         // Estimate average time per badge (based on typical completion)
         // Rough estimate: 2-4 hours per skill badge
