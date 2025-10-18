@@ -413,6 +413,11 @@ class CSVReader {
         // Students needing motivation (below 25% progress but started)
         const studentsNeedHelp = data.filter(p => p.completionPercentage > 0 && p.completionPercentage < 25).length;
 
+        // Average badges per person (total badges / total participants)
+        const averageBadgesPerPerson = totalParticipants > 0 
+            ? Math.round(totalBadges / totalParticipants) 
+            : 0;
+
         return {
             totalParticipants,
             totalBadges,
@@ -423,6 +428,7 @@ class CSVReader {
             activeParticipants,
             completionRate,
             avgTimePerBadge,
+            averageBadgesPerPerson,
             mostImprovedStudent,
             studentsAbove50,
             todayCompletions,

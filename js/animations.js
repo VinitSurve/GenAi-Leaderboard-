@@ -153,10 +153,11 @@ class CounterAnimation {
     static updateStats(stats) {
         const statValues = document.querySelectorAll('.stat-value');
         
-        // Total Participants
-        if (statValues[0]) {
-            statValues[0].setAttribute('data-target', stats.totalParticipants);
-            this.animate(statValues[0], stats.totalParticipants);
+        // Average Progress (Badges per Person)
+        const averageProgressEl = document.getElementById('averageProgress');
+        if (averageProgressEl && stats.averageBadgesPerPerson !== undefined) {
+            averageProgressEl.setAttribute('data-target', stats.averageBadgesPerPerson);
+            this.animate(averageProgressEl, stats.averageBadgesPerPerson);
         }
         
         // Total Badges
