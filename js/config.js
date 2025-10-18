@@ -17,7 +17,7 @@ const CONFIG = {
     swagsLastUpdate: '2025-10-18T14:30:00',
     
     // WhatsApp group link
-    whatsappGroupLink: 'https://chat.whatsapp.com/your-group-link',
+    whatsappGroupLink: 'https://chat.whatsapp.com/CFjYSo7453UBseMc7a9FDy',
     
     // Total courses required
     totalCourses: 20,
