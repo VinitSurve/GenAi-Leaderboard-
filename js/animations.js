@@ -257,9 +257,9 @@ class CounterAnimation {
         }
 
         const completedCountEl = document.getElementById('completedCount');
-        if (completedCountEl && stats.tier1Count !== undefined) {
-            completedCountEl.setAttribute('data-target', stats.tier1Count);
-            this.animate(completedCountEl, stats.tier1Count);
+        if (completedCountEl && stats.swagWinnersCount !== undefined) {
+            completedCountEl.setAttribute('data-target', stats.swagWinnersCount);
+            this.animate(completedCountEl, stats.swagWinnersCount);
         }
 
         const avgProgressEl = document.getElementById('avgProgress');
