@@ -373,7 +373,7 @@ class CSVReader {
             'Ayaan Dastgir patel',
             'Tanay Santosh Dawoor',
             'Rutvik Jitendra Pawar',
-            'Divyansh thakur',
+            'Divyansh Thakur',
             'Sanskruti Pradeep Sawant'
         ];
         
