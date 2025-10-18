@@ -114,33 +114,46 @@ class LeaderboardApp {
         
         // Apply category filter
         if (this.currentFilter !== 'all') {
+            // List of swag winners (used for filtering)
+            const swagsWinners = [
+                'Krish Gupta',
+                'Ansari mohd Rahil Zakir Hussain',
+                'Siddhesh katale',
+                'Vinit Surve',
+                'Shravani Pravin Patil',
+                'Rishi Khandekar',
+                'anshu patil',
+                'Aaditya Dinesh Tavhare',
+                'Ayaan Dastgir patel',
+                'Tanay Santosh Dawoor',
+                'Rutvik Jitendra Pawar',
+                'Divyansh Thakur',
+                'Sanskruti Pradeep Sawant',
+                'Ayush',
+                'Ayush Santosh Nair',
+                'Shweta Rambachan Rajbhar',
+                'Megha prajapati'
+            ];
+            
             if (this.currentFilter === 'beginner') {
-                filtered = filtered.filter(p => p.completionPercentage < 30);
+                // Exclude swag winners from beginner filter
+                filtered = filtered.filter(p => 
+                    p.completionPercentage < 30 && !swagsWinners.includes(p.name)
+                );
             } else if (this.currentFilter === 'advanced') {
-                filtered = filtered.filter(p => p.completionPercentage >= 30 && p.completionPercentage < 100);
+                // Exclude swag winners from advanced filter
+                filtered = filtered.filter(p => 
+                    p.completionPercentage >= 30 && 
+                    p.completionPercentage < 100 && 
+                    !swagsWinners.includes(p.name)
+                );
             } else if (this.currentFilter === 'complete') {
-                filtered = filtered.filter(p => p.completionPercentage === 100);
+                // Include both actual 100% completers AND swag winners (who display as 100%)
+                filtered = filtered.filter(p => 
+                    p.completionPercentage === 100 || swagsWinners.includes(p.name)
+                );
             } else if (this.currentFilter === 'proof-sent') {
                 // Filter for participants who sent proof (swag winners)
-                const swagsWinners = [
-                    'Krish Gupta',
-                    'Ansari mohd Rahil Zakir Hussain',
-                    'Siddhesh katale',
-                    'Vinit Surve',
-                    'Shravani Pravin Patil',
-                    'Rishi Khandekar',
-                    'anshu patil',
-                    'Aaditya Dinesh Tavhare',
-                    'Ayaan Dastgir patel',
-                    'Tanay Santosh Dawoor',
-                    'Rutvik Jitendra Pawar',
-                    'Divyansh Thakur',
-                    'Sanskruti Pradeep Sawant',
-                    'Ayush',
-                    'Ayush Santosh Nair',
-                    'Shweta Rambachan Rajbhar',
-                    'Megha prajapati'
-                ];
                 filtered = filtered.filter(p => swagsWinners.includes(p.name));
             }
         }
