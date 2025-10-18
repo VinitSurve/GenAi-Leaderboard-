@@ -375,7 +375,9 @@ class CSVReader {
             'Rutvik Jitendra Pawar',
             'Divyansh Thakur',
             'Sanskruti Pradeep Sawant',
-            'Ayush'
+            'Ayush',
+            'Ayush Santosh Nair',
+            'Shweta Rambachan Rajbhar'
         ];
         
         // Count actual swag winners (those who sent proof)
