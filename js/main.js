@@ -199,7 +199,8 @@ class LeaderboardApp {
             'Tanay Santosh Dawoor',
             'Rutvik Jitendra Pawar',
             'Divyansh Thakur',
-            'Sanskruti Pradeep Sawant'
+            'Sanskruti Pradeep Sawant',
+            'Ayush'
         ];
         
         this.filteredData.forEach(participant => {
