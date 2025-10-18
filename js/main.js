@@ -197,7 +197,9 @@ class LeaderboardApp {
             'Aaditya Dinesh Tavhare',
             'Ayaan Dastgir patel',
             'Tanay Santosh Dawoor',
-            'Rutvik Jitendra Pawar'
+            'Rutvik Jitendra Pawar',
+            'Divyansh thakur',
+            'SANSKRUTI SAWANT'
         ];
         
         this.filteredData.forEach(participant => {
