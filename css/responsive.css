@@ -936,6 +936,11 @@
         margin: 30px 0 40px;
     }
 
+    .error-helper-text {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
     .syllabus-sheet-btn {
         padding: 20px 20px;
         gap: 15px;
@@ -994,6 +999,12 @@
 @media screen and (max-width: 480px) {
     .campaign-syllabus-link {
         margin: 25px 0 35px;
+    }
+
+    .error-helper-text {
+        font-size: 0.95rem;
+        padding: 10px 15px;
+        max-width: 100%;
     }
 
     .syllabus-sheet-btn {
