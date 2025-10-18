@@ -17,14 +17,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
     
     <!-- Configuration -->
-    <script src="js/config.js"></script>
+    <script src="../js/config.js"></script>
     
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="icon" type="image/png" href="../assets/images/logo.png">
 </head>
 <body>
     <!-- Particle Background Canvas -->
@@ -34,7 +34,7 @@
     <header class="header" id="header">
         <div class="header-content">
             <div class="logo-section">
-                <img src="logo.png" alt="Chapter Logo" class="chapter-logo" onerror="this.style.display='none'">
+                <img src="../assets/images/logo.png" alt="Chapter Logo" class="chapter-logo" onerror="this.style.display='none'">
                 <div class="logo-divider" id="logoDivider"></div>
             </div>
             
@@ -53,7 +53,7 @@
     </header>
 
     <!-- Floating Rewards Button -->
-    <a href="index.html#rewardsSection" class="floating-rewards-btn" title="View Rewards & Tiers">
+    <a href="../index.html#rewardsSection" class="floating-rewards-btn" title="View Rewards & Tiers">
         <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
             <path d="M12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2z"/>
         </svg>
@@ -140,6 +140,9 @@
                     <button class="export-btn" id="exportPDF" aria-label="Export as PDF">
                         <span>📄 PDF</span>
                     </button>
+                    <button class="reset-filters-btn" id="resetFilters" aria-label="Reset all filters">
+                        <span>🔄 Reset</span>
+                    </button>
                 </div>
             </div>
 
@@ -209,15 +212,15 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="logo.png" alt="GDG Logo" class="footer-logo-img">
+                    <img src="../assets/images/logo.png" alt="GDG Logo" class="footer-logo-img">
                     <h3>GDG Gen AI Study Jams</h3>
                     <p>Empowering students with Google Cloud & AI skills</p>
                 </div>
                 <div class="footer-links">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html#rewardsSection">Rewards</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../index.html#rewardsSection">Rewards</a></li>
                         <li><a href="syllabus.html">Syllabus</a></li>
                         <li><a href="swags.html">Swags Winners</a></li>
                         <li><a href="leaderboard.html">Leaderboard</a></li>
@@ -259,9 +262,9 @@
     </div>
 
     <!-- Scripts -->
-    <script src="js/animations.js"></script>
-    <script src="js/csvReader.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/animations.js"></script>
+    <script src="../js/csvReader.js"></script>
+    <script src="../js/main.js"></script>
     <script>
         // Initialize animations and particle canvas
         document.addEventListener('DOMContentLoaded', function() {
@@ -332,7 +335,7 @@
     <!-- Floating Bottom Navbar -->
     <nav class="floating-navbar" aria-label="Quick Navigation">
         <div class="floating-nav-content">
-            <a href="index.html" class="floating-nav-item" title="Home">
+            <a href="../index.html" class="floating-nav-item" title="Home">
                 <span class="floating-nav-icon">🏠</span>
                 <span class="floating-nav-label">Home</span>
             </a>

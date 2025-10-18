@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
 </head>
 <body>
     <!-- Particle Background Canvas -->
@@ -31,7 +31,7 @@
     <header class="header" id="header">
         <div class="header-content">
             <div class="logo-section">
-                <img src="logo.png" alt="Chapter Logo" class="chapter-logo" onerror="this.style.display='none'">
+                <img src="assets/images/logo.png" alt="Chapter Logo" class="chapter-logo" onerror="this.style.display='none'">
                 <div class="logo-divider" id="logoDivider"></div>
             </div>
             
@@ -239,7 +239,7 @@
                 <div class="tier-card tier-1" data-animate="fade-up">
                     <div class="tier-badge">🥇 TIER 1</div>
                     <div class="tier-image-wrapper">
-                        <img src="tier1.png" alt="Tier 1 Rewards" class="tier-image">
+                        <img src="assets/images/tier1.png" alt="Tier 1 Rewards" class="tier-image">
                     </div>
                     <div class="tier-title-wrapper">
                         <h3 class="tier-title">Ultimate Prize Pack</h3>
@@ -264,7 +264,7 @@
                 <div class="tier-card tier-2" data-animate="fade-up" style="animation-delay: 0.1s;">
                     <div class="tier-badge">🥈 TIER 2</div>
                     <div class="tier-image-wrapper">
-                        <img src="tier2.png" alt="Tier 2 Rewards" class="tier-image">
+                        <img src="assets/images/tier2.png" alt="Tier 2 Rewards" class="tier-image">
                     </div>
                     <div class="tier-title-wrapper">
                         <h3 class="tier-title">Advanced Rewards</h3>
@@ -288,7 +288,7 @@
                 <div class="tier-card tier-3" data-animate="fade-up" style="animation-delay: 0.2s;">
                     <div class="tier-badge">🥉 TIER 3</div>
                     <div class="tier-image-wrapper">
-                        <img src="tier3.png" alt="Tier 3 Rewards" class="tier-image">
+                        <img src="assets/images/tier3.png" alt="Tier 3 Rewards" class="tier-image">
                     </div>
                     <div class="tier-title-wrapper">
                         <h3 class="tier-title">Starter Rewards</h3>
@@ -328,7 +328,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="logo.png" alt="GDG Logo" class="footer-logo-img">
+                    <img src="assets/images/logo.png" alt="GDG Logo" class="footer-logo-img">
                     <h3>GDG Gen AI Study Jams</h3>
                     <p>Empowering students with Google Cloud & AI skills</p>
                 </div>
@@ -337,10 +337,10 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="index.html#rewardsSection">Rewards</a></li>
-                        <li><a href="syllabus.html">Syllabus</a></li>
-                        <li><a href="swags.html">Swags Winners</a></li>
-                        <li><a href="leaderboard.html">Leaderboard</a></li>
-                        <li><a href="rules.html">Rules & Guidelines</a></li>
+                        <li><a href="pages/syllabus.html">Syllabus</a></li>
+                        <li><a href="pages/swags.html">Swags Winners</a></li>
+                        <li><a href="pages/leaderboard.html">Leaderboard</a></li>
+                        <li><a href="pages/rules.html">Rules & Guidelines</a></li>
                     </ul>
                 </div>
                 <div class="footer-social">
@@ -384,19 +384,19 @@
                 <span class="floating-nav-icon">🏠</span>
                 <span class="floating-nav-label">Home</span>
             </a>
-            <a href="syllabus.html" class="floating-nav-item" title="Syllabus">
+            <a href="pages/syllabus.html" class="floating-nav-item" title="Syllabus">
                 <span class="floating-nav-icon">📚</span>
                 <span class="floating-nav-label">Syllabus</span>
             </a>
-            <a href="leaderboard.html" class="floating-nav-item" title="Leaderboard">
+            <a href="pages/leaderboard.html" class="floating-nav-item" title="Leaderboard">
                 <span class="floating-nav-icon">📈</span>
                 <span class="floating-nav-label">Leaderboard</span>
             </a>
-            <a href="swags.html" class="floating-nav-item" title="Swags">
+            <a href="pages/swags.html" class="floating-nav-item" title="Swags">
                 <span class="floating-nav-icon">🏆</span>
                 <span class="floating-nav-label">Swags</span>
             </a>
-            <a href="rules.html" class="floating-nav-item" title="Rules">
+            <a href="pages/rules.html" class="floating-nav-item" title="Rules">
                 <span class="floating-nav-icon">📋</span>
                 <span class="floating-nav-label">Rules</span>
             </a>
@@ -411,7 +411,7 @@
         // Count swag winners from swags.html
         async function countSwagWinners() {
             try {
-                const response = await fetch('swags.html');
+                const response = await fetch('pages/swags.html');
                 const html = await response.text();
                 const parser = new DOMParser();
                 const doc = parser.parseFromString(html, 'text/html');
@@ -430,7 +430,7 @@
                 await new Promise(resolve => setTimeout(resolve, 100));
                 
                 // Load CSV data and calculate stats
-                const csvReader = new CSVReader("Bharati Vidyapeeth's Department of Management Studies - Navi Mumbai, India [16 Oct].csv");
+                const csvReader = new CSVReader("data/Bharati Vidyapeeth's Department of Management Studies - Navi Mumbai, India [16 Oct].csv");
                 const data = await csvReader.fetchData();
                 const stats = csvReader.calculateStats(data);
                 

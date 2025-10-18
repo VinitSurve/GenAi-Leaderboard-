@@ -7,19 +7,23 @@
     },
     {
       "src": "/leaderboard.html",
-      "dest": "/leaderboard.html"
+      "dest": "/pages/leaderboard.html"
     },
     {
       "src": "/syllabus.html",
-      "dest": "/syllabus.html"
+      "dest": "/pages/syllabus.html"
     },
     {
       "src": "/swags.html",
-      "dest": "/swags.html"
+      "dest": "/pages/swags.html"
     },
     {
       "src": "/rules.html",
-      "dest": "/rules.html"
+      "dest": "/pages/rules.html"
+    },
+    {
+      "src": "/pages/(.*)",
+      "dest": "/pages/$1"
     },
     {
       "src": "/css/(.*)",

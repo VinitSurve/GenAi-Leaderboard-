@@ -7,7 +7,7 @@
 // Main Application Class
 class LeaderboardApp {
     constructor() {
-        this.csvReader = new CSVReader("Bharati Vidyapeeth's Department of Management Studies - Navi Mumbai, India [16 Oct].csv");
+        this.csvReader = new CSVReader("../data/Bharati Vidyapeeth's Department of Management Studies - Navi Mumbai, India [16 Oct].csv");
         this.allData = [];
         this.filteredData = [];
         this.currentFilter = 'all';
@@ -469,6 +469,12 @@ class LeaderboardApp {
             exportPDF.addEventListener('click', () => this.exportPDF());
         }
 
+        // Reset filters button
+        const resetFilters = document.getElementById('resetFilters');
+        if (resetFilters) {
+            resetFilters.addEventListener('click', () => this.resetAllFilters());
+        }
+
         // Theme toggle
         const themeToggle = document.getElementById('themeToggle');
         if (themeToggle) {
@@ -527,6 +533,43 @@ class LeaderboardApp {
         }
         
         await this.loadData(true);
+    }
+
+    /**
+     * Reset all filters to default
+     */
+    resetAllFilters() {
+        // Reset search input
+        const searchInput = document.getElementById('searchInput');
+        if (searchInput) {
+            searchInput.value = '';
+        }
+
+        // Reset to "All" filter
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        filterButtons.forEach(btn => {
+            btn.classList.remove('active');
+            if (btn.getAttribute('data-filter') === 'all') {
+                btn.classList.add('active');
+            }
+        });
+
+        // Reset sort to rank
+        const sortSelect = document.getElementById('sortSelect');
+        if (sortSelect) {
+            sortSelect.value = 'rank';
+        }
+
+        // Reset internal state
+        this.searchQuery = '';
+        this.currentFilter = 'all';
+        this.currentSort = 'rank';
+
+        // Apply filters
+        this.applyFilters();
+
+        // Show toast notification
+        this.showToast('🔄 Filters reset successfully!', 'success');
     }
 
     /**

@@ -253,7 +253,8 @@
         justify-content: space-between;
     }
 
-    .export-btn {
+    .export-btn,
+    .reset-filters-btn {
         flex: 1;
     }
 
@@ -591,6 +592,7 @@
     /* Increase touch targets */
     .filter-btn,
     .export-btn,
+    .reset-filters-btn,
     .theme-toggle,
     .refresh-btn {
         min-height: 44px;
