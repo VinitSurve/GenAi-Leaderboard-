@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/index.html",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/leaderboard.html",
+      "dest": "/leaderboard.html"
+    },
+    {
+      "src": "/syllabus.html",
+      "dest": "/syllabus.html"
+    },
+    {
+      "src": "/swags.html",
+      "dest": "/swags.html"
+    },
+    {
+      "src": "/rules.html",
+      "dest": "/rules.html"
+    },
+    {
+      "src": "/css/(.*)",
+      "dest": "/css/$1"
+    },
+    {
+      "src": "/js/(.*)",
+      "dest": "/js/$1"
+    },
+    {
+      "src": "/data/(.*)",
+      "dest": "/data/$1"
+    },
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/(.*\\.(png|jpg|jpeg|gif|svg|ico|webp))",
+      "dest": "/$1"
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}

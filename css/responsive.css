@@ -932,6 +932,33 @@
 
 /* === Syllabus Section Responsive === */
 @media screen and (max-width: 768px) {
+    .campaign-syllabus-link {
+        margin: 30px 0 40px;
+    }
+
+    .syllabus-sheet-btn {
+        padding: 20px 20px;
+        gap: 15px;
+    }
+
+    .sheet-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .sheet-icon svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .sheet-title {
+        font-size: 1.1rem;
+    }
+
+    .sheet-description {
+        font-size: 0.9rem;
+    }
+
     .category-title {
         font-size: 1.6rem;
         flex-direction: column;
@@ -965,6 +992,43 @@
 }
 
 @media screen and (max-width: 480px) {
+    .campaign-syllabus-link {
+        margin: 25px 0 35px;
+    }
+
+    .syllabus-sheet-btn {
+        flex-direction: column;
+        text-align: center;
+        padding: 25px 20px;
+        gap: 15px;
+    }
+
+    .sheet-icon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .sheet-icon svg {
+        width: 32px;
+        height: 32px;
+    }
+
+    .sheet-title {
+        font-size: 1.05rem;
+    }
+
+    .sheet-description {
+        font-size: 0.85rem;
+    }
+
+    .sheet-arrow {
+        transform: rotate(90deg);
+    }
+
+    .syllabus-sheet-btn:hover .sheet-arrow {
+        transform: rotate(90deg) translateX(5px);
+    }
+
     .category-title {
         font-size: 1.4rem;
     }
