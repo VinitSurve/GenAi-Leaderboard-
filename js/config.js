@@ -16,8 +16,8 @@ const CONFIG = {
     // Current: Oct 18, 2025, 03:24 PM
     swagsLastUpdate: '2025-10-18T15:24:00',
     
-    // WhatsApp group link
-    whatsappGroupLink: 'https://chat.whatsapp.com/CFjYSo7453UBseMc7a9FDy',
+    // WhatsApp group link (Gen AI Study Jams Group)
+    whatsappGroupLink: 'https://chat.whatsapp.com/JhtrD6e673hKMqlxaWs1CR',
     
     // Total courses required
     totalCourses: 20,
