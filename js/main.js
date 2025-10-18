@@ -120,6 +120,27 @@ class LeaderboardApp {
                 filtered = filtered.filter(p => p.completionPercentage >= 30 && p.completionPercentage < 100);
             } else if (this.currentFilter === 'complete') {
                 filtered = filtered.filter(p => p.completionPercentage === 100);
+            } else if (this.currentFilter === 'proof-sent') {
+                // Filter for participants who sent proof (swag winners)
+                const swagsWinners = [
+                    'Krish Gupta',
+                    'Ansari mohd Rahil Zakir Hussain',
+                    'Siddhesh katale',
+                    'Vinit Surve',
+                    'Shravani Pravin Patil',
+                    'Rishi Khandekar',
+                    'anshu patil',
+                    'Aaditya Dinesh Tavhare',
+                    'Ayaan Dastgir patel',
+                    'Tanay Santosh Dawoor',
+                    'Rutvik Jitendra Pawar',
+                    'Divyansh Thakur',
+                    'Sanskruti Pradeep Sawant',
+                    'Ayush',
+                    'Ayush Santosh Nair',
+                    'Shweta Rambachan Rajbhar'
+                ];
+                filtered = filtered.filter(p => swagsWinners.includes(p.name));
             }
         }
         
