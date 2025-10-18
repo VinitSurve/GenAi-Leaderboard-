@@ -185,8 +185,26 @@ class LeaderboardApp {
         
         tbody.innerHTML = '';
         
+        // List of swag winners (exact names from CSV)
+        const swagsWinners = [
+            'Krish Gupta',
+            'Ansari mohd Rahil Zakir Hussain',
+            'Siddhesh katale',
+            'Vinit Surve',
+            'Shravani Pravin Patil',
+            'Rishi Khandekar',
+            'anshu patil',
+            'Aaditya Dinesh Tavhare',
+            'Ayaan Dastgir patel',
+            'Tanay Santosh Dawoor',
+            'Rutvik Jitendra Pawar'
+        ];
+        
         this.filteredData.forEach(participant => {
             const row = document.createElement('tr');
+            const proofSent = swagsWinners.includes(participant.name) ? 'Yes' : 'No';
+            const proofClass = proofSent === 'Yes' ? 'proof-yes' : 'proof-no';
+            
             row.innerHTML = `
                 <td>
                     <div class="rank-cell">
@@ -222,6 +240,9 @@ class LeaderboardApp {
                 </td>
                 <td class="courses-cell">
                     ${participant.completedCourses}/${participant.totalCourses}
+                </td>
+                <td class="proof-cell">
+                    <span class="proof-badge ${proofClass}">${proofSent}</span>
                 </td>
                 <td class="updated-cell">
                     ${this.formatDate(participant.lastUpdated)}

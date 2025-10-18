@@ -1,8 +1,8 @@
 # GDG Gen AI Study Jams Leaderboard
 
-> **Bharati Vidyapeeth's, Department of Management Off Campus**
+> **Bharati Vidyapeeth's, Department of Management Studies - Navi Mumbai**
 
-A professional, feature-rich leaderboard tracking GDG Gen AI Study Jams participants' progress. Built with pure HTML, CSS, and Vanilla JavaScript with modern UI/UX design.
+A professional, feature-rich leaderboard tracking GDG Gen AI Study Jams participants' progress with integrated lab solutions, swag winners showcase, and comprehensive study resources. Built with pure HTML, CSS, and Vanilla JavaScript with modern UI/UX design.
 
 ## 🚀 Features
 
@@ -11,19 +11,30 @@ A professional, feature-rich leaderboard tracking GDG Gen AI Study Jams particip
 - **Auto-refresh**: Automatically updates every 60 seconds
 - **Search & Filter**: Real-time search with debouncing, filter by completion status
 - **Multi-column Sorting**: Sort by rank, name, completion percentage, or badges
+- **Reset Filters**: One-click reset button to clear all filters and searches
 - **Responsive Design**: Seamless experience on desktop, tablet, and mobile devices
 - **8 Statistics Cards**: Total participants, badges, completion, top performer, Tier 1 achievers, active participants, completion rate, avg time per badge
+
+### New Pages & Features
+- **Lab Solutions System**: 20 courses with 95+ labs and direct YouTube solution links
+- **Winners Page**: Showcase of 10 swag winners with automated timestamps
+- **Syllabus Page**: Complete course structure with dropdown navigation
+- **Completion Guide**: Step-by-step instructions for lab completion with credits redemption link
+- **Social Media Integration**: WhatsApp, LinkedIn, Instagram, and GDG Community links
 
 ### Visual Features
 - **Animated Particle Background**: Dynamic Google-colored particles using Canvas API
 - **Glassmorphism Effects**: Modern glass-like UI with backdrop blur
 - **Enhanced Shadows & Gradients**: Multi-layered shadows and smooth gradients
+- **Smooth 360° Star Rotation**: Floating rewards button with continuous rotation animation
 - **Micro-interactions**: Button hover effects, card transformations, icon rotations
 - **Progress Animations**: Smooth animated progress bars with color coding
 - **Counter Animations**: Count-up animations for all statistics
 - **Rank Change Indicators**: Visual feedback for rank movements
-- **Dark/Light Theme**: Toggle between themes with localStorage persistence
+- **Dark Theme**: Persistent dark mode with localStorage
 - **Custom Logo Integration**: Chapter logo with divider in header
+- **Floating Navigation**: Bottom navbar for quick page access
+- **Credits Redemption Banner**: Prominent alert on Completion Guide page
 
 ### User Experience
 - **Loading Skeletons**: Smooth loading states
@@ -43,8 +54,9 @@ A professional, feature-rich leaderboard tracking GDG Gen AI Study Jams particip
 
 ```
 project/
-├── index.html              # Main HTML file
-├── logo.png               # Chapter logo (add your logo here!)
+├── index.html              # Main landing page with rewards tiers
+├── logo.png               # Chapter logo
+├── vercel.json            # Vercel deployment configuration
 ├── .gitignore             # Git ignore rules
 ├── package.json           # NPM configuration
 ├── README.md              # This file
@@ -54,20 +66,25 @@ project/
 ├── js/
 │   ├── main.js            # Main application logic
 │   ├── csvReader.js       # CSV parsing and data management
-│   └── animations.js      # Animation systems (counters, particles, etc.)
+│   ├── animations.js      # Animation systems (counters, particles, etc.)
+│   ├── config.js          # Lab solutions configuration (20 courses, 95+ labs)
+│   └── swagWinnerHelper.js # Swag winners timestamp management
+├── pages/
+│   ├── leaderboard.html   # Participant rankings with filters
+│   ├── syllabus.html      # Course structure with lab links
+│   ├── swags.html         # Winners showcase
+│   └── rules.html         # Completion guide with credits link
 ├── data/
 │   └── participants.csv   # Participant data
 ├── assets/
 │   └── images/            # Image assets directory
-└── docs/                  # Documentation folder (hidden in git)
-    ├── COLUMN_UPDATES.md
-    ├── PROJECT_SUMMARY.md
+└── docs/                  # Documentation folder (comprehensive guides)
     ├── SETUP_GUIDE.md
-    ├── TABLE_FIX.md
-    ├── TIER1_CARD.md
-    ├── TIER1_FILTER_REMOVED.md
-    ├── TIER1_X_OUT_OF_100.md
-    └── UPDATES_SUMMARY.md
+    ├── VERCEL_STATIC_DEPLOYMENT.md
+    ├── HOW_TO_ADD_YOUTUBE_SOLUTIONS.md
+    ├── HOW_TO_UPDATE_TIMESTAMPS.md
+    ├── QUICK_ADD_SWAG_WINNER.md
+    └── ...more documentation
 ```
 
 ## 🎨 Design System
@@ -259,6 +276,9 @@ Append rows to `data/participants.csv` maintaining the format.
 - ✅ Firefox 88+
 - ✅ Safari 14+
 - ✅ Edge 90+
+- ✅ Internet Explorer 11+
+- ✅ Opera 60+
+- ✅ Brave 1.0+
 
 ## 📱 Responsive Breakpoints
 
@@ -331,15 +351,10 @@ For issues or questions:
 - Review browser console for errors
 - Verify all files are properly loaded
 
-## 🌟 Credits
-
-Built with ❤️ for the GDG Community
-
-**Inspired by**: [GDG BCET Leaderboard](https://gdg-bcet.netlify.app/)
 
 ---
 
-**Version**: 1.0.0  
-**Last Updated**: October 16, 2024  
-**Maintained by**: GDG On Campus Team
+**Version**: 2.0.0  
+**Last Updated**: October 18, 2025  
+**Maintained by**: GDG On Campus - Bharati Vidyapeeth's DMS Navi Mumbai Team
 # GenAi-Leaderboard-

@@ -7,14 +7,14 @@ const CONFIG = {
     // Leaderboard last update timestamp
     // Format: 'YYYY-MM-DDTHH:MM:SS' (24-hour format)
     // Update this when you modify the CSV file
-    // Current: Oct 18, 2025, 02:30 PM
-    leaderboardLastUpdate: '2025-10-18T14:30:00',
+    // Current: Oct 18, 2025, 03:24 PM
+    leaderboardLastUpdate: '2025-10-18T15:24:00',
     
     // Swag winners last update timestamp
     // Format: 'YYYY-MM-DDTHH:MM:SS' (24-hour format)
     // Update this when you add a new swag winner
-    // Current: Oct 18, 2025, 02:30 PM
-    swagsLastUpdate: '2025-10-18T14:30:00',
+    // Current: Oct 18, 2025, 03:24 PM
+    swagsLastUpdate: '2025-10-18T15:24:00',
     
     // WhatsApp group link
     whatsappGroupLink: 'https://chat.whatsapp.com/CFjYSo7453UBseMc7a9FDy',

@@ -1424,6 +1424,31 @@ body.dark-theme .stat-card.tier1-card {
     text-align: center;
 }
 
+/* Proof Sent Column */
+.proof-cell {
+    text-align: center;
+}
+
+.proof-badge {
+    padding: 6px 14px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.proof-yes {
+    background: rgba(52, 168, 83, 0.2);
+    color: var(--primary-green);
+    border: 1px solid rgba(52, 168, 83, 0.4);
+}
+
+.proof-no {
+    background: rgba(234, 67, 53, 0.2);
+    color: var(--primary-red);
+    border: 1px solid rgba(234, 67, 53, 0.4);
+}
+
 /* Last Updated Column */
 .updated-cell {
     font-size: 0.85rem;
