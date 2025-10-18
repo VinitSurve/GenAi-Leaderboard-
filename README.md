@@ -1,4 +1,4 @@
-# GDG Gen AI Study Jams Leaderboard
+# GDG OC Gen AI Study Jams Leaderboard
 
 > **Bharati Vidyapeeth's, Department of Management Studies - Navi Mumbai**
 
