@@ -1,55 +1,12 @@
 {
-  "version": 2,
-  "routes": [
-    {
-      "src": "/index.html",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/leaderboard.html",
-      "dest": "/pages/leaderboard.html"
-    },
-    {
-      "src": "/syllabus.html",
-      "dest": "/pages/syllabus.html"
-    },
-    {
-      "src": "/swags.html",
-      "dest": "/pages/swags.html"
-    },
-    {
-      "src": "/rules.html",
-      "dest": "/pages/rules.html"
-    },
-    {
-      "src": "/pages/(.*)",
-      "dest": "/pages/$1"
-    },
-    {
-      "src": "/css/(.*)",
-      "dest": "/css/$1"
-    },
-    {
-      "src": "/js/(.*)",
-      "dest": "/js/$1"
-    },
-    {
-      "src": "/data/(.*)",
-      "dest": "/data/$1"
-    },
-    {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
-    },
-    {
-      "src": "/(.*\\.(png|jpg|jpeg|gif|svg|ico|webp))",
-      "dest": "/$1"
-    },
-    {
-      "src": "/",
-      "dest": "/index.html"
-    }
-  ],
-  "cleanUrls": true,
-  "trailingSlash": false
+  "rewrites": [
+    { "source": "/leaderboard.html", "destination": "/pages/leaderboard.html" },
+    { "source": "/syllabus.html", "destination": "/pages/syllabus.html" },
+    { "source": "/swags.html", "destination": "/pages/swags.html" },
+    { "source": "/rules.html", "destination": "/pages/rules.html" },
+    { "source": "/leaderboard", "destination": "/pages/leaderboard.html" },
+    { "source": "/syllabus", "destination": "/pages/syllabus.html" },
+    { "source": "/swags", "destination": "/pages/swags.html" },
+    { "source": "/rules", "destination": "/pages/rules.html" }
+  ]
 }
