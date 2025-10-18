@@ -1054,3 +1054,63 @@
         font-size: 1.5rem;
     }
 }
+
+/* === Credits Banner Responsive Styles === */
+@media screen and (max-width: 768px) {
+    .credits-banner {
+        padding: 70px 0 30px;
+    }
+
+    .credits-alert {
+        flex-direction: column;
+        gap: 20px;
+        padding: 25px 20px;
+        text-align: center;
+    }
+
+    .credits-icon {
+        font-size: 50px;
+    }
+
+    .credits-title {
+        font-size: 20px;
+    }
+
+    .credits-description {
+        font-size: 15px;
+    }
+
+    .credits-btn {
+        width: 100%;
+        padding: 14px 25px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .credits-banner {
+        padding: 60px 0 20px;
+    }
+
+    .credits-alert {
+        padding: 20px 15px;
+        gap: 15px;
+    }
+
+    .credits-icon {
+        font-size: 40px;
+    }
+
+    .credits-title {
+        font-size: 18px;
+    }
+
+    .credits-description {
+        font-size: 14px;
+    }
+
+    .credits-btn {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+}
