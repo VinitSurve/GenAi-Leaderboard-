@@ -1,4 +1,6 @@
 {
+  "cleanUrls": true,
+  "trailingSlash": false,
   "rewrites": [
     { "source": "/leaderboard.html", "destination": "/pages/leaderboard.html" },
     { "source": "/syllabus.html", "destination": "/pages/syllabus.html" },
