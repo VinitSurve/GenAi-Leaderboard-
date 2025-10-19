@@ -134,7 +134,8 @@ class LeaderboardApp {
                 'Shweta Rambachan Rajbhar',
                 'Megha prajapati',
                 'Sumedh Subhash Mankumare',
-                'Sakthi Bala'
+                'Sakthi Bala',
+                'Yash Patil'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -242,7 +243,8 @@ class LeaderboardApp {
             'Shweta Rambachan Rajbhar',
             'Megha prajapati',
             'Sumedh Subhash Mankumare',
-            'Sakthi Bala'
+            'Sakthi Bala',
+            'Yash Patil'
         ];
         
         this.filteredData.forEach(participant => {
@@ -348,7 +350,8 @@ class LeaderboardApp {
             'Shweta Rambachan Rajbhar',
             'Megha prajapati',
             'Sumedh Subhash Mankumare',
-            'Sakthi Bala'
+            'Sakthi Bala',
+            'Yash Patil'
         ];
         
         this.filteredData.forEach(participant => {
