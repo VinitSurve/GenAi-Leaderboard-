@@ -132,7 +132,9 @@ class LeaderboardApp {
                 'Ayush',
                 'Ayush Santosh Nair',
                 'Shweta Rambachan Rajbhar',
-                'Megha prajapati'
+                'Megha prajapati',
+                'Sumedh Subhash Mankumare',
+                'Sakthi Bala'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -238,7 +240,9 @@ class LeaderboardApp {
             'Ayush',
             'Ayush Santosh Nair',
             'Shweta Rambachan Rajbhar',
-            'Megha prajapati'
+            'Megha prajapati',
+            'Sumedh Subhash Mankumare',
+            'Sakthi Bala'
         ];
         
         this.filteredData.forEach(participant => {
@@ -246,8 +250,10 @@ class LeaderboardApp {
             const proofSent = swagsWinners.includes(participant.name) ? 'Yes' : 'No';
             const proofClass = proofSent === 'Yes' ? 'proof-yes' : 'proof-no';
             
-            // Show 100% progress for swag winners regardless of actual completion
+            // Show 100% progress and 20 badges for swag winners regardless of actual completion
             const displayPercentage = swagsWinners.includes(participant.name) ? 100 : participant.completionPercentage;
+            const displayBadges = swagsWinners.includes(participant.name) ? 20 : participant.badgesEarned;
+            const displayCompletedCourses = swagsWinners.includes(participant.name) ? 20 : participant.completedCourses;
             
             row.innerHTML = `
                 <td>
@@ -277,13 +283,13 @@ class LeaderboardApp {
                     </div>
                 </td>
                 <td class="badges-cell">
-                    <span class="badge-count">${participant.badgesEarned}</span>
+                    <span class="badge-count">${displayBadges}</span>
                 </td>
                 <td class="arcade-cell">
                     <span class="arcade-count">${participant.arcadeGames}</span>
                 </td>
                 <td class="courses-cell">
-                    ${participant.completedCourses}/${participant.totalCourses}
+                    ${displayCompletedCourses}/${participant.totalCourses}
                 </td>
                 <td class="proof-cell">
                     <span class="proof-badge ${proofClass}">${proofSent}</span>
@@ -339,12 +345,16 @@ class LeaderboardApp {
             'Ayush',
             'Ayush Santosh Nair',
             'Shweta Rambachan Rajbhar',
-            'Megha prajapati'
+            'Megha prajapati',
+            'Sumedh Subhash Mankumare',
+            'Sakthi Bala'
         ];
         
         this.filteredData.forEach(participant => {
-            // Show 100% progress for swag winners regardless of actual completion
+            // Show 100% progress and 20 badges for swag winners regardless of actual completion
             const displayPercentage = swagsWinners.includes(participant.name) ? 100 : participant.completionPercentage;
+            const displayBadges = swagsWinners.includes(participant.name) ? 20 : participant.badgesEarned;
+            const displayCompletedCourses = swagsWinners.includes(participant.name) ? 20 : participant.completedCourses;
             
             const card = document.createElement('div');
             card.className = 'leaderboard-card';
@@ -356,7 +366,7 @@ class LeaderboardApp {
                     </div>
                     <div class="card-badges">
                         ${this.renderBadges(participant.badgeTypes)}
-                        <span class="badge-count">${participant.badgesEarned}</span>
+                        <span class="badge-count">${displayBadges}</span>
                     </div>
                 </div>
                 
@@ -383,7 +393,7 @@ class LeaderboardApp {
                 
                 <div class="card-stats">
                     <div class="card-stat">
-                        <div class="card-stat-value">${participant.badgesEarned}</div>
+                        <div class="card-stat-value">${displayBadges}</div>
                         <div class="card-stat-label">Skill Badges</div>
                     </div>
                     <div class="card-stat">
@@ -391,7 +401,7 @@ class LeaderboardApp {
                         <div class="card-stat-label">Arcade</div>
                     </div>
                     <div class="card-stat">
-                        <div class="card-stat-value">${participant.completedCourses}/${participant.totalCourses}</div>
+                        <div class="card-stat-value">${displayCompletedCourses}/${participant.totalCourses}</div>
                         <div class="card-stat-label">Total</div>
                     </div>
                 </div>
