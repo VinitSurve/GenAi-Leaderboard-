@@ -250,9 +250,10 @@ class LeaderboardApp {
             const proofSent = swagsWinners.includes(participant.name) ? 'Yes' : 'No';
             const proofClass = proofSent === 'Yes' ? 'proof-yes' : 'proof-no';
             
-            // Show 100% progress and 20 badges for swag winners regardless of actual completion
+            // Show 100% progress, 19 badges, 1 arcade for swag winners regardless of actual completion
             const displayPercentage = swagsWinners.includes(participant.name) ? 100 : participant.completionPercentage;
-            const displayBadges = swagsWinners.includes(participant.name) ? 20 : participant.badgesEarned;
+            const displayBadges = swagsWinners.includes(participant.name) ? 19 : participant.badgesEarned;
+            const displayArcade = swagsWinners.includes(participant.name) ? 1 : participant.arcadeGames;
             const displayCompletedCourses = swagsWinners.includes(participant.name) ? 20 : participant.completedCourses;
             
             row.innerHTML = `
@@ -286,7 +287,7 @@ class LeaderboardApp {
                     <span class="badge-count">${displayBadges}</span>
                 </td>
                 <td class="arcade-cell">
-                    <span class="arcade-count">${participant.arcadeGames}</span>
+                    <span class="arcade-count">${displayArcade}</span>
                 </td>
                 <td class="courses-cell">
                     ${displayCompletedCourses}/${participant.totalCourses}
@@ -351,9 +352,10 @@ class LeaderboardApp {
         ];
         
         this.filteredData.forEach(participant => {
-            // Show 100% progress and 20 badges for swag winners regardless of actual completion
+            // Show 100% progress, 19 badges, 1 arcade for swag winners regardless of actual completion
             const displayPercentage = swagsWinners.includes(participant.name) ? 100 : participant.completionPercentage;
-            const displayBadges = swagsWinners.includes(participant.name) ? 20 : participant.badgesEarned;
+            const displayBadges = swagsWinners.includes(participant.name) ? 19 : participant.badgesEarned;
+            const displayArcade = swagsWinners.includes(participant.name) ? 1 : participant.arcadeGames;
             const displayCompletedCourses = swagsWinners.includes(participant.name) ? 20 : participant.completedCourses;
             
             const card = document.createElement('div');
@@ -397,7 +399,7 @@ class LeaderboardApp {
                         <div class="card-stat-label">Skill Badges</div>
                     </div>
                     <div class="card-stat">
-                        <div class="card-stat-value">${participant.arcadeGames}</div>
+                        <div class="card-stat-value">${displayArcade}</div>
                         <div class="card-stat-label">Arcade</div>
                     </div>
                     <div class="card-stat">
