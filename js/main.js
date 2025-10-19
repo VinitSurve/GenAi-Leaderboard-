@@ -135,7 +135,12 @@ class LeaderboardApp {
                 'Megha prajapati',
                 'Sumedh Subhash Mankumare',
                 'Sakthi Bala',
-                'Yash Patil'
+                'Yash Patil',
+                'Ashutosh Mishra',
+                'Atharva Mangesh Gogawale',
+                'Jaikishan Vishwakarma',
+                'Santosh Limbaji Kharat',
+                'Piyusha Mhatre'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -244,7 +249,12 @@ class LeaderboardApp {
             'Megha prajapati',
             'Sumedh Subhash Mankumare',
             'Sakthi Bala',
-            'Yash Patil'
+            'Yash Patil',
+            'Ashutosh Mishra',
+            'Atharva Mangesh Gogawale',
+            'Jaikishan Vishwakarma',
+            'Santosh Limbaji Kharat',
+            'Piyusha Mhatre'
         ];
         
         this.filteredData.forEach(participant => {
@@ -351,7 +361,12 @@ class LeaderboardApp {
             'Megha prajapati',
             'Sumedh Subhash Mankumare',
             'Sakthi Bala',
-            'Yash Patil'
+            'Yash Patil',
+            'Ashutosh Mishra',
+            'Atharva Mangesh Gogawale',
+            'Jaikishan Vishwakarma',
+            'Santosh Limbaji Kharat',
+            'Piyusha Mhatre'
         ];
         
         this.filteredData.forEach(participant => {

@@ -381,7 +381,12 @@ class CSVReader {
             'Megha prajapati',
             'Sumedh Subhash Mankumare',
             'Sakthi Bala',
-            'Yash Patil'
+            'Yash Patil',
+            'Ashutosh Mishra',
+            'Atharva Mangesh Gogawale',
+            'Jaikishan Vishwakarma',
+            'Santosh Limbaji Kharat',
+            'Piyusha Mhatre'
         ];
         
         // Count actual swag winners (those who sent proof)
