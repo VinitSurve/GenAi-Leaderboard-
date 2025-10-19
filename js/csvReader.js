@@ -386,7 +386,10 @@ class CSVReader {
             'Atharva Mangesh Gogawale',
             'Jaikishan Vishwakarma',
             'Santosh Limbaji Kharat',
-            'Piyusha Mhatre'
+            'Piyusha Mhatre',
+            'Harshada vinod Shinde',
+            'Rashmit Gautam Thakur',
+            'Nandika Pankaj Kharpatil'
         ];
         
         // Count actual swag winners (those who sent proof)

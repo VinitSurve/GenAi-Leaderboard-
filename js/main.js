@@ -140,7 +140,10 @@ class LeaderboardApp {
                 'Atharva Mangesh Gogawale',
                 'Jaikishan Vishwakarma',
                 'Santosh Limbaji Kharat',
-                'Piyusha Mhatre'
+                'Piyusha Mhatre',
+                'Harshada vinod Shinde',
+                'Rashmit Gautam Thakur',
+                'Nandika Pankaj Kharpatil'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -254,7 +257,10 @@ class LeaderboardApp {
             'Atharva Mangesh Gogawale',
             'Jaikishan Vishwakarma',
             'Santosh Limbaji Kharat',
-            'Piyusha Mhatre'
+            'Piyusha Mhatre',
+            'Harshada vinod Shinde',
+            'Rashmit Gautam Thakur',
+            'Nandika Pankaj Kharpatil'
         ];
         
         this.filteredData.forEach(participant => {
@@ -366,7 +372,10 @@ class LeaderboardApp {
             'Atharva Mangesh Gogawale',
             'Jaikishan Vishwakarma',
             'Santosh Limbaji Kharat',
-            'Piyusha Mhatre'
+            'Piyusha Mhatre',
+            'Harshada vinod Shinde',
+            'Rashmit Gautam Thakur',
+            'Nandika Pankaj Kharpatil'
         ];
         
         this.filteredData.forEach(participant => {
