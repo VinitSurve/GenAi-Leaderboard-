@@ -399,7 +399,10 @@ class CSVReader {
             'Pranav Sopan Jadhav',
             'Kalpesh shankar lengare',
             'Shruti Sahu',
-            'Diya Sengani'
+            'Diya Sengani',
+            'Janvi Bhanushali',
+            'Tanishka Nilesh Mahadik',
+            'Sandhya Arke'
         ];
         
         // Count actual swag winners (those who sent proof)

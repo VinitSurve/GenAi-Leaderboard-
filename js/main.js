@@ -153,7 +153,10 @@ class LeaderboardApp {
                 'Pranav Sopan Jadhav',
                 'Kalpesh shankar lengare',
                 'Shruti Sahu',
-                'Diya Sengani'
+                'Diya Sengani',
+                'Janvi Bhanushali',
+                'Tanishka Nilesh Mahadik',
+                'Sandhya Arke'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -280,7 +283,10 @@ class LeaderboardApp {
             'Pranav Sopan Jadhav',
             'Kalpesh shankar lengare',
             'Shruti Sahu',
-            'Diya Sengani'
+            'Diya Sengani',
+            'Janvi Bhanushali',
+            'Tanishka Nilesh Mahadik',
+            'Sandhya Arke'
         ];
         
         this.filteredData.forEach(participant => {
@@ -405,7 +411,10 @@ class LeaderboardApp {
             'Pranav Sopan Jadhav',
             'Kalpesh shankar lengare',
             'Shruti Sahu',
-            'Diya Sengani'
+            'Diya Sengani',
+            'Janvi Bhanushali',
+            'Tanishka Nilesh Mahadik',
+            'Sandhya Arke'
         ];
         
         this.filteredData.forEach(participant => {

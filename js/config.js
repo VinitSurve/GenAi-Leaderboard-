@@ -7,14 +7,14 @@ const CONFIG = {
     // Leaderboard last update timestamp
     // Format: 'YYYY-MM-DDTHH:MM:SS' (24-hour format)
     // Update this when you modify the CSV file
-    // Current: Oct 20, 2025, 8:43 PM
-    leaderboardLastUpdate: '2025-10-20T20:43:18',
+    // Current: Oct 20, 2025, 8:48 PM
+    leaderboardLastUpdate: '2025-10-20T20:48:35',
     
     // Swag winners last update timestamp
     // Format: 'YYYY-MM-DDTHH:MM:SS' (24-hour format)
     // Update this when you add a new swag winner
-    // Current: Oct 20, 2025, 8:43 PM
-    swagsLastUpdate: '2025-10-20T20:43:18',
+    // Current: Oct 20, 2025, 8:48 PM
+    swagsLastUpdate: '2025-10-20T20:48:35',
     // Current: Oct 18, 2025, 11:42 PM
     swagsLastUpdate: '2025-10-18T23:42:00',
     
