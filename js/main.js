@@ -156,7 +156,9 @@ class LeaderboardApp {
                 'Diya Sengani',
                 'Janvi Bhanushali',
                 'Tanishka Nilesh Mahadik',
-                'Sandhya Arke'
+                'Sandhya Arke',
+                'Sanika Kotwal',
+                'Sumeet Chandrakant Ghadge'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -300,7 +302,9 @@ class LeaderboardApp {
             'Diya Sengani',
             'Janvi Bhanushali',
             'Tanishka Nilesh Mahadik',
-            'Sandhya Arke'
+            'Sandhya Arke',
+            'Sanika Kotwal',
+            'Sumeet Chandrakant Ghadge'
         ];
         
         this.filteredData.forEach(participant => {
@@ -434,7 +438,9 @@ class LeaderboardApp {
             'Diya Sengani',
             'Janvi Bhanushali',
             'Tanishka Nilesh Mahadik',
-            'Sandhya Arke'
+            'Sandhya Arke',
+            'Sanika Kotwal',
+            'Sumeet Chandrakant Ghadge'
         ];
         
         this.filteredData.forEach(participant => {
