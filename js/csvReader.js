@@ -406,7 +406,12 @@ class CSVReader {
         ];
         
         // Count actual swag winners (those who sent proof)
-        const swagWinnersCount = data.filter(p => swagsWinners.includes(p.name)).length;
+        // Special handling for Jivitesh jay godave - only count the one with jiviteshgodavegdg2025@gmail.com
+        const swagWinnersCount = data.filter(p => {
+            const isSwagWinner = swagsWinners.includes(p.name) && 
+                !(p.name === 'Jivitesh jay godave' && p.email === 'jiviteshgodavegdg@gmail.com');
+            return isSwagWinner;
+        }).length;
         
         // Count Tier 1 achievers (100% completion)
         const tier1Count = data.filter(p => p.completionPercentage === 100).length;

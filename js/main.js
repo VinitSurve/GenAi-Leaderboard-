@@ -161,24 +161,38 @@ class LeaderboardApp {
             
             if (this.currentFilter === 'beginner') {
                 // Exclude swag winners from beginner filter
-                filtered = filtered.filter(p => 
-                    p.completionPercentage < 30 && !swagsWinners.includes(p.name)
-                );
+                // Special handling for Jivitesh jay godave - only exclude the one with jiviteshgodavegdg2025@gmail.com
+                filtered = filtered.filter(p => {
+                    const isSwagWinner = swagsWinners.includes(p.name) && 
+                        !(p.name === 'Jivitesh jay godave' && p.email === 'jiviteshgodavegdg@gmail.com');
+                    return p.completionPercentage < 30 && !isSwagWinner;
+                });
             } else if (this.currentFilter === 'advanced') {
                 // Exclude swag winners from advanced filter
-                filtered = filtered.filter(p => 
-                    p.completionPercentage >= 30 && 
-                    p.completionPercentage < 100 && 
-                    !swagsWinners.includes(p.name)
-                );
+                // Special handling for Jivitesh jay godave - only exclude the one with jiviteshgodavegdg2025@gmail.com
+                filtered = filtered.filter(p => {
+                    const isSwagWinner = swagsWinners.includes(p.name) && 
+                        !(p.name === 'Jivitesh jay godave' && p.email === 'jiviteshgodavegdg@gmail.com');
+                    return p.completionPercentage >= 30 && 
+                           p.completionPercentage < 100 && 
+                           !isSwagWinner;
+                });
             } else if (this.currentFilter === 'complete') {
                 // Include both actual 100% completers AND swag winners (who display as 100%)
-                filtered = filtered.filter(p => 
-                    p.completionPercentage === 100 || swagsWinners.includes(p.name)
-                );
+                // Special handling for Jivitesh jay godave - only include the one with jiviteshgodavegdg2025@gmail.com
+                filtered = filtered.filter(p => {
+                    const isSwagWinner = swagsWinners.includes(p.name) && 
+                        !(p.name === 'Jivitesh jay godave' && p.email === 'jiviteshgodavegdg@gmail.com');
+                    return p.completionPercentage === 100 || isSwagWinner;
+                });
             } else if (this.currentFilter === 'proof-sent') {
                 // Filter for participants who sent proof (swag winners)
-                filtered = filtered.filter(p => swagsWinners.includes(p.name));
+                // Special handling for Jivitesh jay godave - only include the one with jiviteshgodavegdg2025@gmail.com
+                filtered = filtered.filter(p => {
+                    const isSwagWinner = swagsWinners.includes(p.name) && 
+                        !(p.name === 'Jivitesh jay godave' && p.email === 'jiviteshgodavegdg@gmail.com');
+                    return isSwagWinner;
+                });
             }
         }
         
@@ -291,14 +305,20 @@ class LeaderboardApp {
         
         this.filteredData.forEach(participant => {
             const row = document.createElement('tr');
-            const proofSent = swagsWinners.includes(participant.name) ? 'Yes' : 'No';
+            
+            // Check if participant is a swag winner
+            // Special handling for Jivitesh jay godave - only the one with jiviteshgodavegdg2025@gmail.com
+            const isSwagWinner = swagsWinners.includes(participant.name) && 
+                !(participant.name === 'Jivitesh jay godave' && participant.email === 'jiviteshgodavegdg@gmail.com');
+            
+            const proofSent = isSwagWinner ? 'Yes' : 'No';
             const proofClass = proofSent === 'Yes' ? 'proof-yes' : 'proof-no';
             
             // Show 100% progress, 19 badges, 1 arcade for swag winners regardless of actual completion
-            const displayPercentage = swagsWinners.includes(participant.name) ? 100 : participant.completionPercentage;
-            const displayBadges = swagsWinners.includes(participant.name) ? 19 : participant.badgesEarned;
-            const displayArcade = swagsWinners.includes(participant.name) ? 1 : participant.arcadeGames;
-            const displayCompletedCourses = swagsWinners.includes(participant.name) ? 20 : participant.completedCourses;
+            const displayPercentage = isSwagWinner ? 100 : participant.completionPercentage;
+            const displayBadges = isSwagWinner ? 19 : participant.badgesEarned;
+            const displayArcade = isSwagWinner ? 1 : participant.arcadeGames;
+            const displayCompletedCourses = isSwagWinner ? 20 : participant.completedCourses;
             
             row.innerHTML = `
                 <td>
@@ -418,11 +438,16 @@ class LeaderboardApp {
         ];
         
         this.filteredData.forEach(participant => {
+            // Check if participant is a swag winner
+            // Special handling for Jivitesh jay godave - only the one with jiviteshgodavegdg2025@gmail.com
+            const isSwagWinner = swagsWinners.includes(participant.name) && 
+                !(participant.name === 'Jivitesh jay godave' && participant.email === 'jiviteshgodavegdg@gmail.com');
+            
             // Show 100% progress, 19 badges, 1 arcade for swag winners regardless of actual completion
-            const displayPercentage = swagsWinners.includes(participant.name) ? 100 : participant.completionPercentage;
-            const displayBadges = swagsWinners.includes(participant.name) ? 19 : participant.badgesEarned;
-            const displayArcade = swagsWinners.includes(participant.name) ? 1 : participant.arcadeGames;
-            const displayCompletedCourses = swagsWinners.includes(participant.name) ? 20 : participant.completedCourses;
+            const displayPercentage = isSwagWinner ? 100 : participant.completionPercentage;
+            const displayBadges = isSwagWinner ? 19 : participant.badgesEarned;
+            const displayArcade = isSwagWinner ? 1 : participant.arcadeGames;
+            const displayCompletedCourses = isSwagWinner ? 20 : participant.completedCourses;
             
             const card = document.createElement('div');
             card.className = 'leaderboard-card';
