@@ -158,7 +158,9 @@ class LeaderboardApp {
                 'Tanishka Nilesh Mahadik',
                 'Sandhya Arke',
                 'Sanika Kotwal',
-                'Sumeet Chandrakant Ghadge'
+                'Sumeet Chandrakant Ghadge',
+                'Sandharv Mukund Gaikwad',
+                'Shivam Agarwal'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -304,7 +306,9 @@ class LeaderboardApp {
             'Tanishka Nilesh Mahadik',
             'Sandhya Arke',
             'Sanika Kotwal',
-            'Sumeet Chandrakant Ghadge'
+            'Sumeet Chandrakant Ghadge',
+            'Sandharv Mukund Gaikwad',
+            'Shivam Agarwal'
         ];
         
         this.filteredData.forEach(participant => {
@@ -440,7 +444,9 @@ class LeaderboardApp {
             'Tanishka Nilesh Mahadik',
             'Sandhya Arke',
             'Sanika Kotwal',
-            'Sumeet Chandrakant Ghadge'
+            'Sumeet Chandrakant Ghadge',
+            'Sandharv Mukund Gaikwad',
+            'Shivam Agarwal'
         ];
         
         this.filteredData.forEach(participant => {

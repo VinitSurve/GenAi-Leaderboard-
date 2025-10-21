@@ -404,7 +404,9 @@ class CSVReader {
             'Tanishka Nilesh Mahadik',
             'Sandhya Arke',
             'Sanika Kotwal',
-            'Sumeet Chandrakant Ghadge'
+            'Sumeet Chandrakant Ghadge',
+            'Sandharv Mukund Gaikwad',
+            'Shivam Agarwal'
         ];
         
         // Count actual swag winners (those who sent proof)
