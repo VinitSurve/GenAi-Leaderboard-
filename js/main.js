@@ -161,7 +161,10 @@ class LeaderboardApp {
                 'Sumeet Chandrakant Ghadge',
                 'Sandharv Mukund Gaikwad',
                 'Shivam Agarwal',
-                'Burhan Khan'
+                'Burhan Khan',
+                'Neha Yadav',
+                'Aryan Santosh Parab',
+                'Sanchi Uday Sawant'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -310,7 +313,10 @@ class LeaderboardApp {
             'Sumeet Chandrakant Ghadge',
             'Sandharv Mukund Gaikwad',
             'Shivam Agarwal',
-            'Burhan Khan'
+            'Burhan Khan',
+            'Neha Yadav',
+            'Aryan Santosh Parab',
+            'Sanchi Uday Sawant'
         ];
         
         this.filteredData.forEach(participant => {
@@ -449,7 +455,10 @@ class LeaderboardApp {
             'Sumeet Chandrakant Ghadge',
             'Sandharv Mukund Gaikwad',
             'Shivam Agarwal',
-            'Burhan Khan'
+            'Burhan Khan',
+            'Neha Yadav',
+            'Aryan Santosh Parab',
+            'Sanchi Uday Sawant'
         ];
         
         this.filteredData.forEach(participant => {

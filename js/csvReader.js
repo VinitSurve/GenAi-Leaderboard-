@@ -407,7 +407,10 @@ class CSVReader {
             'Sumeet Chandrakant Ghadge',
             'Sandharv Mukund Gaikwad',
             'Shivam Agarwal',
-            'Burhan Khan'
+            'Burhan Khan',
+            'Neha Yadav',
+            'Aryan Santosh Parab',
+            'Sanchi Uday Sawant'
         ];
         
         // Count actual swag winners (those who sent proof)
