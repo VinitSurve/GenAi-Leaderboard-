@@ -160,7 +160,8 @@ class LeaderboardApp {
                 'Sanika Kotwal',
                 'Sumeet Chandrakant Ghadge',
                 'Sandharv Mukund Gaikwad',
-                'Shivam Agarwal'
+                'Shivam Agarwal',
+                'Burhan Khan'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -308,7 +309,8 @@ class LeaderboardApp {
             'Sanika Kotwal',
             'Sumeet Chandrakant Ghadge',
             'Sandharv Mukund Gaikwad',
-            'Shivam Agarwal'
+            'Shivam Agarwal',
+            'Burhan Khan'
         ];
         
         this.filteredData.forEach(participant => {
@@ -446,7 +448,8 @@ class LeaderboardApp {
             'Sanika Kotwal',
             'Sumeet Chandrakant Ghadge',
             'Sandharv Mukund Gaikwad',
-            'Shivam Agarwal'
+            'Shivam Agarwal',
+            'Burhan Khan'
         ];
         
         this.filteredData.forEach(participant => {
