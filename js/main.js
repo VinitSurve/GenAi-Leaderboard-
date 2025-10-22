@@ -164,7 +164,11 @@ class LeaderboardApp {
                 'Burhan Khan',
                 'Neha Yadav',
                 'Aryan Santosh Parab',
-                'Sanchi Uday Sawant'
+                'Sanchi Uday Sawant',
+                'Antra Thakur',
+                'Samidha Mandlik',
+                'Aaryan Manish Pawar',
+                'Manvir Kaur Kandhari'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -316,7 +320,11 @@ class LeaderboardApp {
             'Burhan Khan',
             'Neha Yadav',
             'Aryan Santosh Parab',
-            'Sanchi Uday Sawant'
+            'Sanchi Uday Sawant',
+            'Antra Thakur',
+            'Samidha Mandlik',
+            'Aaryan Manish Pawar',
+            'Manvir Kaur Kandhari'
         ];
         
         this.filteredData.forEach(participant => {
@@ -458,7 +466,11 @@ class LeaderboardApp {
             'Burhan Khan',
             'Neha Yadav',
             'Aryan Santosh Parab',
-            'Sanchi Uday Sawant'
+            'Sanchi Uday Sawant',
+            'Antra Thakur',
+            'Samidha Mandlik',
+            'Aaryan Manish Pawar',
+            'Manvir Kaur Kandhari'
         ];
         
         this.filteredData.forEach(participant => {
