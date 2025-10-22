@@ -169,7 +169,8 @@ class LeaderboardApp {
                 'Antra Thakur',
                 'Samidha Mandlik',
                 'Aaryan Manish Pawar',
-                'Manvir Kaur Kandhari'
+                'Manvir Kaur Kandhari',
+                'Ishwari shejwal'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -326,7 +327,8 @@ class LeaderboardApp {
             'Antra Thakur',
             'Samidha Mandlik',
             'Aaryan Manish Pawar',
-            'Manvir Kaur Kandhari'
+            'Manvir Kaur Kandhari',
+            'Ishwari shejwal'
         ];
         
         this.filteredData.forEach(participant => {

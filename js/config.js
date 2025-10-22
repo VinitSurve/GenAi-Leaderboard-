@@ -13,8 +13,8 @@ const CONFIG = {
     // Swag winners last update timestamp
     // Format: 'YYYY-MM-DDTHH:MM:SS' (24-hour format)
     // Update this when you add a new swag winner
-    // Current: Oct 22, 2025, 7:09 PM
-    swagsLastUpdate: '2025-10-22T19:09:36',
+    // Current: Oct 16, 2023, 7:30 PM
+    swagsLastUpdate: '2023-10-16T19:30:00',
     
     // WhatsApp group link (Gen AI Study Jams Group)
     whatsappGroupLink: 'https://chat.whatsapp.com/JhtrD6e673hKMqlxaWs1CR',
