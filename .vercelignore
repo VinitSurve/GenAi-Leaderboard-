@@ -1,7 +1,8 @@
-# Documentation
+# Documentation (but keep volunteers docs)
 docs/
 *.md
 !README.md
+!pages/volunteers/*.md
 
 # Git
 .git/
