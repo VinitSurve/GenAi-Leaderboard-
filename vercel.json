@@ -11,6 +11,8 @@
     { "source": "/swags", "destination": "/pages/swags.html" },
     { "source": "/rules", "destination": "/pages/rules.html" },
     { "source": "/volunteers", "destination": "/pages/volunteers/index.html" },
-    { "source": "/volunteers.html", "destination": "/pages/volunteers/index.html" }
+    { "source": "/volunteers/", "destination": "/pages/volunteers/index.html" },
+    { "source": "/volunteers.html", "destination": "/pages/volunteers/index.html" },
+    { "source": "/pages/volunteers", "destination": "/pages/volunteers/index.html" }
   ]
 }
