@@ -1,0 +1,123 @@
+/* ===================================
+   Responsive Styles for Volunteer Leaderboard
+   =================================== */
+
+/* === Tablet (max-width: 1024px) === */
+@media screen and (max-width: 1024px) {
+    .main-heading {
+        font-size: 2.5rem;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+/* === Mobile (max-width: 768px) === */
+@media screen and (max-width: 768px) {
+    .main-heading {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stat-card {
+        padding: 20px;
+    }
+
+    .stat-value {
+        font-size: 2rem;
+    }
+
+    /* Hide less important columns on mobile */
+    .leaderboard-table .credentials-cell,
+    .leaderboard-table .students-cell,
+    .leaderboard-table .streak-cell {
+        display: none;
+    }
+
+    .leaderboard-table th:nth-child(4),
+    .leaderboard-table th:nth-child(5),
+    .leaderboard-table th:nth-child(7) {
+        display: none;
+    }
+
+    .volunteer-avatar {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    .volunteer-name {
+        font-size: 1rem;
+    }
+
+    .volunteer-email {
+        font-size: 0.75rem;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* === Small Mobile (max-width: 480px) === */
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 40px 15px 30px;
+    }
+
+    .main-heading {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .table-container {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .leaderboard-table td {
+        padding: 15px 10px;
+    }
+
+    .stat-icon {
+        font-size: 2.5rem;
+    }
+
+    .stat-value {
+        font-size: 1.8rem;
+    }
+
+    /* Further simplify table */
+    .leaderboard-table .activity-cell {
+        display: none;
+    }
+
+    .leaderboard-table th:nth-child(9) {
+        display: none;
+    }
+
+    .impact-score {
+        font-size: 1.2rem;
+    }
+
+    .rank-badge {
+        font-size: 1rem;
+    }
+}

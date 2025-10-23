@@ -19,6 +19,9 @@ yarn.lock
 # Documentation (keep only README.md)
 docs/
 
+# BUT keep volunteers folder documentation
+!volunteers/
+
 # Logs
 *.log
 npm-debug.log*

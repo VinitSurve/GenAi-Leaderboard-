@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Volunteer Impact Leaderboard - Track volunteer contributions and performance">
+    <meta name="theme-color" content="#4285f4">
+    <meta name="robots" content="noindex, nofollow">
+    
+    <title>Volunteer Impact Leaderboard - Internal</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Configuration -->
+    <script src="js/config.js"></script>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../../assets/images/logo.png">
+</head>
+<body>
+    <!-- Particle Background Canvas -->
+    <canvas id="particleCanvas" aria-hidden="true"></canvas>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo-section">
+                <img src="../../assets/images/logo.png" alt="Logo" class="logo" onerror="this.style.display='none'">
+            </div>
+            
+            <h1 class="main-heading">Volunteer Impact Leaderboard</h1>
+            <p class="subtitle">Track volunteer contributions and performance in real-time</p>
+            <p class="description">
+                This is an internal dashboard to track volunteer efforts in completing courses using provided credentials 
+                and helping motivate other students. Top performers will be promoted to Core Team! 🚀
+            </p>
+            
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <button class="btn btn-primary" onclick="window.leaderboard.refresh()">
+                    <span>🔄</span>
+                    <span>Refresh Data</span>
+                </button>
+                <a href="#" class="btn btn-secondary" id="volunteerFormBtn">
+                    <span>📝</span>
+                    <span>Volunteer Form</span>
+                </a>
+                <a href="#" class="btn btn-secondary" id="whatsappBtn">
+                    <span>💬</span>
+                    <span>WhatsApp Group</span>
+                </a>
+            </div>
+        </header>
+
+        <!-- Last Updated Badge -->
+        <div class="last-updated">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+            </svg>
+            <span>Last Updated: <span id="lastRefreshTime">Loading...</span></span>
+        </div>
+
+        <!-- Statistics Section -->
+        <section class="stats-section">
+            <h2 class="section-title">📊 Quick Stats</h2>
+            
+            <div class="stats-grid">
+                <!-- Total Volunteers -->
+                <div class="stat-card">
+                    <div class="stat-icon">👥</div>
+                    <div class="stat-value" id="totalVolunteers">0</div>
+                    <div class="stat-label">Total Volunteers</div>
+                </div>
+
+                <!-- Active Volunteers -->
+                <div class="stat-card">
+                    <div class="stat-icon">🔥</div>
+                    <div class="stat-value" id="activeVolunteers">0</div>
+                    <div class="stat-label">Active Volunteers</div>
+                </div>
+
+                <!-- Total Courses -->
+                <div class="stat-card">
+                    <div class="stat-icon">📚</div>
+                    <div class="stat-value" id="totalCourses">0</div>
+                    <div class="stat-label">Courses Completed</div>
+                </div>
+
+                <!-- Total Credentials -->
+                <div class="stat-card">
+                    <div class="stat-icon">�</div>
+                    <div class="stat-value" id="totalCredentials">0</div>
+                    <div class="stat-label">Credentials Used</div>
+                </div>
+
+                <!-- Total Students Helped -->
+                <div class="stat-card">
+                    <div class="stat-icon">🎓</div>
+                    <div class="stat-value" id="totalStudents">0</div>
+                    <div class="stat-label">Students Helped</div>
+                </div>
+
+                <!-- Total Impact -->
+                <div class="stat-card">
+                    <div class="stat-icon">⭐</div>
+                    <div class="stat-value" id="totalImpact">0</div>
+                    <div class="stat-label">Total Impact</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leaderboard Section -->
+        <section class="leaderboard-section">
+            <h2 class="section-title">🏆 Volunteer Rankings</h2>
+            <p style="text-align: center; color: var(--text-secondary); margin-bottom: 20px;">
+                Impact Score = Courses Completed + (Students Helped × 2)
+            </p>
+            
+            <div class="table-container">
+                <table class="leaderboard-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Name</th>
+                            <th>Courses</th>
+                            <th>Credentials</th>
+                            <th>Account Owners</th>
+                            <th>Students Helped</th>
+                            <th>Impact Score</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leaderboardBody">
+                        <!-- Data loaded dynamically -->
+                        <tr>
+                            <td colspan="8" style="text-align: center; padding: 40px; color: var(--text-secondary);">
+                                Loading volunteer data...
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Info Box -->
+        <section class="info-section" style="margin-top: 40px;">
+            <div style="background: rgba(66, 133, 244, 0.1); border: 1px solid var(--primary-blue); border-radius: 15px; padding: 30px; text-align: center;">
+                <h3 style="color: var(--primary-blue); margin-bottom: 15px;">How to Excel as a Volunteer</h3>
+                <p style="color: var(--text-secondary); line-height: 1.8;">
+                    Top 3 volunteers by Impact Score are automatically eligible for Core Team promotion! 
+                    Keep completing credentials and helping students to climb the leaderboard. 
+                    Stay active daily to build your streak and maximize your impact! 🚀
+                </p>
+                <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(66, 133, 244, 0.2);">
+                    <p style="color: var(--text-secondary); font-size: 0.9rem;">
+                        <strong>Formula:</strong> Impact Score = Credentials + (Students × 2)<br>
+                        <em>Students helped are worth 2x more because motivation is harder than completion!</em>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p class="footer-note">🔒 This is an internal dashboard - Not linked from main website</p>
+            <p class="footer-note">Made with ❤️ for GDG Gen AI Study Jams Volunteer Team</p>
+            <div class="footer-links">
+                <a href="../../index.html" class="footer-link">Main Website</a>
+                <span style="color: var(--text-secondary);">•</span>
+                <a href="https://gdg.community.dev/" target="_blank" class="footer-link">GDG Community</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/animations.js"></script>
+    <script src="js/csvReader.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Setup Links -->
+    <script>
+        // Set up volunteer form link
+        const volunteerFormBtn = document.getElementById('volunteerFormBtn');
+        if (volunteerFormBtn) {
+            volunteerFormBtn.href = VOLUNTEER_CONFIG.volunteerFormLink;
+        }
+
+        // Set up WhatsApp link
+        const whatsappBtn = document.getElementById('whatsappBtn');
+        if (whatsappBtn) {
+            whatsappBtn.href = VOLUNTEER_CONFIG.adminWhatsApp;
+        }
+    </script>
+</body>
+</html>
