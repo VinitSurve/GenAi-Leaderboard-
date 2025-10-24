@@ -173,7 +173,8 @@ class LeaderboardApp {
                 'Manvir Kaur Kandhari',
                 'Ishwari shejwal',
                 'Prasanna Kamlesh jadhav',
-                'Omkar gulve'
+                'Omkar gulve',
+                'Vrishabh Waghela'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -333,7 +334,8 @@ class LeaderboardApp {
             'Manvir Kaur Kandhari',
             'Ishwari shejwal',
             'Prasanna Kamlesh jadhav',
-            'Omkar gulve'
+            'Omkar gulve',
+            'Vrishabh Waghela'
         ];
         
         this.filteredData.forEach(participant => {
@@ -483,7 +485,8 @@ class LeaderboardApp {
             'Manvir Kaur Kandhari',
             'Ishwari shejwal',
             'Prasanna Kamlesh jadhav',
-            'Omkar gulve'
+            'Omkar gulve',
+            'Vrishabh Waghela'
         ];
         
         this.filteredData.forEach(participant => {
