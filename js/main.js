@@ -171,8 +171,9 @@ class LeaderboardApp {
                 'Samidha Mandlik',
                 'Aaryan Manish Pawar',
                 'Manvir Kaur Kandhari',
-                'Ishwari Shejwal',
-                'Prasanna Kamlesh Jadhav'
+                'Ishwari shejwal',
+                'Prasanna Kamlesh jadhav',
+                'Omkar gulve'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -330,8 +331,9 @@ class LeaderboardApp {
             'Samidha Mandlik',
             'Aaryan Manish Pawar',
             'Manvir Kaur Kandhari',
-            'Ishwari Shejwal',
-            'Prasanna Kamlesh Jadhav'
+            'Ishwari shejwal',
+            'Prasanna Kamlesh jadhav',
+            'Omkar gulve'
         ];
         
         this.filteredData.forEach(participant => {
@@ -479,8 +481,9 @@ class LeaderboardApp {
             'Samidha Mandlik',
             'Aaryan Manish Pawar',
             'Manvir Kaur Kandhari',
-            'Ishwari Shejwal',
-            'Prasanna Kamlesh Jadhav'
+            'Ishwari shejwal',
+            'Prasanna Kamlesh jadhav',
+            'Omkar gulve'
         ];
         
         this.filteredData.forEach(participant => {

@@ -5,21 +5,21 @@
 
 const CONFIG = {
     // Main Leaderboard Data Source
-    // Google Sheets published as CSV
-    // To update: Edit Google Sheet → Auto-updates in 60 seconds
-    leaderboardDataSource: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQz20y5n-lo4lqlFILOUlcnTbQJIlwxDgGIT7YFkK_cWkMKKKBq4QOp2KmCodKOEoNvs4xklGVnE3sd/pub?output=csv',
+    // Local CSV file - manually updated
+    // To update: Edit the CSV file in data folder
+    leaderboardDataSource: "data/Bharati Vidyapeeth's Department of Management Studies - Navi Mumbai, India [16 Oct].csv",
     
     // Leaderboard last update timestamp
     // Format: 'YYYY-MM-DDTHH:MM:SS' (24-hour format)
     // Update this when you modify the CSV file
-    // Current: Oct 24, 2025, 12:00 AM
-    leaderboardLastUpdate: '2025-10-24T00:00:00',
+    // Current: Oct 24, 2025, 12:40 PM
+    leaderboardLastUpdate: '2025-10-24T12:40:00',
     
     // Swag winners last update timestamp
     // Format: 'YYYY-MM-DDTHH:MM:SS' (24-hour format)
     // Update this when you add a new swag winner
-    // Current: Oct 23, 2025, 11:40 PM
-    swagsLastUpdate: '2025-10-23T23:40:00',
+    // Current: Oct 24, 2025, 12:40 PM
+    swagsLastUpdate: '2025-10-24T12:40:00',
     
     // WhatsApp group link (Gen AI Study Jams Group)
     whatsappGroupLink: 'https://chat.whatsapp.com/JhtrD6e673hKMqlxaWs1CR',

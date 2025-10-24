@@ -1,51 +1,1000 @@
-rank,name,email,profile_url,total_courses,completed_courses,completion_percentage,badges_earned,badge_types,last_updated
-1,Aarav Sharma,aarav.sharma@gmail.com,https://cloudskillsboost.google/,15,15,100,15,"beginner,intermediate,advanced,expert",2024-10-16 18:30:00
-2,Priya Patel,priya.patel@college.edu.in,https://cloudskillsboost.google/,15,15,100,15,"beginner,intermediate,advanced,expert",2024-10-16 17:45:00
-3,Rahul Kumar,rahul.kumar@gmail.com,https://cloudskillsboost.google/,15,15,100,14,"beginner,intermediate,advanced,expert",2024-10-16 16:20:00
-4,Vinit Surve,vinitsurve2025@gmail.com,https://cloudskillsboost.google/,20,20,100,19,"beginner,intermediate,advanced,expert",2024-10-17 12:00:00
-5,Shravani Pravin Patil,pravinshravani3.11@gmail.com,https://cloudskillsboost.google/,20,20,100,19,"beginner,intermediate,advanced,expert",2024-10-17 12:00:00
-6,Diya Gupta,diya.gupta@college.edu.in,https://cloudskillsboost.google/,15,14,93,13,"beginner,intermediate,advanced",2024-10-16 13:40:00
-7,Vivaan Mehta,vivaan.mehta@gmail.com,https://cloudskillsboost.google/,15,14,93,12,"beginner,intermediate,advanced",2024-10-16 12:55:00
-8,Aisha Khan,aisha.khan@college.edu.in,https://cloudskillsboost.google/,15,14,93,12,"beginner,intermediate,advanced",2024-10-16 11:30:00
-9,Ishaan Joshi,ishaan.joshi@gmail.com,https://cloudskillsboost.google/,15,14,93,11,"beginner,intermediate,advanced",2024-10-16 10:45:00
-10,Saanvi Rao,saanvi.rao@college.edu.in,https://cloudskillsboost.google/,15,13,87,11,"beginner,intermediate,advanced",2024-10-16 09:20:00
-11,Advait Desai,advait.desai@gmail.com,https://cloudskillsboost.google/,15,13,87,10,"beginner,intermediate,advanced",2024-10-15 22:15:00
-12,Kavya Nair,kavya.nair@college.edu.in,https://cloudskillsboost.google/,15,13,87,10,"beginner,intermediate,advanced",2024-10-15 20:30:00
-13,Reyansh Verma,reyansh.verma@gmail.com,https://cloudskillsboost.google/,15,12,80,10,"beginner,intermediate,advanced",2024-10-15 18:45:00
-14,Myra Iyer,myra.iyer@college.edu.in,https://cloudskillsboost.google/,15,12,80,9,"beginner,intermediate,advanced",2024-10-15 16:20:00
-15,Atharv Malhotra,atharv.malhotra@gmail.com,https://cloudskillsboost.google/,15,12,80,9,"beginner,intermediate,advanced",2024-10-15 14:10:00
-16,Kiara Bose,kiara.bose@college.edu.in,https://cloudskillsboost.google/,15,11,73,9,"beginner,intermediate,advanced",2024-10-15 12:35:00
-17,Vihaan Chopra,vihaan.chopra@gmail.com,https://cloudskillsboost.google/,15,11,73,8,"beginner,intermediate,advanced",2024-10-15 10:50:00
-18,Aadhya Menon,aadhya.menon@college.edu.in,https://cloudskillsboost.google/,15,11,73,8,"beginner,intermediate,advanced",2024-10-15 08:25:00
-19,Sai Prasad,sai.prasad@gmail.com,https://cloudskillsboost.google/,15,10,67,8,"beginner,intermediate",2024-10-14 22:40:00
-20,Ira Kapoor,ira.kapoor@college.edu.in,https://cloudskillsboost.google/,15,10,67,7,"beginner,intermediate",2024-10-14 20:15:00
-21,Arnav Banerjee,arnav.banerjee@gmail.com,https://cloudskillsboost.google/,15,10,67,7,"beginner,intermediate",2024-10-14 18:30:00
-22,Anvi Pillai,anvi.pillai@college.edu.in,https://cloudskillsboost.google/,15,9,60,7,"beginner,intermediate",2024-10-14 16:45:00
-23,Kabir Sinha,kabir.sinha@gmail.com,https://cloudskillsboost.google/,15,9,60,6,"beginner,intermediate",2024-10-14 14:20:00
-24,Riya Saxena,riya.saxena@college.edu.in,https://cloudskillsboost.google/,15,9,60,6,"beginner,intermediate",2024-10-14 12:10:00
-25,Ayaan Mishra,ayaan.mishra@gmail.com,https://cloudskillsboost.google/,15,8,53,6,"beginner,intermediate",2024-10-14 10:35:00
-26,Navya Agarwal,navya.agarwal@college.edu.in,https://cloudskillsboost.google/,15,8,53,5,"beginner,intermediate",2024-10-14 08:50:00
-27,Shaurya Pandey,shaurya.pandey@gmail.com,https://cloudskillsboost.google/,15,8,53,5,"beginner,intermediate",2024-10-13 22:25:00
-28,Zara Bhatt,zara.bhatt@college.edu.in,https://cloudskillsboost.google/,15,7,47,5,"beginner,intermediate",2024-10-13 20:40:00
-29,Dhruv Jain,dhruv.jain@gmail.com,https://cloudskillsboost.google/,15,7,47,4,"beginner,intermediate",2024-10-13 18:15:00
-30,Pari Trivedi,pari.trivedi@college.edu.in,https://cloudskillsboost.google/,15,7,47,4,"beginner,intermediate",2024-10-13 16:30:00
-31,Yash Arora,yash.arora@gmail.com,https://cloudskillsboost.google/,15,6,40,4,"beginner",2024-10-13 14:45:00
-32,Sara Goswami,sara.goswami@college.edu.in,https://cloudskillsboost.google/,15,6,40,3,"beginner",2024-10-13 12:20:00
-33,Rohan Shah,rohan.shah@gmail.com,https://cloudskillsboost.google/,15,6,40,3,"beginner",2024-10-13 10:10:00
-34,Tara Dutta,tara.dutta@college.edu.in,https://cloudskillsboost.google/,15,5,33,3,"beginner",2024-10-13 08:35:00
-35,Aaditya Thakur,aaditya.thakur@gmail.com,https://cloudskillsboost.google/,15,5,33,2,"beginner",2024-10-12 22:50:00
-36,Ishita Raghavan,ishita.raghavan@college.edu.in,https://cloudskillsboost.google/,15,5,33,2,"beginner",2024-10-12 20:25:00
-37,Vedant Kulkarni,vedant.kulkarni@gmail.com,https://cloudskillsboost.google/,15,4,27,2,"beginner",2024-10-12 18:40:00
-38,Meera Subramanian,meera.subramanian@college.edu.in,https://cloudskillsboost.google/,15,4,27,2,"beginner",2024-10-12 16:15:00
-39,Pranav Shetty,pranav.shetty@gmail.com,https://cloudskillsboost.google/,15,4,27,1,"beginner",2024-10-12 14:30:00
-40,Aanya Ghosh,aanya.ghosh@college.edu.in,https://cloudskillsboost.google/,15,3,20,1,"beginner",2024-10-12 12:45:00
-41,Kian Bhatia,kian.bhatia@gmail.com,https://cloudskillsboost.google/,15,3,20,1,"beginner",2024-10-12 10:20:00
-42,Nitya Reddy,nitya.reddy@college.edu.in,https://cloudskillsboost.google/,15,3,20,1,"beginner",2024-10-12 08:10:00
-43,Shivansh Das,shivansh.das@gmail.com,https://cloudskillsboost.google/,15,2,13,1,"beginner",2024-10-11 22:35:00
-44,Lavanya Krishnan,lavanya.krishnan@college.edu.in,https://cloudskillsboost.google/,15,2,13,0,"beginner",2024-10-11 20:50:00
-45,Aarush Tiwari,aarush.tiwari@gmail.com,https://cloudskillsboost.google/,15,2,13,0,"beginner",2024-10-11 18:25:00
-46,Shanaya Mukherjee,shanaya.mukherjee@college.edu.in,https://cloudskillsboost.google/,15,1,7,0,"beginner",2024-10-11 16:40:00
-47,Rudra Sharma,rudra.sharma@gmail.com,https://cloudskillsboost.google/,15,1,7,0,"beginner",2024-10-11 14:15:00
-48,Pihu Choudhury,pihu.choudhury@college.edu.in,https://cloudskillsboost.google/,15,1,7,0,"beginner",2024-10-11 12:30:00
-49,Hrithik Yadav,hrithik.yadav@gmail.com,https://cloudskillsboost.google/,15,1,7,0,"beginner",2024-10-11 10:45:00
-50,Aditi Sengupta,aditi.sengupta@college.edu.in,https://cloudskillsboost.google/,15,0,0,0,"beginner",2024-10-11 08:20:00
+User Name	User Email	Google Cloud Skills Boost Profile URL	Profile URL Status	Access Code Redemption Status	All Skill Badges & Games Completed	# of Skill Badges Completed	Names of Completed Skill Badges	# of Arcade Games Completed	Names of Completed Arcade Games																
+Samar Santosh khamkar	samarstudy@gmail.com	https://www.cloudskillsboost.google/public_profiles/0409f9a9-c377-428a-a189-1fe21e6172db	All Good	No	No	0		0																	
+Grishma Santosh Zinjad	grishmagenaigdg@gmail.com	https://www.cloudskillsboost.google/public_profiles/f80dd267-7029-45f7-b405-2ec01b0c5583	All Good	No	No	0		0																	
+Mahreen muddasar faki	fakimahr254@gmail.com	https://www.cloudskillsboost.google/public_profiles/6fac627e-0e82-42d2-9301-fddfc7eab954	All Good	Yes	No	9	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge]	0																	
+Shruti Sahu	040705shrutisahu@gmail.com	https://www.cloudskillsboost.google/public_profiles/12f4abc1-11f3-4c48-8009-cc635cec1dff	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Ashish Santosh Rajak	rajakashish1909@gmail.com	https://www.cloudskillsboost.google/public_profiles/1b7b3890-147f-4565-88e4-0b9aca138f80	All Good	Yes	No	0		0																	
+Omkar gulve	gulveomkar83@gmail.com	https://www.cloudskillsboost.google/public_profiles/5885bc94-27ab-4eb3-8777-745ab4b9ea4b	All Good	Yes	No	9	Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge]	1	Level 3: Generative AI [Game]																
+Ishwari shejwal	ishwarishejwal94@gmail.com	https://www.cloudskillsboost.google/public_profiles/dc1824ed-a371-4dae-89a7-7bd248aa6a67	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Apeksha kamble	apekshakamblegdg@gmail.com	https://www.cloudskillsboost.google/public_profiles/bc234d77-2227-49ba-94db-329db7122258	All Good	No	No	0		0																	
+Ayush Santosh Nair	ayushnairbvp@gmail.com	https://www.cloudskillsboost.google/public_profiles/7248e1ed-0a45-472c-8611-974d01efa6ac	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Burhan Khan	burhankhan3873@gmail.com	https://www.cloudskillsboost.google/public_profiles/d47fe6fb-921f-4342-b487-2500d8b315a6	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Maithili shivaji shinde	shindemaithili12@gmail.com	https://www.cloudskillsboost.google/public_profiles/e8fdf2a4-e365-4f72-8c6c-9ec5f6c113d8	All Good	No	No	0		0																	
+Aryan Arun Patil	aryanpatil120306@gmail.com	https://www.cloudskillsboost.google/public_profiles/aa42524c-5a50-4cd3-bc32-bc88b50f6678	All Good	Yes	No	5	Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge]	0																	
+Harshada vinod Shinde	harshuai4398@gmail.com	https://www.cloudskillsboost.google/public_profiles/79411d00-88ca-4b92-ac71-db7312864f71	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Kalpesh shankar lengare	kalpeshlengare2@gmail.com	https://www.cloudskillsboost.google/public_profiles/17f89cd3-18ee-4530-89f2-5be4da993503	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+anshu patil	genaianshu@gmail.com	https://www.cloudskillsboost.google/public_profiles/b5e89d59-4c21-48be-a272-79b9b4ddc645	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Avnish Mishra	avnishm2903@gmail.com	https://www.cloudskillsboost.google/public_profiles/21154635-d0b9-45a5-98e2-fa7827cfd1bb	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Ashmita Kanaksinh Barad	asmitagdg22@gmail.com	https://www.cloudskillsboost.google/public_profiles/8d59e0a5-7cc9-4bc2-ac72-925ee8aa8572	All Good	Yes	No	6	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge]	0																	
+Aryan Santosh Parab	aryanp1550@gmail.com	https://www.cloudskillsboost.google/public_profiles/366ef171-2855-4806-ab01-b0cb474f1dfd	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Jivitesh jay godave	jiviteshgodavegdg2025@gmail.com	https://www.cloudskillsboost.google/public_profiles/5adadb83-3ee1-4951-8360-d51cd69abf5a	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Snehal Panale	snehalpanale9@gmail.com	https://www.cloudskillsboost.google/public_profiles/d60164ae-3044-4b65-b8a6-788d5bcaa8f7	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Tanishka Nilesh Mahadik	tanishkagenaigdg@gmail.com	https://www.cloudskillsboost.google/public_profiles/b1c16430-51b5-4af9-a6fb-fdfb0c7bbb14	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Prachi Madhavi	prachimadhavi3104@gmail.com	https://www.cloudskillsboost.google/public_profiles/994aecc1-e834-451e-95cb-54f99e321d47	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Preeti Ramesh Rathod	preetirrr23@gmail.com	https://www.cloudskillsboost.google/public_profiles/dacd41d0-2c31-40fc-81e7-55ac33b59255	All Good	Yes	No	2	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge]	0																	
+Prasanna Kamlesh jadhav	prasannajadhav777777@gmail.com	https://www.cloudskillsboost.google/public_profiles/6d52be8b-6084-4518-aaa5-d4c457c15a57	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Ayaan Dastgir patel	ayaan0708090@gmail.com	https://www.cloudskillsboost.google/public_profiles/29ed3538-aff7-449f-ada7-88f3aa3aa2e5	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Chirag mhatre	chiraggdg1@gmail.com	https://www.cloudskillsboost.google/public_profiles/22f8ffda-9d0e-439f-8470-8c42369630b5	All Good	Yes	No	17	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	0																	
+Diya Sengani	d03iyaaa@gmail.com	https://www.cloudskillsboost.google/public_profiles/84f23e9a-c17f-4ed8-832c-da2e3709220e	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Alfiya mujawar	alfiyamujawar150@gmail.com	https://www.cloudskillsboost.google/public_profiles/a93e7099-655e-4495-982d-cd112a56c12e	All Good	Yes	No	7	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge]	0																	
+Manvir Kaur Kandhari	manvirkaurk017@gmail.com	https://www.cloudskillsboost.google/public_profiles/60280bf2-0974-4280-b53f-414257ca38fb	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Nandika Pankaj Kharpatil	kharpatilnandika@gmail.com	https://www.cloudskillsboost.google/public_profiles/322a761c-7b3e-4873-bd84-582b3ec93e7c	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Aaditya Dinesh Tavhare	tavhareaaditya71@gmail.com	https://www.cloudskillsboost.google/public_profiles/9479950c-e39f-4755-85ad-e79e6f5d7361	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Jivitesh jay godave	jiviteshgodavegdg@gmail.com	https://www.cloudskillsboost.google/public_profiles/9ef62581-cf5a-4945-8a8d-314c1f3dd9af	All Good	Yes	No	6	The Basics of Google Cloud Compute [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge]	0																	
+Sanika Prashant Kotwal	gdg25sanika@gmail.com	https://www.cloudskillsboost.google/public_profiles/937e1132-7ef9-47b1-8feb-30131470cc0f	All Good	No	No	0		0																	
+Shruti Patil	shrutisp.1310@gmail.com	https://www.cloudskillsboost.google/public_profiles/7d28f691-9d89-49c5-8eae-562e8dd4c959	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Parth Sanjay Surve	parthsurve381@gmail.com	https://www.cloudskillsboost.google/public_profiles/11305304-396a-461a-9fb1-f888c9e09e00	All Good	Yes	No	4	Get Started with Cloud Storage [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge]	1	Level 3: Generative AI [Game]																
+Santosh Limbaji Kharat	san666666k@gmail.com	https://www.cloudskillsboost.google/public_profiles/68d92ebc-6a79-4ad2-af3b-e58f5145c05f	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Priyanshu Gupta	princebygd@gmail.com	https://www.cloudskillsboost.google/public_profiles/10bf3d47-c1b1-4293-9ee2-ee1ae807490f	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Vrishabh Waghela	vrishabhjw21@gmail.com	https://www.cloudskillsboost.google/public_profiles/bfd636a9-6fa3-4d0a-ae30-7d99231d0b86	All Good	Yes	No	4	Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge]	1	Level 3: Generative AI [Game]																
+Atharva Mangesh Gogawale	gogawaleatharva99@gmail.com	https://www.cloudskillsboost.google/public_profiles/c3bd1340-163d-43b5-9464-f970a686ff6b	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Sreejith Murali	sreejithmuraligdg@gmail.com	https://www.cloudskillsboost.google/public_profiles/a3b07a3c-1d09-4f5c-9004-9d2905afdfac	All Good	Yes	No	18	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	0																	
+Sanmesh Santosh Padwal	sanmeshpadwalgdgai@gmail.com	https://www.cloudskillsboost.google/public_profiles/1bb62bb5-c9ff-4b60-b161-f45fd22e1064	All Good	Yes	No	7	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge]	1	Level 3: Generative AI [Game]																
+Khadija Chikode	chikodekhadija@gmail.com	https://www.cloudskillsboost.google/public_profiles/9dc65f3c-8287-403c-a42c-0aec17b2a6c4	All Good	No	No	0		0																	
+Siddhesh katale	Siddheshkatale0031@gmail.com	https://www.cloudskillsboost.google/public_profiles/0540dd5f-3c14-45e0-bfe4-97484eebdd23	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Tanay Santosh Dawoor	tanaydawoor2025gdg@gmail.com	https://www.cloudskillsboost.google/public_profiles/26c59821-5088-46f5-83b5-a0aa51e10082	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Sakthi Bala	thesnoozeoperator@gmail.com	https://www.cloudskillsboost.google/public_profiles/4f37b34a-a377-4207-9d45-6a5a194f583f	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Soham Ashok Chavan	sohamgenai5402@gmail.com	https://www.cloudskillsboost.google/public_profiles/ba20b15c-d96d-442e-b9ac-6801281cfc0b	All Good	No	No	0		0																	
+Himanshu Raj Pandey	pandeyh214@gmail.com	https://www.cloudskillsboost.google/public_profiles/f3467608-6c6d-49b5-8a33-f1fc26bd8bc7	All Good	No	No	0		0																	
+Aniket sahebrao kolekar	aniketkolekar069@gmail.com	https://www.cloudskillsboost.google/public_profiles/b7dbb508-c75d-4f1b-a3df-c63c6e397e07	All Good	No	No	0		0																	
+Chinmay Praful Parkar	chinmaypraful23@gmail.com	https://www.cloudskillsboost.google/public_profiles/641217a3-5fd6-432f-8095-fa5e2e323bbf	All Good	Yes	No	0		0																	
+Ansari mohd Rahil Zakir Hussain	ansarirahil2604@gmail.com	https://www.cloudskillsboost.google/public_profiles/d72e52a1-1fb6-4297-8056-8d5b5defec1d	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Yash Gorwadkar	yashgorwadkar3@gmail.com	https://www.cloudskillsboost.google/public_profiles/476914d8-90c2-4b2b-a314-e022ddf9acb1	All Good	No	No	0		0																	
+Dnyaneshwari dhole	dnyaneshwariaicloudg@gmail.com	https://www.cloudskillsboost.google/public_profiles/7b25545d-26cf-46d5-a285-b308e2b2374f	All Good	Yes	No	0		0																	
+khatija khan nasir	noorkhatijakhan333@gmail.com	https://www.cloudskillsboost.google/public_profiles/c6a6c1fc-8bcb-42f2-bc51-0c704128b814	All Good	Yes	No	2	Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge]	0																	
+Sandharv Mukund Gaikwad	sandharvqt@gmail.com	https://www.cloudskillsboost.google/public_profiles/8ad6cf92-c03e-4c48-8b99-66f340951bf1	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Jaikishan Vishwakarma	jaivishwakarma1v@gmail.com	https://www.cloudskillsboost.google/public_profiles/d6157d24-5fee-4361-8b30-852210adda8e	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Shaikh Hashir Saqib	hashir.sk2007@gmail.com	https://www.cloudskillsboost.google/public_profiles/6cd055e4-79a7-499c-ba0d-492c67a840a1	All Good	No	No	0		0																	
+Ronit Morbekar	ronitguugle106@gmail.com	https://www.cloudskillsboost.google/public_profiles/1d91d500-c283-44c6-bae9-f82ed9751570	All Good	No	No	0		0																	
+rohan vernekar	rohanaicloud@gmail.com	https://www.cloudskillsboost.google/public_profiles/447ed0aa-dc07-4b32-8bd7-4e31711defcb	All Good	No	No	1	App Building with AppSheet [Skill Badge]	1	Level 3: Generative AI [Game]																
+Antra Thakur	thakurantra303@gmail.com	https://www.cloudskillsboost.google/public_profiles/a17883de-0f45-4354-ab76-aac1c00b2031	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Prem Bhadange	prembhadange04@gmail.com	https://www.cloudskillsboost.google/public_profiles/216d65df-2666-4127-8a48-e9b5a0581604	All Good	No	No	0		0																	
+Komal Ramvilas Varma	komalvarmastudy@gmail.com	https://www.cloudskillsboost.google/public_profiles/a33002bd-7c28-4b7b-a82a-8b3a40c3803e	All Good	No	No	0		0																	
+Ashutosh Mishra	genaiexplanation@gmail.com	https://www.cloudskillsboost.google/public_profiles/00bd6728-5fd7-41a7-a3f6-094ee3ef5fae	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Ujjwal Lalmani Pandey	999ujjwalpandey@gmail.com	https://www.cloudskillsboost.google/public_profiles/885fe1f0-bf16-4738-ad3d-81fab87f709e	All Good	Yes	No	7	Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge]	0																	
+Priyani balaji jadhav	priyanijadhav7977@gmail.com	https://www.cloudskillsboost.google/public_profiles/687cbffd-6fad-4116-8e40-a3a2eff16c5d	All Good	No	No	0		0																	
+Atharva Sandeep Mane	atharvamane2813@gmail.com	https://www.cloudskillsboost.google/public_profiles/cebb38ab-f980-4119-85f7-6ece4d09d92c	All Good	No	No	0		0																	
+Kartikeya Naidu	team.kanuu@gmail.com	https://www.cloudskillsboost.google/public_profiles/92c910c1-7247-42a5-8582-8576bb07990a	All Good	Yes	No	7	Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge]	1	Level 3: Generative AI [Game]																
+Shreya Gururaj Patil	skip4784@gmail.com	https://www.cloudskillsboost.google/public_profiles/879a9c2c-aea8-4e96-94c9-f40976d4d5c0	All Good	No	No	2	Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge]	0																	
+Rajeshwar Rao Chichalla	gen.aiforraju@gmail.com	https://www.cloudskillsboost.google/public_profiles/8920965f-a9aa-40ea-930f-6955fb242ea0	All Good	No	No	0		0																	
+Mohammed Nooh Munib Dolare	dolaremohammednooh@gmail.com	https://www.cloudskillsboost.google/public_profiles/c466d52a-7909-4052-b770-3d68e0765af7	All Good	Yes	No	0		0																	
+Aditya Anil Mane	abdulahadshaikh503@gmail.com	https://www.cloudskillsboost.google/public_profiles/f7df4269-e973-42e7-907e-2c940e88823c	All Good	No	No	0		0																	
+Fateen shaik	fat128shk@gmail.com	https://www.cloudskillsboost.google/public_profiles/8a8799fe-c81c-47e3-8e61-de5d787fed0e	All Good	No	No	0		0																	
+Vihal	vishal.ai0518@gmail.com	https://www.cloudskillsboost.google/public_profiles/f3af1c08-4668-4371-9d42-c63819b384ea	All Good	Yes	No	5	Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge]	0																	
+Anuj Singh	Zodaxthegreat@gmail.com	https://www.cloudskillsboost.google/public_profiles/208dcdec-c0bf-454e-864d-8d4f4ddc2678	All Good	Yes	No	1	App Building with AppSheet [Skill Badge]	0																	
+Siddhi Sawant	sawantsiddhi460@gmail.com	https://www.cloudskillsboost.google/public_profiles/88faa727-b1ef-4772-bf85-c449f5d26f41	All Good	Yes	No	2	Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge]	0																	
+Shrushti Bhoir	shrushtibhoir7@gmail.com	https://www.cloudskillsboost.google/public_profiles/35608357-9df2-44b2-a84e-c840084a6140	All Good	Yes	No	2	Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge]	0																	
+Ayush	aayushsgdg2025@gmail.com	https://www.cloudskillsboost.google/public_profiles/dcee83f8-df41-439e-814d-21c24345c6aa	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Sanika Kotwal	gdg.sanika24@gmail.com	https://www.cloudskillsboost.google/public_profiles/55233e33-1fd5-4ca7-87cf-0d5f77c7eda5	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Ritesh Singh	riteshboisar4853@gmail.com	https://www.cloudskillsboost.google/public_profiles/b65523d0-35b1-48e4-ad8c-b3e20db57405	All Good	Yes	No	3	Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | App Building with AppSheet [Skill Badge]	0																	
+Rutvik Jitendra Pawar	rutvikpawar2006@gmail.com	https://www.cloudskillsboost.google/public_profiles/d00693ca-14a1-426e-a12c-1e9b933b17aa	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+NOORIN PHOPLANKAR	noorinphoplankar793@gmail.com	https://www.cloudskillsboost.google/public_profiles/7902f511-c5fe-4708-aec9-c6457e895daa	All Good	Yes	No	2	Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge]	0																	
+Rohan Barbole	rohanbarbole13@gmail.com	https://www.cloudskillsboost.google/public_profiles/827322ec-0a6e-4c11-b3f9-71fe63d82429	All Good	Yes	No	11	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	0																	
+Liza faisal kadri	aigenerator860@gmail.com	https://www.cloudskillsboost.google/public_profiles/6d4120e8-00b0-46ec-ac0e-c37eee6e8e0c	All Good	Yes	No	5	Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge]	0																	
+Krish Gupta	krishgupta23102006@gmail.com	https://www.cloudskillsboost.google/public_profiles/1fc6adc5-7672-4e78-889e-6043e0f38f99	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Shaikh Junaid Aziz	junaidshaikh4690@gmail.com	https://www.cloudskillsboost.google/public_profiles/cf93fa1f-1281-4239-a66b-50ed1d5259b0	All Good	No	No	3	Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge]	0																	
+Srinath Ponnuvinayagam Pillai	strixxsindia@gmail.com	https://www.cloudskillsboost.google/public_profiles/f65cce48-f191-46d7-b3fc-76fc30376c84	All Good	No	No	0		0																	
+Arshpreet kaur pannu	arshpreetkaurharman@gmail.com	https://www.cloudskillsboost.google/public_profiles/421c10b2-a91c-4092-852b-aa97ec8567ab	All Good	No	No	0		0																	
+Sanchi Uday Sawant	sanchisawant05@gmail.com	https://www.cloudskillsboost.google/public_profiles/ea5132de-66ff-4762-be2a-0960c55dd4e6	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Fuzail Khan	kfuzail914@gmail.com	https://www.cloudskillsboost.google/public_profiles/bb6a55e7-7a95-4072-a441-e9159414539f	All Good	Yes	No	3	Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with Dataplex [Skill Badge]	0																	
+Aryan Prakash Sanas	aryan2025gdg@gmail.com	https://www.cloudskillsboost.google/public_profiles/0b818529-a48e-4b3b-9aba-6fb4b62a1734	All Good	Yes	No	6	Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge]	0																	
+Ravi Nirmal	ravinirmal141@gmail.com	https://www.cloudskillsboost.google/public_profiles/71705983-d945-4d49-9122-262136bd3a36	All Good	Yes	No	5	Get Started with Dataplex [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge]	0																	
+Sumedh Subhash Mankumare	ssmankumare8@gmail.com	https://www.cloudskillsboost.google/public_profiles/af38f35e-61ad-454e-8560-12cc2dd0086e	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Sanskruti Pradeep Sawant	sanskrutiii0307@gmail.com	https://www.cloudskillsboost.google/public_profiles/75c26b54-40ea-40ae-a318-fb602da08a7b	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+KIRAN SHIL	jvik0718@gmail.com	https://www.cloudskillsboost.google/public_profiles/382ba48c-d4e4-4ed1-9d16-4dde7b0fa5f7	All Good	Yes	No	4	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge]	0																	
+Siddhi Bhosale	siddhibhosale1230@gmail.com	https://www.cloudskillsboost.google/public_profiles/c2243679-418a-4833-bce3-5498f0972f27	All Good	Yes	No	2	Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge]	0																	
+Aditi Bhimaji Kanawade	aditikanawade10@gmail.com	https://www.cloudskillsboost.google/public_profiles/8bf537fa-d82b-41dd-96ea-474eeac53e0d	All Good	Yes	No	8	Get Started with Cloud Storage [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge]	0																	
+Amira Javed Parkar	amira.parkar07@gmail.com	https://www.cloudskillsboost.google/public_profiles/cec4fe01-4bea-44e9-8c35-403913f3704e	All Good	No	No	0		0																	
+Pranav Sopan Jadhav	pranav95006@gmail.com	https://www.cloudskillsboost.google/public_profiles/52cc49ab-44b6-4f3f-ae7c-c48e05dcf4e5	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Samyak Manore	samyakmanore5268@gmail.com	https://www.cloudskillsboost.google/public_profiles/32047cd3-6f7b-4af8-a849-121ab6329002	All Good	No	No	1	App Building with AppSheet [Skill Badge]	0																	
+Aanya Ratnakar Poojary	aanyapoojary07@gmail.com	https://www.cloudskillsboost.google/public_profiles/fe601668-f345-42ce-a812-3b61de7723bd	All Good	Yes	No	6	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge]	1	Level 3: Generative AI [Game]																
+Sailee apte	aptesailee1@gmail.com	https://www.cloudskillsboost.google/public_profiles/343073ce-d967-4e26-ab78-eccfc2064d46	All Good	Yes	No	7	Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge]	0																	
+Neha Yadav	neha1101yadav@gmail.com	https://www.cloudskillsboost.google/public_profiles/475537ad-bd92-447b-bef6-4975b3b21fb5	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Tejas Nandvidkar	tejasnandvidkar866@gmail.com	https://www.cloudskillsboost.google/public_profiles/781e851a-6f94-43fa-9b74-17070c2a90a3	All Good	Yes	No	2	Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge]	0																	
+Syed Raquim Hussain Naqvi	syedhasan5907@gmail.com	https://www.cloudskillsboost.google/public_profiles/62271225-52ef-4ec1-b152-43560993b150	All Good	No	No	0		0																	
+Raman Lama	rmnlama6@gmail.com	https://www.cloudskillsboost.google/public_profiles/c31c3cdc-3091-4960-8fe1-8cc4b8018efa	All Good	No	No	0		0																	
+Palak singh	thepalaksingh02@gmail.com	https://www.cloudskillsboost.google/public_profiles/49a4fc3e-0e9a-4264-ad5a-608cc6eee023	All Good	Yes	No	0		0																	
+Miti Kalpesh Shah	mitikshahh1929@gmail.com	https://www.cloudskillsboost.google/public_profiles/9133244a-86f7-49c7-9a13-b1f180e84fce	All Good	Yes	No	5	Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge]	1	Level 3: Generative AI [Game]																
+Soniya Singh	hercyberjourney@gmail.com	https://www.cloudskillsboost.google/public_profiles/2ef3b6e5-7d98-4e90-915a-f8e1c989f8d1	All Good	Yes	No	4	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge]	0																	
+Ayyasamy Deivasigamani	ayyasamydeivasigamani542@gmail.com	https://www.cloudskillsboost.google/public_profiles/755064ae-499c-4085-8e53-c00ed0d5f36d	All Good	No	No	0		0																	
+Siddhi Dilip Jadhav	jadhavsiddhibvp2@gmail.com	https://www.cloudskillsboost.google/public_profiles/c89145b7-e681-4cc0-8876-5d7ef031dab6	All Good	Yes	No	0		0																	
+Sanchit Thombre	sanchit.gdgocbvdu@gmail.com	https://www.cloudskillsboost.google/public_profiles/d6d15eba-aa7c-4b6b-a5c6-34298a02111c	All Good	No	No	0		0																	
+Shravani Pravin Patil	pravinshravani3.11@gmail.com	https://www.cloudskillsboost.google/public_profiles/65e42cae-f338-4724-9d44-99f5385ea79e	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Sumeet Chandrakant Ghadge	sumeetghadge1661@gmail.com	https://www.cloudskillsboost.google/public_profiles/76d63919-b70f-4fca-b8ad-5fb2a9decf92	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Megha Khaire	genaimegha1234@gmail.com	https://www.cloudskillsboost.google/public_profiles/3b0b3bea-33ac-4f3a-90b4-184636228159	All Good	No	No	0		0																	
+Shweta Rambachan Rajbhar	shwetarajbhar333@gmail.com	https://www.cloudskillsboost.google/public_profiles/07f8ecbf-60cd-4500-8acb-ede8ed50a3fe	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Tanishk Kaushik	tanishkkaushik.iitp@gmail.com	https://www.cloudskillsboost.google/public_profiles/2e578de5-3c8c-4139-bb55-be83ca018748	All Good	No	No	0		0																	
+Divyansh Thakur	divyanshthakur.gdg@gmail.com	https://www.cloudskillsboost.google/public_profiles/0380e78c-cfc6-4554-b22d-03d9606c0b87	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Sagar Manishkumar Dalwala	sagardalwala999@gmail.com	https://www.cloudskillsboost.google/public_profiles/c56a5504-0c55-4244-8b0e-94c6267a56dd	All Good	Yes	No	0		1	Level 3: Generative AI [Game]																
+Amit kumar	amitkumar947044@gmail.com	https://www.cloudskillsboost.google/public_profiles/be7c3a5a-4656-4211-8c62-560f8fcbd5a5	All Good	No	No	0		0																	
+Diksha Kirdak	kirdakdiksha10@gmail.com	https://www.cloudskillsboost.google/public_profiles/8d43bedd-5cf9-41a0-9e18-ad7cafa09c80	All Good	Yes	No	9	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge]	0																	
+Shivam Agarwal	shivam06agarwalstudy@gmail.com	https://www.cloudskillsboost.google/public_profiles/dfe8ce4f-bea3-4a28-a1ee-4c19c39a3b56	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Shivank Omar	shivankomar648@gmail.com	https://www.cloudskillsboost.google/public_profiles/351422e8-e312-4640-8385-b4430fae49b6	All Good	Yes	No	0		0																	
+Daliparthi Deepak	daliparthideepak7@gmail.com	https://www.cloudskillsboost.google/public_profiles/46325111-92fb-4186-a0a5-3dcf728196d2	All Good	No	No	0		0																	
+Yash Patil	yash183006@gmail.com	https://www.cloudskillsboost.google/public_profiles/6c2bdb37-dd9a-4702-8f95-3f5803652bec	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Rishi Khandekar	rishikhandekardegree@gmail.com	https://www.cloudskillsboost.google/public_profiles/f0346b36-ba78-4110-8b39-cb6e207a868e	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Siddika Anil Shejwal	shejwalsiddhi22@gmail.com	https://www.cloudskillsboost.google/public_profiles/eebbd628-fd4d-4e78-af34-51c476911d22	All Good	Yes	No	8	Get Started with Pub/Sub [Skill Badge] | Get Started with Dataplex [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Esha Hinde	hindeesha5@gmail.com	https://www.cloudskillsboost.google/public_profiles/2f8dc03f-3dac-4add-b34b-a488cb94658c	All Good	No	No	0		0																	
+Satyam Kumar	roasaheb821@gmail.com	https://www.cloudskillsboost.google/public_profiles/a4567e30-14b0-474c-803c-8b1f95f4aa68	All Good	Yes	No	0		0																	
+Aaryan Manish Pawar	jacksparrowgdg@gmail.com	https://www.cloudskillsboost.google/public_profiles/e11baf28-4dd9-429e-8a99-46300301a1e7	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Ishwari Dattatrya Gole	ishgole2626@gmail.com	https://www.cloudskillsboost.google/public_profiles/1e88d3c1-405b-46a6-a4af-f392d88e7ccc	All Good	Yes	No	13	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge]	0																	
+Vinit Surve	vinitsurve2025@gmail.com	https://www.cloudskillsboost.google/public_profiles/2681a624-39a3-4ab0-be6f-1f0075317914	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Piyush Varpe	piyushvarpe9thb12thdy@gmail.com	https://www.cloudskillsboost.google/public_profiles/11fbd603-c440-4848-b345-f7dbe5b4129c	All Good	No	No	0		0																	
+Bhargav paliwal	bhargavpaliwal693@gmail.com	https://www.cloudskillsboost.google/public_profiles/3f9bf4a6-de47-49f2-a6ac-e91404d998ba	All Good	No	No	0		0																	
+Vivek Kumar thakur	vkt771008@gmail.com	https://www.cloudskillsboost.google/public_profiles/b04b0300-3c53-43d3-99b6-4cbd2920e430	All Good	Yes	No	0		0																	
+Sarthak Indrakumar Pawar	pawarsarthak452@gmail.com	https://www.cloudskillsboost.google/public_profiles/d9517e5e-ed1d-40a7-8879-518490344139	All Good	Yes	No	12	Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+ANSARI ASHIR MOHAMED ASIF	ashirgdg@gmail.com	https://www.cloudskillsboost.google/public_profiles/d2352d54-8dde-48ad-a0d0-dd8e68814bc8	All Good	No	No	0		0																	
+Janvi Bhanushali	bhanushalijanvi163@gmail.com	https://www.cloudskillsboost.google/public_profiles/2438c53a-1f62-4efc-9b2d-773858ff2a66	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Aditya Annasaheb Ghatule	adityaghatule99@gmail.com	https://www.cloudskillsboost.google/public_profiles/7d036488-24bb-4184-858e-87bf5b3cd45c	All Good	No	No	0		0																	
+Vivek Kumar Pal	vivek0101pal@gmail.com	https://www.cloudskillsboost.google/public_profiles/45ff5902-4bc1-40bd-a80e-ca6f948b9b02	All Good	No	No	0		0																	
+Prachi.b. majhi	prachimajhi221@gmail.com	https://www.cloudskillsboost.google/public_profiles/ec11300a-bf06-4fda-8c42-ffdbdebc71e0	All Good	No	No	0		0																	
+Piyusha Mhatre	piyusha2025gdg@gmail.com	https://www.cloudskillsboost.google/public_profiles/2e0a0c7e-3317-4b63-af1b-934ffc2d31c5	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Narayan Yadav	narayanyadav.1325@gmail.com	https://www.cloudskillsboost.google/public_profiles/b054a131-d382-457a-a4cf-de7c007fd19f	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Varshad Shende	shendevarshad@gmail.com	https://www.cloudskillsboost.google/public_profiles/8c92405b-767d-44cb-999f-fa0a558232ad	All Good	No	No	0		0																	
+Rashmit Gautam Thakur	rashmit0517doc@gmail.com	https://www.cloudskillsboost.google/public_profiles/7b200fa6-35fe-476f-9d15-895b0861b85e	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Samidha Mandlik	mandliksamidha4@gmail.com	https://www.cloudskillsboost.google/public_profiles/ef89a365-76ba-4f0f-9edd-5b8cec6afb65	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Pranjal Patil	pranjalpatil2807@gmail.com	https://www.cloudskillsboost.google/public_profiles/4ae0539d-1af2-4d3d-a9ba-96dd6fa4ba0e	All Good	No	No	0		0																	
+Sandhya Arke	arkesandhya154@gmail.com	https://www.cloudskillsboost.google/public_profiles/43b19653-b83d-40bd-aee7-81f8a5a9f811	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+Jeet sanjay pardeshi	jeetsjoyness@gmail.com	https://www.cloudskillsboost.google/public_profiles/f2cb4a7a-4295-459e-85fa-82d0851962d3	All Good	No	No	0		0																	
+Vanshika	vkhetan7052@gmail.com	https://www.cloudskillsboost.google/public_profiles/ecc78850-0c4b-4a59-802e-a321694bfc58	All Good	No	No	0		0																	
+Rutuja Sunil Gharat	rutujagharat64@gmail.com	https://www.cloudskillsboost.google/public_profiles/bda32046-f5a6-42bf-ba5f-01443501cd69	All Good	No	No	0		0																	
+kabirji vishwakarma	mytemporarygeneratedid8@gmail.com	https://www.cloudskillsboost.google/public_profiles/bbbec65f-f0d3-45c2-928a-3c0d4cda271b	All Good	Yes	No	7	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge]	1	Level 3: Generative AI [Game]																
+Megha prajapati	meneksaprajapati@gmail.com	https://www.cloudskillsboost.google/public_profiles/ab2c8aee-47a4-4ab9-877b-084f0de54e11	All Good	Yes	Yes	19	The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | App Building with AppSheet [Skill Badge] | Develop with Apps Script and AppSheet [Skill Badge] | Build a Website on Google Cloud [Skill Badge] | Set Up a Google Cloud Network [Skill Badge] | Store, Process, and Manage Data on Google Cloud - Console [Skill Badge] | Cloud Run Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Analyze Speech and Language with Google APIs [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop Gen AI Apps with Gemini and Streamlit [Skill Badge]	1	Level 3: Generative AI [Game]																
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									

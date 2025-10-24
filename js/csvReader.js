@@ -418,8 +418,9 @@ class CSVReader {
             'Samidha Mandlik',
             'Aaryan Manish Pawar',
             'Manvir Kaur Kandhari',
-            'Ishwari Shejwal',
-            'Prasanna Kamlesh Jadhav'
+            'Ishwari shejwal',
+            'Prasanna Kamlesh jadhav',
+            'Omkar gulve'
         ];
         
         // Count actual swag winners (those who sent proof)
