@@ -174,7 +174,12 @@ class LeaderboardApp {
                 'Ishwari shejwal',
                 'Prasanna Kamlesh jadhav',
                 'Omkar gulve',
-                'Vrishabh Waghela'
+                'Vrishabh Waghela',
+                'Sarthak Indrakumar Pawar',
+                'Varshad Shende',
+                'Ashmita Kanaksinh Barad',
+                'Diksha Kirdak',
+                'Chirag mhatre'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -335,7 +340,12 @@ class LeaderboardApp {
             'Ishwari shejwal',
             'Prasanna Kamlesh jadhav',
             'Omkar gulve',
-            'Vrishabh Waghela'
+            'Vrishabh Waghela',
+            'Sarthak Indrakumar Pawar',
+            'Varshad Shende',
+            'Ashmita Kanaksinh Barad',
+            'Diksha Kirdak',
+            'Chirag mhatre'
         ];
         
         this.filteredData.forEach(participant => {
@@ -486,7 +496,12 @@ class LeaderboardApp {
             'Ishwari shejwal',
             'Prasanna Kamlesh jadhav',
             'Omkar gulve',
-            'Vrishabh Waghela'
+            'Vrishabh Waghela',
+            'Sarthak Indrakumar Pawar',
+            'Varshad Shende',
+            'Ashmita Kanaksinh Barad',
+            'Diksha Kirdak',
+            'Chirag mhatre'
         ];
         
         this.filteredData.forEach(participant => {

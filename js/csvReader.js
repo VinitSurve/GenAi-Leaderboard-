@@ -421,7 +421,12 @@ class CSVReader {
             'Ishwari shejwal',
             'Prasanna Kamlesh jadhav',
             'Omkar gulve',
-            'Vrishabh Waghela'
+            'Vrishabh Waghela',
+            'Sarthak Indrakumar Pawar',
+            'Varshad Shende',
+            'Ashmita Kanaksinh Barad',
+            'Diksha Kirdak',
+            'Chirag mhatre'
         ];
         
         // Count actual swag winners (those who sent proof)
