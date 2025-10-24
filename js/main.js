@@ -7,7 +7,8 @@
 // Main Application Class
 class LeaderboardApp {
     constructor() {
-        this.csvReader = new CSVReader("../data/Bharati Vidyapeeth's Department of Management Studies - Navi Mumbai, India [16 Oct].csv");
+        // Use Google Sheets URL from config
+        this.csvReader = new CSVReader(CONFIG.leaderboardDataSource);
         this.allData = [];
         this.filteredData = [];
         this.currentFilter = 'all';

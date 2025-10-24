@@ -431,8 +431,8 @@
                 // Wait a bit for main.js to finish initializing
                 await new Promise(resolve => setTimeout(resolve, 100));
                 
-                // Load CSV data and calculate stats
-                const csvReader = new CSVReader("data/Bharati Vidyapeeth's Department of Management Studies - Navi Mumbai, India [16 Oct].csv");
+                // Load CSV data from Google Sheets
+                const csvReader = new CSVReader(CONFIG.leaderboardDataSource);
                 const data = await csvReader.fetchData();
                 const stats = csvReader.calculateStats(data);
                 

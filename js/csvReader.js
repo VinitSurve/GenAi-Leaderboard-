@@ -22,8 +22,10 @@ class CSVReader {
             // Show loading state
             this.showLoading(true);
 
-            // Fetch CSV file
-            const response = await fetch(this.csvPath + '?t=' + Date.now());
+            // Add cache-busting parameter (use & if URL already has query params)
+            const separator = this.csvPath.includes('?') ? '&' : '?';
+            const cacheBuster = `${separator}t=${Date.now()}`;
+            const response = await fetch(this.csvPath + cacheBuster);
             
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
