@@ -179,7 +179,12 @@ class LeaderboardApp {
                 'Varshad Shende',
                 'Ashmita Kanaksinh Barad',
                 'Diksha Kirdak',
-                'Chirag mhatre'
+                'Chirag mhatre',
+                'Sanmesh Santosh Padwal',
+                'Palak singh',
+                'Vivek Kumar thakur',
+                'Aryan Prakash Sanas',
+                'Alfiya mujawar'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -345,7 +350,12 @@ class LeaderboardApp {
             'Varshad Shende',
             'Ashmita Kanaksinh Barad',
             'Diksha Kirdak',
-            'Chirag mhatre'
+            'Chirag mhatre',
+            'Sanmesh Santosh Padwal',
+            'Palak singh',
+            'Vivek Kumar thakur',
+            'Aryan Prakash Sanas',
+            'Alfiya mujawar'
         ];
         
         this.filteredData.forEach(participant => {
@@ -501,7 +511,12 @@ class LeaderboardApp {
             'Varshad Shende',
             'Ashmita Kanaksinh Barad',
             'Diksha Kirdak',
-            'Chirag mhatre'
+            'Chirag mhatre',
+            'Sanmesh Santosh Padwal',
+            'Palak singh',
+            'Vivek Kumar thakur',
+            'Aryan Prakash Sanas',
+            'Alfiya mujawar'
         ];
         
         this.filteredData.forEach(participant => {

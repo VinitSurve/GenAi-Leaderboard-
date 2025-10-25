@@ -426,7 +426,12 @@ class CSVReader {
             'Varshad Shende',
             'Ashmita Kanaksinh Barad',
             'Diksha Kirdak',
-            'Chirag mhatre'
+            'Chirag mhatre',
+            'Sanmesh Santosh Padwal',
+            'Palak singh',
+            'Vivek Kumar thakur',
+            'Aryan Prakash Sanas',
+            'Alfiya mujawar'
         ];
         
         // Count actual swag winners (those who sent proof)
