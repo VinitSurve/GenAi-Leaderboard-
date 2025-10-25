@@ -431,7 +431,11 @@ class CSVReader {
             'Palak singh',
             'Vivek Kumar thakur',
             'Aryan Prakash Sanas',
-            'Alfiya mujawar'
+            'Alfiya mujawar',
+            'Ujjwal Lalmani Pandey',
+            'Sailee apte',
+            'Mohammed Nooh Munib Dolare',
+            'Ishwari Dattatrya Gole'
         ];
         
         // Count actual swag winners (those who sent proof)

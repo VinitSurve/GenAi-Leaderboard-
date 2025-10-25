@@ -184,7 +184,11 @@ class LeaderboardApp {
                 'Palak singh',
                 'Vivek Kumar thakur',
                 'Aryan Prakash Sanas',
-                'Alfiya mujawar'
+                'Alfiya mujawar',
+                'Ujjwal Lalmani Pandey',
+                'Sailee apte',
+                'Mohammed Nooh Munib Dolare',
+                'Ishwari Dattatrya Gole'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -355,7 +359,11 @@ class LeaderboardApp {
             'Palak singh',
             'Vivek Kumar thakur',
             'Aryan Prakash Sanas',
-            'Alfiya mujawar'
+            'Alfiya mujawar',
+            'Ujjwal Lalmani Pandey',
+            'Sailee apte',
+            'Mohammed Nooh Munib Dolare',
+            'Ishwari Dattatrya Gole'
         ];
         
         this.filteredData.forEach(participant => {
@@ -516,7 +524,11 @@ class LeaderboardApp {
             'Palak singh',
             'Vivek Kumar thakur',
             'Aryan Prakash Sanas',
-            'Alfiya mujawar'
+            'Alfiya mujawar',
+            'Ujjwal Lalmani Pandey',
+            'Sailee apte',
+            'Mohammed Nooh Munib Dolare',
+            'Ishwari Dattatrya Gole'
         ];
         
         this.filteredData.forEach(participant => {
