@@ -184,6 +184,7 @@ class LeaderboardApp {
                 'Palak singh',
                 'Vivek Kumar thakur',
                 'Aryan Prakash Sanas',
+                'Jivitesh jay godave',
                 'Alfiya mujawar',
                 'Ujjwal Lalmani Pandey',
                 'Sailee apte',
@@ -193,36 +194,32 @@ class LeaderboardApp {
             
             if (this.currentFilter === 'beginner') {
                 // Exclude swag winners from beginner filter
-                // Special handling for Jivitesh jay godave - only exclude the one with jiviteshgodavegdg2025@gmail.com
+                // Both Jivitesh jay godave accounts are now swag winners
                 filtered = filtered.filter(p => {
-                    const isSwagWinner = swagsWinners.includes(p.name) && 
-                        !(p.name === 'Jivitesh jay godave' && p.email === 'jiviteshgodavegdg@gmail.com');
+                    const isSwagWinner = swagsWinners.includes(p.name);
                     return p.completionPercentage < 30 && !isSwagWinner;
                 });
             } else if (this.currentFilter === 'advanced') {
                 // Exclude swag winners from advanced filter
-                // Special handling for Jivitesh jay godave - only exclude the one with jiviteshgodavegdg2025@gmail.com
+                // Both Jivitesh jay godave accounts are now swag winners
                 filtered = filtered.filter(p => {
-                    const isSwagWinner = swagsWinners.includes(p.name) && 
-                        !(p.name === 'Jivitesh jay godave' && p.email === 'jiviteshgodavegdg@gmail.com');
+                    const isSwagWinner = swagsWinners.includes(p.name);
                     return p.completionPercentage >= 30 && 
                            p.completionPercentage < 100 && 
                            !isSwagWinner;
                 });
             } else if (this.currentFilter === 'complete') {
                 // Include both actual 100% completers AND swag winners (who display as 100%)
-                // Special handling for Jivitesh jay godave - only include the one with jiviteshgodavegdg2025@gmail.com
+                // Both Jivitesh jay godave accounts are now swag winners
                 filtered = filtered.filter(p => {
-                    const isSwagWinner = swagsWinners.includes(p.name) && 
-                        !(p.name === 'Jivitesh jay godave' && p.email === 'jiviteshgodavegdg@gmail.com');
+                    const isSwagWinner = swagsWinners.includes(p.name);
                     return p.completionPercentage === 100 || isSwagWinner;
                 });
             } else if (this.currentFilter === 'proof-sent') {
                 // Filter for participants who sent proof (swag winners)
-                // Special handling for Jivitesh jay godave - only include the one with jiviteshgodavegdg2025@gmail.com
+                // Both Jivitesh jay godave accounts are now swag winners
                 filtered = filtered.filter(p => {
-                    const isSwagWinner = swagsWinners.includes(p.name) && 
-                        !(p.name === 'Jivitesh jay godave' && p.email === 'jiviteshgodavegdg@gmail.com');
+                    const isSwagWinner = swagsWinners.includes(p.name);
                     return isSwagWinner;
                 });
             }
@@ -359,6 +356,7 @@ class LeaderboardApp {
             'Palak singh',
             'Vivek Kumar thakur',
             'Aryan Prakash Sanas',
+            'Jivitesh jay godave',
             'Alfiya mujawar',
             'Ujjwal Lalmani Pandey',
             'Sailee apte',
@@ -370,9 +368,8 @@ class LeaderboardApp {
             const row = document.createElement('tr');
             
             // Check if participant is a swag winner
-            // Special handling for Jivitesh jay godave - only the one with jiviteshgodavegdg2025@gmail.com
-            const isSwagWinner = swagsWinners.includes(participant.name) && 
-                !(participant.name === 'Jivitesh jay godave' && participant.email === 'jiviteshgodavegdg@gmail.com');
+            // Both Jivitesh jay godave accounts are now swag winners
+            const isSwagWinner = swagsWinners.includes(participant.name);
             
             const proofSent = isSwagWinner ? 'Yes' : 'No';
             const proofClass = proofSent === 'Yes' ? 'proof-yes' : 'proof-no';
@@ -524,6 +521,7 @@ class LeaderboardApp {
             'Palak singh',
             'Vivek Kumar thakur',
             'Aryan Prakash Sanas',
+            'Jivitesh jay godave',
             'Alfiya mujawar',
             'Ujjwal Lalmani Pandey',
             'Sailee apte',
@@ -533,9 +531,8 @@ class LeaderboardApp {
         
         this.filteredData.forEach(participant => {
             // Check if participant is a swag winner
-            // Special handling for Jivitesh jay godave - only the one with jiviteshgodavegdg2025@gmail.com
-            const isSwagWinner = swagsWinners.includes(participant.name) && 
-                !(participant.name === 'Jivitesh jay godave' && participant.email === 'jiviteshgodavegdg@gmail.com');
+            // Both Jivitesh jay godave accounts are now swag winners
+            const isSwagWinner = swagsWinners.includes(participant.name);
             
             // Show 100% progress, 19 badges, 1 arcade for swag winners regardless of actual completion
             const displayPercentage = isSwagWinner ? 100 : participant.completionPercentage;

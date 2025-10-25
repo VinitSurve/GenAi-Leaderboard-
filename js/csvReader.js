@@ -431,6 +431,7 @@ class CSVReader {
             'Palak singh',
             'Vivek Kumar thakur',
             'Aryan Prakash Sanas',
+            'Jivitesh jay godave',
             'Alfiya mujawar',
             'Ujjwal Lalmani Pandey',
             'Sailee apte',
@@ -439,11 +440,9 @@ class CSVReader {
         ];
         
         // Count actual swag winners (those who sent proof)
-        // Special handling for Jivitesh jay godave - only count the one with jiviteshgodavegdg2025@gmail.com
+        // Special handling for Jivitesh jay godave - count BOTH accounts now
         const swagWinnersCount = data.filter(p => {
-            const isSwagWinner = swagsWinners.includes(p.name) && 
-                !(p.name === 'Jivitesh jay godave' && p.email === 'jiviteshgodavegdg@gmail.com');
-            return isSwagWinner;
+            return swagsWinners.includes(p.name);
         }).length;
         
         // Count Tier 1 achievers (100% completion)
