@@ -189,7 +189,11 @@ class LeaderboardApp {
                 'Ujjwal Lalmani Pandey',
                 'Sailee apte',
                 'Mohammed Nooh Munib Dolare',
-                'Ishwari Dattatrya Gole'
+                'Ishwari Dattatrya Gole',
+                'Sreejith Murali',
+                'Aanya Ratnakar Poojary',
+                'kabirji vishwakarma',
+                'Kartikeya Naidu'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -361,7 +365,11 @@ class LeaderboardApp {
             'Ujjwal Lalmani Pandey',
             'Sailee apte',
             'Mohammed Nooh Munib Dolare',
-            'Ishwari Dattatrya Gole'
+            'Ishwari Dattatrya Gole',
+            'Sreejith Murali',
+            'Aanya Ratnakar Poojary',
+            'kabirji vishwakarma',
+            'Kartikeya Naidu'
         ];
         
         this.filteredData.forEach(participant => {
@@ -526,7 +534,11 @@ class LeaderboardApp {
             'Ujjwal Lalmani Pandey',
             'Sailee apte',
             'Mohammed Nooh Munib Dolare',
-            'Ishwari Dattatrya Gole'
+            'Ishwari Dattatrya Gole',
+            'Sreejith Murali',
+            'Aanya Ratnakar Poojary',
+            'kabirji vishwakarma',
+            'Kartikeya Naidu'
         ];
         
         this.filteredData.forEach(participant => {

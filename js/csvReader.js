@@ -436,7 +436,11 @@ class CSVReader {
             'Ujjwal Lalmani Pandey',
             'Sailee apte',
             'Mohammed Nooh Munib Dolare',
-            'Ishwari Dattatrya Gole'
+            'Ishwari Dattatrya Gole',
+            'Sreejith Murali',
+            'Aanya Ratnakar Poojary',
+            'kabirji vishwakarma',
+            'Kartikeya Naidu'
         ];
         
         // Count actual swag winners (those who sent proof)
