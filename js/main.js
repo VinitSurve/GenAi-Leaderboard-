@@ -194,7 +194,15 @@ class LeaderboardApp {
                 'Aanya Ratnakar Poojary',
                 'kabirji vishwakarma',
                 'Kartikeya Naidu',
-                'Shreya Gururaj Patil'
+                'Shreya Gururaj Patil',
+                'Shaikh Junaid Aziz',
+                'Sanchit Thombre',
+                'Siddika Anil Shejwal',
+                'Parth Sanjay Surve',
+                'Liza faisal kadri',
+                'khatija khan nasir',
+                'Anuj Singh',
+                'Rutuja Sunil Gharat'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -371,7 +379,15 @@ class LeaderboardApp {
             'Aanya Ratnakar Poojary',
             'kabirji vishwakarma',
             'Kartikeya Naidu',
-            'Shreya Gururaj Patil'
+            'Shreya Gururaj Patil',
+            'Shaikh Junaid Aziz',
+            'Sanchit Thombre',
+            'Siddika Anil Shejwal',
+            'Parth Sanjay Surve',
+            'Liza faisal kadri',
+            'khatija khan nasir',
+            'Anuj Singh',
+            'Rutuja Sunil Gharat'
         ];
         
         this.filteredData.forEach(participant => {
@@ -541,7 +557,15 @@ class LeaderboardApp {
             'Aanya Ratnakar Poojary',
             'kabirji vishwakarma',
             'Kartikeya Naidu',
-            'Shreya Gururaj Patil'
+            'Shreya Gururaj Patil',
+            'Shaikh Junaid Aziz',
+            'Sanchit Thombre',
+            'Siddika Anil Shejwal',
+            'Parth Sanjay Surve',
+            'Liza faisal kadri',
+            'khatija khan nasir',
+            'Anuj Singh',
+            'Rutuja Sunil Gharat'
         ];
         
         this.filteredData.forEach(participant => {

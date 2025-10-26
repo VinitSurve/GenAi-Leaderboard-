@@ -441,7 +441,15 @@ class CSVReader {
             'Aanya Ratnakar Poojary',
             'kabirji vishwakarma',
             'Kartikeya Naidu',
-            'Shreya Gururaj Patil'
+            'Shreya Gururaj Patil',
+            'Shaikh Junaid Aziz',
+            'Sanchit Thombre',
+            'Siddika Anil Shejwal',
+            'Parth Sanjay Surve',
+            'Liza faisal kadri',
+            'khatija khan nasir',
+            'Anuj Singh',
+            'Rutuja Sunil Gharat'
         ];
         
         // Count actual swag winners (those who sent proof)
