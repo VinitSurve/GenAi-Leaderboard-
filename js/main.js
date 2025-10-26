@@ -193,7 +193,8 @@ class LeaderboardApp {
                 'Sreejith Murali',
                 'Aanya Ratnakar Poojary',
                 'kabirji vishwakarma',
-                'Kartikeya Naidu'
+                'Kartikeya Naidu',
+                'Shreya Gururaj Patil'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -369,7 +370,8 @@ class LeaderboardApp {
             'Sreejith Murali',
             'Aanya Ratnakar Poojary',
             'kabirji vishwakarma',
-            'Kartikeya Naidu'
+            'Kartikeya Naidu',
+            'Shreya Gururaj Patil'
         ];
         
         this.filteredData.forEach(participant => {
@@ -538,7 +540,8 @@ class LeaderboardApp {
             'Sreejith Murali',
             'Aanya Ratnakar Poojary',
             'kabirji vishwakarma',
-            'Kartikeya Naidu'
+            'Kartikeya Naidu',
+            'Shreya Gururaj Patil'
         ];
         
         this.filteredData.forEach(participant => {

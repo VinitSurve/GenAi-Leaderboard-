@@ -440,7 +440,8 @@ class CSVReader {
             'Sreejith Murali',
             'Aanya Ratnakar Poojary',
             'kabirji vishwakarma',
-            'Kartikeya Naidu'
+            'Kartikeya Naidu',
+            'Shreya Gururaj Patil'
         ];
         
         // Count actual swag winners (those who sent proof)
