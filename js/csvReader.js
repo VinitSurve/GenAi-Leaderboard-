@@ -449,7 +449,13 @@ class CSVReader {
             'Liza faisal kadri',
             'khatija khan nasir',
             'Anuj Singh',
-            'Rutuja Sunil Gharat'
+            'Rutuja Sunil Gharat',
+            'Khadija Chikode',
+            'Miti Kalpesh Shah',
+            'Rohan Barbole',
+            'Bhargav paliwal',
+            'Mahreen muddasar faki',
+            'Fuzail Khan'
         ];
         
         // Count actual swag winners (those who sent proof)

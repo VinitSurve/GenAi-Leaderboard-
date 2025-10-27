@@ -202,7 +202,13 @@ class LeaderboardApp {
                 'Liza faisal kadri',
                 'khatija khan nasir',
                 'Anuj Singh',
-                'Rutuja Sunil Gharat'
+                'Rutuja Sunil Gharat',
+                'Khadija Chikode',
+                'Miti Kalpesh Shah',
+                'Rohan Barbole',
+                'Bhargav paliwal',
+                'Mahreen muddasar faki',
+                'Fuzail Khan'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -387,7 +393,13 @@ class LeaderboardApp {
             'Liza faisal kadri',
             'khatija khan nasir',
             'Anuj Singh',
-            'Rutuja Sunil Gharat'
+            'Rutuja Sunil Gharat',
+            'Khadija Chikode',
+            'Miti Kalpesh Shah',
+            'Rohan Barbole',
+            'Bhargav paliwal',
+            'Mahreen muddasar faki',
+            'Fuzail Khan'
         ];
         
         this.filteredData.forEach(participant => {
@@ -565,7 +577,13 @@ class LeaderboardApp {
             'Liza faisal kadri',
             'khatija khan nasir',
             'Anuj Singh',
-            'Rutuja Sunil Gharat'
+            'Rutuja Sunil Gharat',
+            'Khadija Chikode',
+            'Miti Kalpesh Shah',
+            'Rohan Barbole',
+            'Bhargav paliwal',
+            'Mahreen muddasar faki',
+            'Fuzail Khan'
         ];
         
         this.filteredData.forEach(participant => {
