@@ -12,14 +12,14 @@ const CONFIG = {
     // Leaderboard last update timestamp
     // Format: 'YYYY-MM-DDTHH:MM:SS' (24-hour format)
     // Update this when you modify the CSV file
-    // Current: Oct 27, 2025, 12:00 AM
-    leaderboardLastUpdate: '2025-10-27T00:00:00',
+    // Current: Oct 28, 2025, 9:46 AM
+    leaderboardLastUpdate: '2025-10-28T09:46:00',
     
     // Swag winners last update timestamp
     // Format: 'YYYY-MM-DDTHH:MM:SS' (24-hour format)
     // Update this when you add a new swag winner
-    // Current: Oct 27, 2025, 12:00 AM
-    swagsLastUpdate: '2025-10-27T00:00:00',
+    // Current: Oct 28, 2025, 9:46 AM
+    swagsLastUpdate: '2025-10-28T09:46:00',
     
     // WhatsApp group link (Gen AI Study Jams Group)
     whatsappGroupLink: 'https://chat.whatsapp.com/JhtrD6e673hKMqlxaWs1CR',

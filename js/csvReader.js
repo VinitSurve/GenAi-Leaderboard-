@@ -455,7 +455,15 @@ class CSVReader {
             'Rohan Barbole',
             'Bhargav paliwal',
             'Mahreen muddasar faki',
-            'Fuzail Khan'
+            'Fuzail Khan',
+            'Aditya Annasaheb Ghatule',
+            'Ravi Nirmal',
+            'Amira Javed Parkar',
+            'Preeti Ramesh Rathod',
+            'Atharva Sandeep Mane',
+            'NOORIN PHOPLANKAR',
+            'KIRAN SHIL',
+            'Maithili shivaji shinde'
         ];
         
         // Count actual swag winners (those who sent proof)

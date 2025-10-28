@@ -208,7 +208,15 @@ class LeaderboardApp {
                 'Rohan Barbole',
                 'Bhargav paliwal',
                 'Mahreen muddasar faki',
-                'Fuzail Khan'
+                'Fuzail Khan',
+                'Aditya Annasaheb Ghatule',
+                'Ravi Nirmal',
+                'Amira Javed Parkar',
+                'Preeti Ramesh Rathod',
+                'Atharva Sandeep Mane',
+                'NOORIN PHOPLANKAR',
+                'KIRAN SHIL',
+                'Maithili shivaji shinde'
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -399,7 +407,15 @@ class LeaderboardApp {
             'Rohan Barbole',
             'Bhargav paliwal',
             'Mahreen muddasar faki',
-            'Fuzail Khan'
+            'Fuzail Khan',
+            'Aditya Annasaheb Ghatule',
+            'Ravi Nirmal',
+            'Amira Javed Parkar',
+            'Preeti Ramesh Rathod',
+            'Atharva Sandeep Mane',
+            'NOORIN PHOPLANKAR',
+            'KIRAN SHIL',
+            'Maithili shivaji shinde'
         ];
         
         this.filteredData.forEach(participant => {
@@ -583,7 +599,15 @@ class LeaderboardApp {
             'Rohan Barbole',
             'Bhargav paliwal',
             'Mahreen muddasar faki',
-            'Fuzail Khan'
+            'Fuzail Khan',
+            'Aditya Annasaheb Ghatule',
+            'Ravi Nirmal',
+            'Amira Javed Parkar',
+            'Preeti Ramesh Rathod',
+            'Atharva Sandeep Mane',
+            'NOORIN PHOPLANKAR',
+            'KIRAN SHIL',
+            'Maithili shivaji shinde'
         ];
         
         this.filteredData.forEach(participant => {
