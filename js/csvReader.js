@@ -429,7 +429,6 @@ class CSVReader {
             'Chirag mhatre',
             'Sanmesh Santosh Padwal',
             'Palak singh',
-            'Vivek Kumar thakur',
             'Aryan Prakash Sanas',
             'Jivitesh jay godave',
             'Alfiya mujawar',
@@ -462,8 +461,9 @@ class CSVReader {
             'Preeti Ramesh Rathod',
             'Atharva Sandeep Mane',
             'NOORIN PHOPLANKAR',
-            'KIRAN SHIL',
-            'Maithili shivaji shinde'
+            'Maithili shivaji shinde',
+            'Vivek Kumar Pal',
+            'Syed Raquim Hussain Naqvi',
         ];
         
         // Count actual swag winners (those who sent proof)

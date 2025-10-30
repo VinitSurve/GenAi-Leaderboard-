@@ -182,7 +182,6 @@ class LeaderboardApp {
                 'Chirag mhatre',
                 'Sanmesh Santosh Padwal',
                 'Palak singh',
-                'Vivek Kumar thakur',
                 'Aryan Prakash Sanas',
                 'Jivitesh jay godave',
                 'Alfiya mujawar',
@@ -215,8 +214,9 @@ class LeaderboardApp {
                 'Preeti Ramesh Rathod',
                 'Atharva Sandeep Mane',
                 'NOORIN PHOPLANKAR',
-                'KIRAN SHIL',
-                'Maithili shivaji shinde'
+                'Maithili shivaji shinde',
+                'Vivek Kumar Pal',
+                'Syed Raquim Hussain Naqvi',
             ];
             
             if (this.currentFilter === 'beginner') {
@@ -381,7 +381,6 @@ class LeaderboardApp {
             'Chirag mhatre',
             'Sanmesh Santosh Padwal',
             'Palak singh',
-            'Vivek Kumar thakur',
             'Aryan Prakash Sanas',
             'Jivitesh jay godave',
             'Alfiya mujawar',
@@ -394,7 +393,6 @@ class LeaderboardApp {
             'kabirji vishwakarma',
             'Kartikeya Naidu',
             'Shreya Gururaj Patil',
-            'Shaikh Junaid Aziz',
             'Sanchit Thombre',
             'Siddika Anil Shejwal',
             'Parth Sanjay Surve',
@@ -414,8 +412,9 @@ class LeaderboardApp {
             'Preeti Ramesh Rathod',
             'Atharva Sandeep Mane',
             'NOORIN PHOPLANKAR',
-            'KIRAN SHIL',
-            'Maithili shivaji shinde'
+            'Maithili shivaji shinde',
+            'Vivek Kumar Pal',
+            'Syed Raquim Hussain Naqvi',
         ];
         
         this.filteredData.forEach(participant => {
@@ -573,7 +572,6 @@ class LeaderboardApp {
             'Chirag mhatre',
             'Sanmesh Santosh Padwal',
             'Palak singh',
-            'Vivek Kumar thakur',
             'Aryan Prakash Sanas',
             'Jivitesh jay godave',
             'Alfiya mujawar',
@@ -586,7 +584,6 @@ class LeaderboardApp {
             'kabirji vishwakarma',
             'Kartikeya Naidu',
             'Shreya Gururaj Patil',
-            'Shaikh Junaid Aziz',
             'Sanchit Thombre',
             'Siddika Anil Shejwal',
             'Parth Sanjay Surve',
@@ -606,8 +603,9 @@ class LeaderboardApp {
             'Preeti Ramesh Rathod',
             'Atharva Sandeep Mane',
             'NOORIN PHOPLANKAR',
-            'KIRAN SHIL',
-            'Maithili shivaji shinde'
+            'Maithili shivaji shinde',
+            'Vivek Kumar Pal',
+            'Syed Raquim Hussain Naqvi',
         ];
         
         this.filteredData.forEach(participant => {
